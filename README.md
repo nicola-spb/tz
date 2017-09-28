@@ -7,6 +7,8 @@ Package tz
 [![GoDoc](https://godoc.org/github.com/go-playground/tz?status.svg)](https://godoc.org/github.com/go-playground/tz)
 ![License](https://img.shields.io/dub/l/vibe-d.svg)
 
+This is fork of https://github.com/go-playground/tz 
+
 Package tz contains Timezone Country and Zone data generated from timezonedb.com
 
 
