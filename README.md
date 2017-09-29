@@ -14,9 +14,9 @@ This library is nothing special, it contains alphabetically sorted Country, Zone
 #### Motivation
 I got timezone abbreviation and offset in browser and I wanted to find timezone by this data. This package can do it.
 
-I found https://github.com/go-playground/tz and forked it. I hope it is
+I found https://github.com/go-playground/tz and forked it. I hope it is help you!
 
-Thank you @go-playground!
+Thank you [@go-playground](https://github.com/go-playground)!
 
 ##### Get timezones by country, abbreviation and offset
 ```go
