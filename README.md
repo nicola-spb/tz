@@ -18,19 +18,24 @@ I found https://github.com/go-playground/tz and forked it. I hope it is help you
 
 Thank you [@go-playground](https://github.com/go-playground)!
 
-##### Get timezones by country, abbreviation and offset
+##### Get zones by country, abbreviation and offset
 ```go
-tz.GetTimeZones(country string, abbr string, offset int)
+tz.GetZones(country string, abbr string, offset int)
 ```
 
-##### Get timezones by abbreviation and offset
+##### Get zones by abbreviation and offset
 ```go
-tz.GetTimeZonesByAbbrAndOffset(abbr string, offset int)
+tz.GetZonesByAbbrAndOffset(abbr string, offset int)
 ```
 
-##### Get timezones by country
+##### Get zones by country code
 ```go
-tz.GetTimeZonesByCountry(countryCode string)
+tz.GetZonesByCountry(countryCode string)
+```
+
+##### Get zone by id
+```go
+GetZoneById
 ```
 
 ##### Get all countries
@@ -51,7 +56,7 @@ tz.GetZonesByCountry(countryCode string)
 ##### Example using with 
 ```go
 
-timezones := tz.GetTimeZones("AF", "LMT", 16608)
+timezones := tz.GetZones("AF", "LMT", 16608)
 if len(timezones) > 0 {
     loc, _ := time.LoadLocation(timezones[0])
     // now that you have location can use with Go's time package which handles timezone offsets & Daylight savings times.
