@@ -7,7 +7,7 @@ Package tz (timezone)
 [![GoDoc](https://godoc.org/github.com/go-playground/tz?status.svg)](https://godoc.org/github.com/go-playground/tz)
 ![License](https://img.shields.io/dub/l/vibe-d.svg)
 
-Package tz contains Timezone Country and Zone data generated from timezonedb.com
+Package tz contains information about Timezones (Country, Zone and Timezones) generated from timezonedb.com
 
 This library is nothing special, it contains alphabetically sorted Country, Zone and Timezone info that can be used within your project.
 
@@ -35,7 +35,7 @@ tz.GetZonesByCountry(countryCode string)
 
 ##### Get zone by id
 ```go
-GetZoneById
+GetZoneById(zoneId int)
 ```
 
 ##### Get all countries
