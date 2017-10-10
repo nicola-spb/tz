@@ -48,12 +48,7 @@ tz.GetCountries()
 tz.GetCountry(countryCode string)
 ```
 
-##### Get all zones in country
-```go
-tz.GetZonesByCountry(countryCode string)
-```
-
-##### Example using with 
+##### Example using with
 ```go
 
 timezones := tz.GetZones("AF", "LMT", 16608)
