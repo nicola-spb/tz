@@ -1,6 +1,6 @@
 package tz
 
-// GENERATED FILE DO NOT MODIFY DIRECTLY. GENERATED AT: 2017-09-29 17:32:27.782977135 +0300 MSK
+// GENERATED FILE DO NOT MODIFY DIRECTLY. GENERATED AT: 2021-03-18 17:33:12.486096739 +0300 MSK
 
 var (
 	countries = []Country{
@@ -20,46 +20,13 @@ var (
 						},
 						{
 							ZoneId: 3,
-							Abbr:   "+04",
+							Abbr:   "AFT",
 							Offset: 14400,
 						},
 						{
 							ZoneId: 3,
-							Abbr:   "+0430",
+							Abbr:   "AFT",
 							Offset: 16200,
-						},
-					},
-				},
-			},
-		},
-		{
-			Code: "AX",
-			Name: "Aland Islands",
-			Zones: []*Zone{
-				{
-					Id:          47,
-					CountryCode: "AX",
-					Name:        "Europe/Mariehamn",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 47,
-							Abbr:   "LMT",
-							Offset: 5989,
-						},
-						{
-							ZoneId: 47,
-							Abbr:   "HMT",
-							Offset: 5989,
-						},
-						{
-							ZoneId: 47,
-							Abbr:   "EET",
-							Offset: 7200,
-						},
-						{
-							ZoneId: 47,
-							Abbr:   "EEST",
-							Offset: 10800,
 						},
 					},
 				},
@@ -98,37 +65,37 @@ var (
 			Name: "Algeria",
 			Zones: []*Zone{
 				{
-					Id:          141,
+					Id:          140,
 					CountryCode: "DZ",
 					Name:        "Africa/Algiers",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 141,
+							ZoneId: 140,
 							Abbr:   "LMT",
 							Offset: 732,
 						},
 						{
-							ZoneId: 141,
+							ZoneId: 140,
 							Abbr:   "PMT",
 							Offset: 561,
 						},
 						{
-							ZoneId: 141,
+							ZoneId: 140,
 							Abbr:   "WET",
 							Offset: 0,
 						},
 						{
-							ZoneId: 141,
+							ZoneId: 140,
 							Abbr:   "WEST",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 141,
+							ZoneId: 140,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 141,
+							ZoneId: 140,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
@@ -209,7 +176,17 @@ var (
 						{
 							ZoneId: 8,
 							Abbr:   "LMT",
-							Offset: 816,
+							Offset: 815,
+						},
+						{
+							ZoneId: 8,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 8,
+							Abbr:   "WAT",
+							Offset: 1800,
 						},
 						{
 							ZoneId: 8,
@@ -254,12 +231,17 @@ var (
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 10,
-							Abbr:   "+08",
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 10,
+							Abbr:   "CAST",
 							Offset: 28800,
 						},
 						{
 							ZoneId: 10,
-							Abbr:   "+11",
+							Abbr:   "CAST",
 							Offset: 39600,
 						},
 					},
@@ -271,12 +253,17 @@ var (
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 11,
-							Abbr:   "+07",
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 11,
+							Abbr:   "DAVT",
 							Offset: 25200,
 						},
 						{
 							ZoneId: 11,
-							Abbr:   "+05",
+							Abbr:   "DAVT",
 							Offset: 18000,
 						},
 					},
@@ -288,7 +275,12 @@ var (
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 12,
-							Abbr:   "+10",
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 12,
+							Abbr:   "DDUT",
 							Offset: 36000,
 						},
 					},
@@ -300,12 +292,17 @@ var (
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 13,
-							Abbr:   "+06",
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 13,
+							Abbr:   "MAWT",
 							Offset: 21600,
 						},
 						{
 							ZoneId: 13,
-							Abbr:   "+05",
+							Abbr:   "MAWT",
 							Offset: 18000,
 						},
 					},
@@ -349,17 +346,22 @@ var (
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 14,
-							Abbr:   "-03",
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 14,
+							Abbr:   "CLST",
 							Offset: -10800,
 						},
 						{
 							ZoneId: 14,
-							Abbr:   "-04",
+							Abbr:   "CLT",
 							Offset: -14400,
 						},
 						{
 							ZoneId: 14,
-							Abbr:   "-02",
+							Abbr:   "ARST",
 							Offset: -7200,
 						},
 					},
@@ -371,7 +373,12 @@ var (
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 15,
-							Abbr:   "-03",
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 15,
+							Abbr:   "ART",
 							Offset: -10800,
 						},
 					},
@@ -383,7 +390,12 @@ var (
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 16,
-							Abbr:   "+03",
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 16,
+							Abbr:   "SYOT",
 							Offset: 10800,
 						},
 					},
@@ -395,12 +407,12 @@ var (
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 17,
-							Abbr:   "+00",
+							Abbr:   "GMT",
 							Offset: 0,
 						},
 						{
 							ZoneId: 17,
-							Abbr:   "+02",
+							Abbr:   "CEST",
 							Offset: 7200,
 						},
 					},
@@ -412,7 +424,12 @@ var (
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 18,
-							Abbr:   "+06",
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 18,
+							Abbr:   "VOST",
 							Offset: 21600,
 						},
 					},
@@ -463,17 +480,22 @@ var (
 						},
 						{
 							ZoneId: 19,
-							Abbr:   "-04",
+							Abbr:   "ART",
 							Offset: -14400,
 						},
 						{
 							ZoneId: 19,
-							Abbr:   "-03",
+							Abbr:   "ARST",
 							Offset: -10800,
 						},
 						{
 							ZoneId: 19,
-							Abbr:   "-02",
+							Abbr:   "ART",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 19,
+							Abbr:   "ARST",
 							Offset: -7200,
 						},
 					},
@@ -495,17 +517,22 @@ var (
 						},
 						{
 							ZoneId: 24,
-							Abbr:   "-04",
+							Abbr:   "ART",
 							Offset: -14400,
 						},
 						{
 							ZoneId: 24,
-							Abbr:   "-03",
+							Abbr:   "ARST",
 							Offset: -10800,
 						},
 						{
 							ZoneId: 24,
-							Abbr:   "-02",
+							Abbr:   "ART",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 24,
+							Abbr:   "ARST",
 							Offset: -7200,
 						},
 					},
@@ -527,17 +554,22 @@ var (
 						},
 						{
 							ZoneId: 20,
-							Abbr:   "-04",
+							Abbr:   "ART",
 							Offset: -14400,
 						},
 						{
 							ZoneId: 20,
-							Abbr:   "-03",
+							Abbr:   "ARST",
 							Offset: -10800,
 						},
 						{
 							ZoneId: 20,
-							Abbr:   "-02",
+							Abbr:   "ART",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 20,
+							Abbr:   "ARST",
 							Offset: -7200,
 						},
 					},
@@ -559,17 +591,22 @@ var (
 						},
 						{
 							ZoneId: 22,
-							Abbr:   "-04",
+							Abbr:   "ART",
 							Offset: -14400,
 						},
 						{
 							ZoneId: 22,
-							Abbr:   "-03",
+							Abbr:   "ARST",
 							Offset: -10800,
 						},
 						{
 							ZoneId: 22,
-							Abbr:   "-02",
+							Abbr:   "ART",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 22,
+							Abbr:   "ARST",
 							Offset: -7200,
 						},
 					},
@@ -591,17 +628,22 @@ var (
 						},
 						{
 							ZoneId: 25,
-							Abbr:   "-04",
+							Abbr:   "ART",
 							Offset: -14400,
 						},
 						{
 							ZoneId: 25,
-							Abbr:   "-03",
+							Abbr:   "ARST",
 							Offset: -10800,
 						},
 						{
 							ZoneId: 25,
-							Abbr:   "-02",
+							Abbr:   "ART",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 25,
+							Abbr:   "ARST",
 							Offset: -7200,
 						},
 					},
@@ -623,17 +665,22 @@ var (
 						},
 						{
 							ZoneId: 27,
-							Abbr:   "-04",
+							Abbr:   "ART",
 							Offset: -14400,
 						},
 						{
 							ZoneId: 27,
-							Abbr:   "-03",
+							Abbr:   "ARST",
 							Offset: -10800,
 						},
 						{
 							ZoneId: 27,
-							Abbr:   "-02",
+							Abbr:   "ART",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 27,
+							Abbr:   "ARST",
 							Offset: -7200,
 						},
 					},
@@ -655,17 +702,22 @@ var (
 						},
 						{
 							ZoneId: 29,
-							Abbr:   "-04",
+							Abbr:   "ART",
 							Offset: -14400,
 						},
 						{
 							ZoneId: 29,
-							Abbr:   "-03",
+							Abbr:   "ARST",
 							Offset: -10800,
 						},
 						{
 							ZoneId: 29,
-							Abbr:   "-02",
+							Abbr:   "ART",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 29,
+							Abbr:   "ARST",
 							Offset: -7200,
 						},
 					},
@@ -687,17 +739,22 @@ var (
 						},
 						{
 							ZoneId: 21,
-							Abbr:   "-04",
+							Abbr:   "ART",
 							Offset: -14400,
 						},
 						{
 							ZoneId: 21,
-							Abbr:   "-03",
+							Abbr:   "ARST",
 							Offset: -10800,
 						},
 						{
 							ZoneId: 21,
-							Abbr:   "-02",
+							Abbr:   "ART",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 21,
+							Abbr:   "ARST",
 							Offset: -7200,
 						},
 					},
@@ -719,17 +776,22 @@ var (
 						},
 						{
 							ZoneId: 26,
-							Abbr:   "-04",
+							Abbr:   "ART",
 							Offset: -14400,
 						},
 						{
 							ZoneId: 26,
-							Abbr:   "-03",
+							Abbr:   "ARST",
 							Offset: -10800,
 						},
 						{
 							ZoneId: 26,
-							Abbr:   "-02",
+							Abbr:   "ART",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 26,
+							Abbr:   "ARST",
 							Offset: -7200,
 						},
 					},
@@ -751,17 +813,22 @@ var (
 						},
 						{
 							ZoneId: 28,
-							Abbr:   "-04",
+							Abbr:   "ART",
 							Offset: -14400,
 						},
 						{
 							ZoneId: 28,
-							Abbr:   "-03",
+							Abbr:   "ARST",
 							Offset: -10800,
 						},
 						{
 							ZoneId: 28,
-							Abbr:   "-02",
+							Abbr:   "ART",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 28,
+							Abbr:   "ARST",
 							Offset: -7200,
 						},
 					},
@@ -783,17 +850,22 @@ var (
 						},
 						{
 							ZoneId: 23,
-							Abbr:   "-04",
+							Abbr:   "ART",
 							Offset: -14400,
 						},
 						{
 							ZoneId: 23,
-							Abbr:   "-03",
+							Abbr:   "ARST",
 							Offset: -10800,
 						},
 						{
 							ZoneId: 23,
-							Abbr:   "-02",
+							Abbr:   "ART",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 23,
+							Abbr:   "ARST",
 							Offset: -7200,
 						},
 					},
@@ -815,17 +887,22 @@ var (
 						},
 						{
 							ZoneId: 30,
-							Abbr:   "-04",
+							Abbr:   "ART",
 							Offset: -14400,
 						},
 						{
 							ZoneId: 30,
-							Abbr:   "-03",
+							Abbr:   "ARST",
 							Offset: -10800,
 						},
 						{
 							ZoneId: 30,
-							Abbr:   "-02",
+							Abbr:   "ART",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 30,
+							Abbr:   "ARST",
 							Offset: -7200,
 						},
 					},
@@ -848,18 +925,23 @@ var (
 						},
 						{
 							ZoneId: 7,
-							Abbr:   "+03",
+							Abbr:   "AMT",
 							Offset: 10800,
 						},
 						{
 							ZoneId: 7,
-							Abbr:   "+04",
+							Abbr:   "AMT",
 							Offset: 14400,
 						},
 						{
 							ZoneId: 7,
-							Abbr:   "+05",
+							Abbr:   "AMST",
 							Offset: 18000,
+						},
+						{
+							ZoneId: 7,
+							Abbr:   "AMST",
+							Offset: 14400,
 						},
 					},
 				},
@@ -870,22 +952,22 @@ var (
 			Name: "Aruba",
 			Zones: []*Zone{
 				{
-					Id:          46,
+					Id:          45,
 					CountryCode: "AW",
 					Name:        "America/Aruba",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 46,
+							ZoneId: 45,
 							Abbr:   "LMT",
 							Offset: -16547,
 						},
 						{
-							ZoneId: 46,
-							Abbr:   "-0430",
+							ZoneId: 45,
+							Abbr:   "AST",
 							Offset: -16200,
 						},
 						{
-							ZoneId: 46,
+							ZoneId: 45,
 							Abbr:   "AST",
 							Offset: -14400,
 						},
@@ -904,6 +986,11 @@ var (
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 34,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 34,
 							Abbr:   "AEST",
 							Offset: 36000,
 						},
@@ -912,71 +999,44 @@ var (
 							Abbr:   "AEDT",
 							Offset: 39600,
 						},
-						{
-							ZoneId: 34,
-							Abbr:   "+11",
-							Offset: 39600,
-						},
 					},
 				},
 				{
-					Id:          42,
+					Id:          41,
 					CountryCode: "AU",
 					Name:        "Australia/Adelaide",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 42,
+							ZoneId: 41,
 							Abbr:   "LMT",
 							Offset: 33260,
 						},
 						{
-							ZoneId: 42,
+							ZoneId: 41,
 							Abbr:   "ACST",
 							Offset: 32400,
 						},
 						{
-							ZoneId: 42,
+							ZoneId: 41,
 							Abbr:   "ACST",
 							Offset: 34200,
 						},
 						{
-							ZoneId: 42,
+							ZoneId: 41,
 							Abbr:   "ACDT",
 							Offset: 37800,
-						},
-					},
-				},
-				{
-					Id:          40,
-					CountryCode: "AU",
-					Name:        "Australia/Brisbane",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 40,
-							Abbr:   "LMT",
-							Offset: 36728,
-						},
-						{
-							ZoneId: 40,
-							Abbr:   "AEST",
-							Offset: 36000,
-						},
-						{
-							ZoneId: 40,
-							Abbr:   "AEDT",
-							Offset: 39600,
 						},
 					},
 				},
 				{
 					Id:          39,
 					CountryCode: "AU",
-					Name:        "Australia/Broken_Hill",
+					Name:        "Australia/Brisbane",
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 39,
 							Abbr:   "LMT",
-							Offset: 33948,
+							Offset: 36728,
 						},
 						{
 							ZoneId: 39,
@@ -985,88 +1045,88 @@ var (
 						},
 						{
 							ZoneId: 39,
-							Abbr:   "ACST",
-							Offset: 32400,
-						},
-						{
-							ZoneId: 39,
-							Abbr:   "ACST",
-							Offset: 34200,
-						},
-						{
-							ZoneId: 39,
-							Abbr:   "ACDT",
-							Offset: 37800,
-						},
-					},
-				},
-				{
-					Id:          36,
-					CountryCode: "AU",
-					Name:        "Australia/Currie",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 36,
-							Abbr:   "LMT",
-							Offset: 34528,
-						},
-						{
-							ZoneId: 36,
-							Abbr:   "AEST",
-							Offset: 36000,
-						},
-						{
-							ZoneId: 36,
 							Abbr:   "AEDT",
 							Offset: 39600,
 						},
 					},
 				},
 				{
-					Id:          43,
+					Id:          38,
 					CountryCode: "AU",
-					Name:        "Australia/Darwin",
+					Name:        "Australia/Broken_Hill",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 43,
+							ZoneId: 38,
 							Abbr:   "LMT",
-							Offset: 31400,
+							Offset: 33948,
 						},
 						{
-							ZoneId: 43,
+							ZoneId: 38,
+							Abbr:   "AEST",
+							Offset: 36000,
+						},
+						{
+							ZoneId: 38,
 							Abbr:   "ACST",
 							Offset: 32400,
 						},
 						{
-							ZoneId: 43,
+							ZoneId: 38,
 							Abbr:   "ACST",
 							Offset: 34200,
 						},
 						{
-							ZoneId: 43,
+							ZoneId: 38,
 							Abbr:   "ACDT",
 							Offset: 37800,
 						},
 					},
 				},
 				{
-					Id:          45,
+					Id:          42,
+					CountryCode: "AU",
+					Name:        "Australia/Darwin",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 42,
+							Abbr:   "LMT",
+							Offset: 31400,
+						},
+						{
+							ZoneId: 42,
+							Abbr:   "ACST",
+							Offset: 32400,
+						},
+						{
+							ZoneId: 42,
+							Abbr:   "ACST",
+							Offset: 34200,
+						},
+						{
+							ZoneId: 42,
+							Abbr:   "ACDT",
+							Offset: 37800,
+						},
+					},
+				},
+				{
+					Id:          44,
 					CountryCode: "AU",
 					Name:        "Australia/Eucla",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 45,
+							ZoneId: 44,
 							Abbr:   "LMT",
 							Offset: 30928,
 						},
 						{
-							ZoneId: 45,
-							Abbr:   "+0845",
+							ZoneId: 44,
+							Abbr:   "ACWST",
 							Offset: 31500,
 						},
 						{
-							ZoneId: 45,
-							Abbr:   "+0945",
+							ZoneId: 44,
+							Abbr:   "ACWDT",
 							Offset: 35100,
 						},
 					},
@@ -1094,22 +1154,22 @@ var (
 					},
 				},
 				{
-					Id:          41,
+					Id:          40,
 					CountryCode: "AU",
 					Name:        "Australia/Lindeman",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 41,
+							ZoneId: 40,
 							Abbr:   "LMT",
 							Offset: 35756,
 						},
 						{
-							ZoneId: 41,
+							ZoneId: 40,
 							Abbr:   "AEST",
 							Offset: 36000,
 						},
 						{
-							ZoneId: 41,
+							ZoneId: 40,
 							Abbr:   "AEDT",
 							Offset: 39600,
 						},
@@ -1132,82 +1192,82 @@ var (
 						},
 						{
 							ZoneId: 33,
-							Abbr:   "+1030",
+							Abbr:   "LHDT",
 							Offset: 37800,
 						},
 						{
 							ZoneId: 33,
-							Abbr:   "+1130",
+							Abbr:   "LHST",
 							Offset: 41400,
 						},
 						{
 							ZoneId: 33,
-							Abbr:   "+11",
+							Abbr:   "LHST",
 							Offset: 39600,
 						},
 					},
 				},
 				{
-					Id:          37,
+					Id:          36,
 					CountryCode: "AU",
 					Name:        "Australia/Melbourne",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 37,
+							ZoneId: 36,
 							Abbr:   "LMT",
 							Offset: 34792,
 						},
 						{
-							ZoneId: 37,
+							ZoneId: 36,
 							Abbr:   "AEST",
 							Offset: 36000,
 						},
 						{
-							ZoneId: 37,
+							ZoneId: 36,
 							Abbr:   "AEDT",
 							Offset: 39600,
 						},
 					},
 				},
 				{
-					Id:          44,
+					Id:          43,
 					CountryCode: "AU",
 					Name:        "Australia/Perth",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 44,
+							ZoneId: 43,
 							Abbr:   "LMT",
 							Offset: 27804,
 						},
 						{
-							ZoneId: 44,
+							ZoneId: 43,
 							Abbr:   "AWST",
 							Offset: 28800,
 						},
 						{
-							ZoneId: 44,
+							ZoneId: 43,
 							Abbr:   "AWDT",
 							Offset: 32400,
 						},
 					},
 				},
 				{
-					Id:          38,
+					Id:          37,
 					CountryCode: "AU",
 					Name:        "Australia/Sydney",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 38,
+							ZoneId: 37,
 							Abbr:   "LMT",
 							Offset: 36292,
 						},
 						{
-							ZoneId: 38,
+							ZoneId: 37,
 							Abbr:   "AEST",
 							Offset: 36000,
 						},
 						{
-							ZoneId: 38,
+							ZoneId: 37,
 							Abbr:   "AEDT",
 							Offset: 39600,
 						},
@@ -1248,29 +1308,34 @@ var (
 			Name: "Azerbaijan",
 			Zones: []*Zone{
 				{
-					Id:          48,
+					Id:          47,
 					CountryCode: "AZ",
 					Name:        "Asia/Baku",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 48,
+							ZoneId: 47,
 							Abbr:   "LMT",
 							Offset: 11964,
 						},
 						{
-							ZoneId: 48,
-							Abbr:   "+03",
+							ZoneId: 47,
+							Abbr:   "AZT",
 							Offset: 10800,
 						},
 						{
-							ZoneId: 48,
-							Abbr:   "+04",
+							ZoneId: 47,
+							Abbr:   "AZT",
 							Offset: 14400,
 						},
 						{
-							ZoneId: 48,
-							Abbr:   "+05",
+							ZoneId: 47,
+							Abbr:   "AZST",
 							Offset: 18000,
+						},
+						{
+							ZoneId: 47,
+							Abbr:   "AZST",
+							Offset: 14400,
 						},
 					},
 				},
@@ -1281,22 +1346,32 @@ var (
 			Name: "Bahamas",
 			Zones: []*Zone{
 				{
-					Id:          79,
+					Id:          78,
 					CountryCode: "BS",
 					Name:        "America/Nassau",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 79,
+							ZoneId: 78,
 							Abbr:   "LMT",
 							Offset: -18570,
 						},
 						{
-							ZoneId: 79,
+							ZoneId: 78,
 							Abbr:   "EST",
 							Offset: -18000,
 						},
 						{
-							ZoneId: 79,
+							ZoneId: 78,
+							Abbr:   "EWT",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 78,
+							Abbr:   "EPT",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 78,
 							Abbr:   "EDT",
 							Offset: -14400,
 						},
@@ -1309,23 +1384,23 @@ var (
 			Name: "Bahrain",
 			Zones: []*Zone{
 				{
-					Id:          55,
+					Id:          54,
 					CountryCode: "BH",
 					Name:        "Asia/Bahrain",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 55,
+							ZoneId: 54,
 							Abbr:   "LMT",
 							Offset: 12368,
 						},
 						{
-							ZoneId: 55,
-							Abbr:   "+04",
+							ZoneId: 54,
+							Abbr:   "GST",
 							Offset: 14400,
 						},
 						{
-							ZoneId: 55,
-							Abbr:   "+03",
+							ZoneId: 54,
+							Abbr:   "AST",
 							Offset: 10800,
 						},
 					},
@@ -1337,38 +1412,38 @@ var (
 			Name: "Bangladesh",
 			Zones: []*Zone{
 				{
-					Id:          51,
+					Id:          50,
 					CountryCode: "BD",
 					Name:        "Asia/Dhaka",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 51,
+							ZoneId: 50,
 							Abbr:   "LMT",
 							Offset: 21700,
 						},
 						{
-							ZoneId: 51,
+							ZoneId: 50,
 							Abbr:   "HMT",
 							Offset: 21200,
 						},
 						{
-							ZoneId: 51,
-							Abbr:   "+0630",
+							ZoneId: 50,
+							Abbr:   "BURT",
 							Offset: 23400,
 						},
 						{
-							ZoneId: 51,
-							Abbr:   "+0530",
+							ZoneId: 50,
+							Abbr:   "IST",
 							Offset: 19800,
 						},
 						{
-							ZoneId: 51,
-							Abbr:   "+06",
+							ZoneId: 50,
+							Abbr:   "BST",
 							Offset: 21600,
 						},
 						{
-							ZoneId: 51,
-							Abbr:   "+07",
+							ZoneId: 50,
+							Abbr:   "BDT",
 							Offset: 25200,
 						},
 					},
@@ -1380,27 +1455,27 @@ var (
 			Name: "Barbados",
 			Zones: []*Zone{
 				{
-					Id:          50,
+					Id:          49,
 					CountryCode: "BB",
 					Name:        "America/Barbados",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 50,
+							ZoneId: 49,
 							Abbr:   "LMT",
 							Offset: -14309,
 						},
 						{
-							ZoneId: 50,
+							ZoneId: 49,
 							Abbr:   "BMT",
 							Offset: -14309,
 						},
 						{
-							ZoneId: 50,
+							ZoneId: 49,
 							Abbr:   "AST",
 							Offset: -14400,
 						},
 						{
-							ZoneId: 50,
+							ZoneId: 49,
 							Abbr:   "ADT",
 							Offset: -10800,
 						},
@@ -1413,53 +1488,48 @@ var (
 			Name: "Belarus",
 			Zones: []*Zone{
 				{
-					Id:          82,
+					Id:          81,
 					CountryCode: "BY",
 					Name:        "Europe/Minsk",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 82,
+							ZoneId: 81,
 							Abbr:   "LMT",
 							Offset: 6616,
 						},
 						{
-							ZoneId: 82,
+							ZoneId: 81,
 							Abbr:   "MMT",
 							Offset: 6600,
 						},
 						{
-							ZoneId: 82,
+							ZoneId: 81,
 							Abbr:   "EET",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 82,
+							ZoneId: 81,
 							Abbr:   "MSK",
 							Offset: 10800,
 						},
 						{
-							ZoneId: 82,
+							ZoneId: 81,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 82,
+							ZoneId: 81,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 82,
+							ZoneId: 81,
 							Abbr:   "MSD",
 							Offset: 14400,
 						},
 						{
-							ZoneId: 82,
+							ZoneId: 81,
 							Abbr:   "EEST",
-							Offset: 10800,
-						},
-						{
-							ZoneId: 82,
-							Abbr:   "+03",
 							Offset: 10800,
 						},
 					},
@@ -1471,37 +1541,37 @@ var (
 			Name: "Belgium",
 			Zones: []*Zone{
 				{
-					Id:          52,
+					Id:          51,
 					CountryCode: "BE",
 					Name:        "Europe/Brussels",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 52,
+							ZoneId: 51,
 							Abbr:   "LMT",
 							Offset: 1050,
 						},
 						{
-							ZoneId: 52,
+							ZoneId: 51,
 							Abbr:   "BMT",
 							Offset: 1050,
 						},
 						{
-							ZoneId: 52,
+							ZoneId: 51,
 							Abbr:   "WET",
 							Offset: 0,
 						},
 						{
-							ZoneId: 52,
+							ZoneId: 51,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 52,
+							ZoneId: 51,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 52,
+							ZoneId: 51,
 							Abbr:   "WEST",
 							Offset: 3600,
 						},
@@ -1514,27 +1584,37 @@ var (
 			Name: "Belize",
 			Zones: []*Zone{
 				{
-					Id:          83,
+					Id:          82,
 					CountryCode: "BZ",
 					Name:        "America/Belize",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 83,
+							ZoneId: 82,
 							Abbr:   "LMT",
 							Offset: -21168,
 						},
 						{
-							ZoneId: 83,
+							ZoneId: 82,
 							Abbr:   "CST",
 							Offset: -21600,
 						},
 						{
-							ZoneId: 83,
-							Abbr:   "-0530",
+							ZoneId: 82,
+							Abbr:   "CDT",
 							Offset: -19800,
 						},
 						{
-							ZoneId: 83,
+							ZoneId: 82,
+							Abbr:   "CWT",
+							Offset: -18000,
+						},
+						{
+							ZoneId: 82,
+							Abbr:   "CPT",
+							Offset: -18000,
+						},
+						{
+							ZoneId: 82,
 							Abbr:   "CDT",
 							Offset: -18000,
 						},
@@ -1547,17 +1627,27 @@ var (
 			Name: "Benin",
 			Zones: []*Zone{
 				{
-					Id:          57,
+					Id:          56,
 					CountryCode: "BJ",
 					Name:        "Africa/Porto-Novo",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 57,
+							ZoneId: 56,
 							Abbr:   "LMT",
-							Offset: 816,
+							Offset: 815,
 						},
 						{
-							ZoneId: 57,
+							ZoneId: 56,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 56,
+							Abbr:   "WAT",
+							Offset: 1800,
+						},
+						{
+							ZoneId: 56,
 							Abbr:   "WAT",
 							Offset: 3600,
 						},
@@ -1570,22 +1660,32 @@ var (
 			Name: "Bermuda",
 			Zones: []*Zone{
 				{
-					Id:          59,
+					Id:          58,
 					CountryCode: "BM",
 					Name:        "Atlantic/Bermuda",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 59,
+							ZoneId: 58,
 							Abbr:   "LMT",
 							Offset: -15558,
 						},
 						{
-							ZoneId: 59,
+							ZoneId: 58,
+							Abbr:   "BMT",
+							Offset: -15558,
+						},
+						{
+							ZoneId: 58,
+							Abbr:   "BST",
+							Offset: -11958,
+						},
+						{
+							ZoneId: 58,
 							Abbr:   "AST",
 							Offset: -14400,
 						},
 						{
-							ZoneId: 59,
+							ZoneId: 58,
 							Abbr:   "ADT",
 							Offset: -10800,
 						},
@@ -1598,23 +1698,23 @@ var (
 			Name: "Bhutan",
 			Zones: []*Zone{
 				{
-					Id:          80,
+					Id:          79,
 					CountryCode: "BT",
 					Name:        "Asia/Thimphu",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 80,
+							ZoneId: 79,
 							Abbr:   "LMT",
 							Offset: 21516,
 						},
 						{
-							ZoneId: 80,
-							Abbr:   "+0530",
+							ZoneId: 79,
+							Abbr:   "IST",
 							Offset: 19800,
 						},
 						{
-							ZoneId: 80,
-							Abbr:   "+06",
+							ZoneId: 79,
+							Abbr:   "BTT",
 							Offset: 21600,
 						},
 					},
@@ -1623,31 +1723,31 @@ var (
 		},
 		{
 			Code: "BO",
-			Name: "Bolivia",
+			Name: "Bolivia, Plurinational State of",
 			Zones: []*Zone{
 				{
-					Id:          61,
+					Id:          60,
 					CountryCode: "BO",
 					Name:        "America/La_Paz",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 61,
+							ZoneId: 60,
 							Abbr:   "LMT",
 							Offset: -16356,
 						},
 						{
-							ZoneId: 61,
+							ZoneId: 60,
 							Abbr:   "CMT",
 							Offset: -16356,
 						},
 						{
-							ZoneId: 61,
-							Abbr:   "BOST",
+							ZoneId: 60,
+							Abbr:   "BST",
 							Offset: -12756,
 						},
 						{
-							ZoneId: 61,
-							Abbr:   "-04",
+							ZoneId: 60,
+							Abbr:   "BOT",
 							Offset: -14400,
 						},
 					},
@@ -1656,25 +1756,25 @@ var (
 		},
 		{
 			Code: "BQ",
-			Name: "Bonaire, Saint Eustatius and Saba ",
+			Name: "Bonaire, Sint Eustatius and Saba",
 			Zones: []*Zone{
 				{
-					Id:          62,
+					Id:          61,
 					CountryCode: "BQ",
 					Name:        "America/Kralendijk",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 62,
+							ZoneId: 61,
 							Abbr:   "LMT",
 							Offset: -16547,
 						},
 						{
-							ZoneId: 62,
-							Abbr:   "-0430",
+							ZoneId: 61,
+							Abbr:   "ANT",
 							Offset: -16200,
 						},
 						{
-							ZoneId: 62,
+							ZoneId: 61,
 							Abbr:   "AST",
 							Offset: -14400,
 						},
@@ -1687,22 +1787,22 @@ var (
 			Name: "Bosnia and Herzegovina",
 			Zones: []*Zone{
 				{
-					Id:          49,
+					Id:          48,
 					CountryCode: "BA",
 					Name:        "Europe/Sarajevo",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 49,
+							ZoneId: 48,
 							Abbr:   "LMT",
 							Offset: 4920,
 						},
 						{
-							ZoneId: 49,
+							ZoneId: 48,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 49,
+							ZoneId: 48,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
@@ -1715,17 +1815,17 @@ var (
 			Name: "Botswana",
 			Zones: []*Zone{
 				{
-					Id:          81,
+					Id:          80,
 					CountryCode: "BW",
 					Name:        "Africa/Gaborone",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 81,
+							ZoneId: 80,
 							Abbr:   "LMT",
 							Offset: 7820,
 						},
 						{
-							ZoneId: 81,
+							ZoneId: 80,
 							Abbr:   "CAT",
 							Offset: 7200,
 						},
@@ -1743,177 +1843,23 @@ var (
 			Name: "Brazil",
 			Zones: []*Zone{
 				{
-					Id:          67,
+					Id:          66,
 					CountryCode: "BR",
 					Name:        "America/Araguaina",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 67,
+							ZoneId: 66,
 							Abbr:   "LMT",
 							Offset: -11568,
 						},
 						{
-							ZoneId: 67,
-							Abbr:   "-03",
+							ZoneId: 66,
+							Abbr:   "BRT",
 							Offset: -10800,
 						},
 						{
-							ZoneId: 67,
-							Abbr:   "-02",
-							Offset: -7200,
-						},
-					},
-				},
-				{
-					Id:          69,
-					CountryCode: "BR",
-					Name:        "America/Bahia",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 69,
-							Abbr:   "LMT",
-							Offset: -9244,
-						},
-						{
-							ZoneId: 69,
-							Abbr:   "-03",
-							Offset: -10800,
-						},
-						{
-							ZoneId: 69,
-							Abbr:   "-02",
-							Offset: -7200,
-						},
-					},
-				},
-				{
-					Id:          64,
-					CountryCode: "BR",
-					Name:        "America/Belem",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 64,
-							Abbr:   "LMT",
-							Offset: -11636,
-						},
-						{
-							ZoneId: 64,
-							Abbr:   "-03",
-							Offset: -10800,
-						},
-						{
-							ZoneId: 64,
-							Abbr:   "-02",
-							Offset: -7200,
-						},
-					},
-				},
-				{
-					Id:          75,
-					CountryCode: "BR",
-					Name:        "America/Boa_Vista",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 75,
-							Abbr:   "LMT",
-							Offset: -14560,
-						},
-						{
-							ZoneId: 75,
-							Abbr:   "-04",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 75,
-							Abbr:   "-03",
-							Offset: -10800,
-						},
-					},
-				},
-				{
-					Id:          71,
-					CountryCode: "BR",
-					Name:        "America/Campo_Grande",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 71,
-							Abbr:   "LMT",
-							Offset: -13108,
-						},
-						{
-							ZoneId: 71,
-							Abbr:   "-04",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 71,
-							Abbr:   "-03",
-							Offset: -10800,
-						},
-					},
-				},
-				{
-					Id:          72,
-					CountryCode: "BR",
-					Name:        "America/Cuiaba",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 72,
-							Abbr:   "LMT",
-							Offset: -13460,
-						},
-						{
-							ZoneId: 72,
-							Abbr:   "-04",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 72,
-							Abbr:   "-03",
-							Offset: -10800,
-						},
-					},
-				},
-				{
-					Id:          77,
-					CountryCode: "BR",
-					Name:        "America/Eirunepe",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 77,
-							Abbr:   "LMT",
-							Offset: -16768,
-						},
-						{
-							ZoneId: 77,
-							Abbr:   "-05",
-							Offset: -18000,
-						},
-						{
-							ZoneId: 77,
-							Abbr:   "-04",
-							Offset: -14400,
-						},
-					},
-				},
-				{
-					Id:          65,
-					CountryCode: "BR",
-					Name:        "America/Fortaleza",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 65,
-							Abbr:   "LMT",
-							Offset: -9240,
-						},
-						{
-							ZoneId: 65,
-							Abbr:   "-03",
-							Offset: -10800,
-						},
-						{
-							ZoneId: 65,
-							Abbr:   "-02",
+							ZoneId: 66,
+							Abbr:   "BRST",
 							Offset: -7200,
 						},
 					},
@@ -1921,153 +1867,65 @@ var (
 				{
 					Id:          68,
 					CountryCode: "BR",
-					Name:        "America/Maceio",
+					Name:        "America/Bahia",
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 68,
 							Abbr:   "LMT",
-							Offset: -8572,
+							Offset: -9244,
 						},
 						{
 							ZoneId: 68,
-							Abbr:   "-03",
+							Abbr:   "BRT",
 							Offset: -10800,
 						},
 						{
 							ZoneId: 68,
-							Abbr:   "-02",
+							Abbr:   "BRST",
 							Offset: -7200,
-						},
-					},
-				},
-				{
-					Id:          76,
-					CountryCode: "BR",
-					Name:        "America/Manaus",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 76,
-							Abbr:   "LMT",
-							Offset: -14404,
-						},
-						{
-							ZoneId: 76,
-							Abbr:   "-04",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 76,
-							Abbr:   "-03",
-							Offset: -10800,
 						},
 					},
 				},
 				{
 					Id:          63,
 					CountryCode: "BR",
-					Name:        "America/Noronha",
+					Name:        "America/Belem",
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 63,
 							Abbr:   "LMT",
-							Offset: -7780,
+							Offset: -11636,
 						},
 						{
 							ZoneId: 63,
-							Abbr:   "-02",
+							Abbr:   "BRT",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 63,
+							Abbr:   "BRST",
 							Offset: -7200,
-						},
-						{
-							ZoneId: 63,
-							Abbr:   "-01",
-							Offset: -3600,
 						},
 					},
 				},
 				{
 					Id:          74,
 					CountryCode: "BR",
-					Name:        "America/Porto_Velho",
+					Name:        "America/Boa_Vista",
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 74,
 							Abbr:   "LMT",
-							Offset: -15336,
+							Offset: -14560,
 						},
 						{
 							ZoneId: 74,
-							Abbr:   "-04",
+							Abbr:   "AMT",
 							Offset: -14400,
 						},
 						{
 							ZoneId: 74,
-							Abbr:   "-03",
-							Offset: -10800,
-						},
-					},
-				},
-				{
-					Id:          66,
-					CountryCode: "BR",
-					Name:        "America/Recife",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 66,
-							Abbr:   "LMT",
-							Offset: -8376,
-						},
-						{
-							ZoneId: 66,
-							Abbr:   "-03",
-							Offset: -10800,
-						},
-						{
-							ZoneId: 66,
-							Abbr:   "-02",
-							Offset: -7200,
-						},
-					},
-				},
-				{
-					Id:          78,
-					CountryCode: "BR",
-					Name:        "America/Rio_Branco",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 78,
-							Abbr:   "LMT",
-							Offset: -16272,
-						},
-						{
-							ZoneId: 78,
-							Abbr:   "-05",
-							Offset: -18000,
-						},
-						{
-							ZoneId: 78,
-							Abbr:   "-04",
-							Offset: -14400,
-						},
-					},
-				},
-				{
-					Id:          73,
-					CountryCode: "BR",
-					Name:        "America/Santarem",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 73,
-							Abbr:   "LMT",
-							Offset: -13128,
-						},
-						{
-							ZoneId: 73,
-							Abbr:   "-04",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 73,
-							Abbr:   "-03",
+							Abbr:   "AMST",
 							Offset: -10800,
 						},
 					},
@@ -2075,21 +1933,268 @@ var (
 				{
 					Id:          70,
 					CountryCode: "BR",
-					Name:        "America/Sao_Paulo",
+					Name:        "America/Campo_Grande",
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 70,
 							Abbr:   "LMT",
-							Offset: -11188,
+							Offset: -13108,
 						},
 						{
 							ZoneId: 70,
-							Abbr:   "-03",
+							Abbr:   "AMT",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 70,
+							Abbr:   "AMST",
+							Offset: -10800,
+						},
+					},
+				},
+				{
+					Id:          71,
+					CountryCode: "BR",
+					Name:        "America/Cuiaba",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 71,
+							Abbr:   "LMT",
+							Offset: -13460,
+						},
+						{
+							ZoneId: 71,
+							Abbr:   "BRT",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 71,
+							Abbr:   "BRST",
+							Offset: -10800,
+						},
+					},
+				},
+				{
+					Id:          76,
+					CountryCode: "BR",
+					Name:        "America/Eirunepe",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 76,
+							Abbr:   "LMT",
+							Offset: -16768,
+						},
+						{
+							ZoneId: 76,
+							Abbr:   "ACT",
+							Offset: -18000,
+						},
+						{
+							ZoneId: 76,
+							Abbr:   "AMT",
+							Offset: -14400,
+						},
+					},
+				},
+				{
+					Id:          64,
+					CountryCode: "BR",
+					Name:        "America/Fortaleza",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 64,
+							Abbr:   "LMT",
+							Offset: -9240,
+						},
+						{
+							ZoneId: 64,
+							Abbr:   "BRT",
 							Offset: -10800,
 						},
 						{
-							ZoneId: 70,
-							Abbr:   "-02",
+							ZoneId: 64,
+							Abbr:   "BRST",
+							Offset: -7200,
+						},
+					},
+				},
+				{
+					Id:          67,
+					CountryCode: "BR",
+					Name:        "America/Maceio",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 67,
+							Abbr:   "LMT",
+							Offset: -8572,
+						},
+						{
+							ZoneId: 67,
+							Abbr:   "BRT",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 67,
+							Abbr:   "BRST",
+							Offset: -7200,
+						},
+					},
+				},
+				{
+					Id:          75,
+					CountryCode: "BR",
+					Name:        "America/Manaus",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 75,
+							Abbr:   "LMT",
+							Offset: -14404,
+						},
+						{
+							ZoneId: 75,
+							Abbr:   "AMT",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 75,
+							Abbr:   "AMST",
+							Offset: -10800,
+						},
+					},
+				},
+				{
+					Id:          62,
+					CountryCode: "BR",
+					Name:        "America/Noronha",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 62,
+							Abbr:   "LMT",
+							Offset: -7780,
+						},
+						{
+							ZoneId: 62,
+							Abbr:   "FNT",
+							Offset: -7200,
+						},
+						{
+							ZoneId: 62,
+							Abbr:   "FNST",
+							Offset: -3600,
+						},
+					},
+				},
+				{
+					Id:          73,
+					CountryCode: "BR",
+					Name:        "America/Porto_Velho",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 73,
+							Abbr:   "LMT",
+							Offset: -15336,
+						},
+						{
+							ZoneId: 73,
+							Abbr:   "AMT",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 73,
+							Abbr:   "AMST",
+							Offset: -10800,
+						},
+					},
+				},
+				{
+					Id:          65,
+					CountryCode: "BR",
+					Name:        "America/Recife",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 65,
+							Abbr:   "LMT",
+							Offset: -8376,
+						},
+						{
+							ZoneId: 65,
+							Abbr:   "BRT",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 65,
+							Abbr:   "BRST",
+							Offset: -7200,
+						},
+					},
+				},
+				{
+					Id:          77,
+					CountryCode: "BR",
+					Name:        "America/Rio_Branco",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 77,
+							Abbr:   "LMT",
+							Offset: -16272,
+						},
+						{
+							ZoneId: 77,
+							Abbr:   "ACT",
+							Offset: -18000,
+						},
+						{
+							ZoneId: 77,
+							Abbr:   "AMT",
+							Offset: -14400,
+						},
+					},
+				},
+				{
+					Id:          72,
+					CountryCode: "BR",
+					Name:        "America/Santarem",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 72,
+							Abbr:   "LMT",
+							Offset: -13128,
+						},
+						{
+							ZoneId: 72,
+							Abbr:   "BRT",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 72,
+							Abbr:   "BRST",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 72,
+							Abbr:   "BRT",
+							Offset: -10800,
+						},
+					},
+				},
+				{
+					Id:          69,
+					CountryCode: "BR",
+					Name:        "America/Sao_Paulo",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 69,
+							Abbr:   "LMT",
+							Offset: -11188,
+						},
+						{
+							ZoneId: 69,
+							Abbr:   "BRT",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 69,
+							Abbr:   "BRST",
 							Offset: -7200,
 						},
 					},
@@ -2101,23 +2206,23 @@ var (
 			Name: "British Indian Ocean Territory",
 			Zones: []*Zone{
 				{
-					Id:          195,
+					Id:          194,
 					CountryCode: "IO",
 					Name:        "Indian/Chagos",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 195,
+							ZoneId: 194,
 							Abbr:   "LMT",
 							Offset: 17380,
 						},
 						{
-							ZoneId: 195,
-							Abbr:   "+05",
+							ZoneId: 194,
+							Abbr:   "IOT",
 							Offset: 18000,
 						},
 						{
-							ZoneId: 195,
-							Abbr:   "+06",
+							ZoneId: 194,
+							Abbr:   "IOT",
 							Offset: 21600,
 						},
 					},
@@ -2125,50 +2230,27 @@ var (
 			},
 		},
 		{
-			Code: "VG",
-			Name: "British Virgin Islands",
-			Zones: []*Zone{
-				{
-					Id:          414,
-					CountryCode: "VG",
-					Name:        "America/Tortola",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 414,
-							Abbr:   "LMT",
-							Offset: -14764,
-						},
-						{
-							ZoneId: 414,
-							Abbr:   "AST",
-							Offset: -14400,
-						},
-					},
-				},
-			},
-		},
-		{
 			Code: "BN",
-			Name: "Brunei",
+			Name: "Brunei Darussalam",
 			Zones: []*Zone{
 				{
-					Id:          60,
+					Id:          59,
 					CountryCode: "BN",
 					Name:        "Asia/Brunei",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 60,
+							ZoneId: 59,
 							Abbr:   "LMT",
 							Offset: 27580,
 						},
 						{
-							ZoneId: 60,
-							Abbr:   "+0730",
+							ZoneId: 59,
+							Abbr:   "BNT",
 							Offset: 27000,
 						},
 						{
-							ZoneId: 60,
-							Abbr:   "+08",
+							ZoneId: 59,
+							Abbr:   "BNT",
 							Offset: 28800,
 						},
 					},
@@ -2180,37 +2262,37 @@ var (
 			Name: "Bulgaria",
 			Zones: []*Zone{
 				{
-					Id:          54,
+					Id:          53,
 					CountryCode: "BG",
 					Name:        "Europe/Sofia",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 54,
+							ZoneId: 53,
 							Abbr:   "LMT",
 							Offset: 5596,
 						},
 						{
-							ZoneId: 54,
+							ZoneId: 53,
 							Abbr:   "IMT",
 							Offset: 7016,
 						},
 						{
-							ZoneId: 54,
+							ZoneId: 53,
 							Abbr:   "EET",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 54,
+							ZoneId: 53,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 54,
+							ZoneId: 53,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 54,
+							ZoneId: 53,
 							Abbr:   "EEST",
 							Offset: 10800,
 						},
@@ -2223,17 +2305,17 @@ var (
 			Name: "Burkina Faso",
 			Zones: []*Zone{
 				{
-					Id:          53,
+					Id:          52,
 					CountryCode: "BF",
 					Name:        "Africa/Ouagadougou",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 53,
+							ZoneId: 52,
 							Abbr:   "LMT",
 							Offset: -968,
 						},
 						{
-							ZoneId: 53,
+							ZoneId: 52,
 							Abbr:   "GMT",
 							Offset: 0,
 						},
@@ -2246,17 +2328,17 @@ var (
 			Name: "Burundi",
 			Zones: []*Zone{
 				{
-					Id:          56,
+					Id:          55,
 					CountryCode: "BI",
 					Name:        "Africa/Bujumbura",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 56,
+							ZoneId: 55,
 							Abbr:   "LMT",
 							Offset: 7820,
 						},
 						{
-							ZoneId: 56,
+							ZoneId: 55,
 							Abbr:   "CAT",
 							Offset: 7200,
 						},
@@ -2269,23 +2351,23 @@ var (
 			Name: "Cambodia",
 			Zones: []*Zone{
 				{
-					Id:          206,
+					Id:          205,
 					CountryCode: "KH",
 					Name:        "Asia/Phnom_Penh",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 206,
+							ZoneId: 205,
 							Abbr:   "LMT",
 							Offset: 24124,
 						},
 						{
-							ZoneId: 206,
+							ZoneId: 205,
 							Abbr:   "BMT",
 							Offset: 24124,
 						},
 						{
-							ZoneId: 206,
-							Abbr:   "+07",
+							ZoneId: 205,
+							Abbr:   "ICT",
 							Offset: 25200,
 						},
 					},
@@ -2297,17 +2379,27 @@ var (
 			Name: "Cameroon",
 			Zones: []*Zone{
 				{
-					Id:          123,
+					Id:          122,
 					CountryCode: "CM",
 					Name:        "Africa/Douala",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 123,
+							ZoneId: 122,
 							Abbr:   "LMT",
-							Offset: 816,
+							Offset: 815,
 						},
 						{
-							ZoneId: 123,
+							ZoneId: 122,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 122,
+							Abbr:   "WAT",
+							Offset: 1800,
+						},
+						{
+							ZoneId: 122,
 							Abbr:   "WAT",
 							Offset: 3600,
 						},
@@ -2320,367 +2412,51 @@ var (
 			Name: "Canada",
 			Zones: []*Zone{
 				{
-					Id:          95,
+					Id:          94,
 					CountryCode: "CA",
 					Name:        "America/Atikokan",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 95,
+							ZoneId: 94,
 							Abbr:   "LMT",
 							Offset: -21988,
 						},
 						{
-							ZoneId: 95,
+							ZoneId: 94,
 							Abbr:   "CST",
 							Offset: -21600,
 						},
 						{
-							ZoneId: 95,
+							ZoneId: 94,
 							Abbr:   "CDT",
 							Offset: -18000,
 						},
 						{
-							ZoneId: 95,
+							ZoneId: 94,
 							Abbr:   "CWT",
 							Offset: -18000,
 						},
 						{
-							ZoneId: 95,
+							ZoneId: 94,
 							Abbr:   "CPT",
 							Offset: -18000,
 						},
 						{
-							ZoneId: 95,
+							ZoneId: 94,
 							Abbr:   "EST",
 							Offset: -18000,
-						},
-					},
-				},
-				{
-					Id:          89,
-					CountryCode: "CA",
-					Name:        "America/Blanc-Sablon",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 89,
-							Abbr:   "LMT",
-							Offset: -13708,
-						},
-						{
-							ZoneId: 89,
-							Abbr:   "AST",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 89,
-							Abbr:   "ADT",
-							Offset: -10800,
-						},
-						{
-							ZoneId: 89,
-							Abbr:   "AWT",
-							Offset: -10800,
-						},
-						{
-							ZoneId: 89,
-							Abbr:   "APT",
-							Offset: -10800,
-						},
-					},
-				},
-				{
-					Id:          103,
-					CountryCode: "CA",
-					Name:        "America/Cambridge_Bay",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 103,
-							Abbr:   "MST",
-							Offset: -25200,
-						},
-						{
-							ZoneId: 103,
-							Abbr:   "MWT",
-							Offset: -21600,
-						},
-						{
-							ZoneId: 103,
-							Abbr:   "MPT",
-							Offset: -21600,
-						},
-						{
-							ZoneId: 103,
-							Abbr:   "MDDT",
-							Offset: -18000,
-						},
-						{
-							ZoneId: 103,
-							Abbr:   "MDT",
-							Offset: -21600,
-						},
-						{
-							ZoneId: 103,
-							Abbr:   "CST",
-							Offset: -21600,
-						},
-						{
-							ZoneId: 103,
-							Abbr:   "CDT",
-							Offset: -18000,
-						},
-						{
-							ZoneId: 103,
-							Abbr:   "EST",
-							Offset: -18000,
-						},
-					},
-				},
-				{
-					Id:          106,
-					CountryCode: "CA",
-					Name:        "America/Creston",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 106,
-							Abbr:   "LMT",
-							Offset: -27964,
-						},
-						{
-							ZoneId: 106,
-							Abbr:   "MST",
-							Offset: -25200,
-						},
-						{
-							ZoneId: 106,
-							Abbr:   "PST",
-							Offset: -28800,
-						},
-					},
-				},
-				{
-					Id:          111,
-					CountryCode: "CA",
-					Name:        "America/Dawson",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 111,
-							Abbr:   "LMT",
-							Offset: -33460,
-						},
-						{
-							ZoneId: 111,
-							Abbr:   "YST",
-							Offset: -32400,
-						},
-						{
-							ZoneId: 111,
-							Abbr:   "YDT",
-							Offset: -28800,
-						},
-						{
-							ZoneId: 111,
-							Abbr:   "YWT",
-							Offset: -28800,
-						},
-						{
-							ZoneId: 111,
-							Abbr:   "YPT",
-							Offset: -28800,
-						},
-						{
-							ZoneId: 111,
-							Abbr:   "YDDT",
-							Offset: -25200,
-						},
-						{
-							ZoneId: 111,
-							Abbr:   "PST",
-							Offset: -28800,
-						},
-						{
-							ZoneId: 111,
-							Abbr:   "PDT",
-							Offset: -25200,
-						},
-					},
-				},
-				{
-					Id:          107,
-					CountryCode: "CA",
-					Name:        "America/Dawson_Creek",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 107,
-							Abbr:   "LMT",
-							Offset: -28856,
-						},
-						{
-							ZoneId: 107,
-							Abbr:   "PST",
-							Offset: -28800,
-						},
-						{
-							ZoneId: 107,
-							Abbr:   "PDT",
-							Offset: -25200,
-						},
-						{
-							ZoneId: 107,
-							Abbr:   "PWT",
-							Offset: -25200,
-						},
-						{
-							ZoneId: 107,
-							Abbr:   "PPT",
-							Offset: -25200,
-						},
-						{
-							ZoneId: 107,
-							Abbr:   "MST",
-							Offset: -25200,
-						},
-					},
-				},
-				{
-					Id:          102,
-					CountryCode: "CA",
-					Name:        "America/Edmonton",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 102,
-							Abbr:   "LMT",
-							Offset: -27232,
-						},
-						{
-							ZoneId: 102,
-							Abbr:   "MST",
-							Offset: -25200,
-						},
-						{
-							ZoneId: 102,
-							Abbr:   "MDT",
-							Offset: -21600,
-						},
-						{
-							ZoneId: 102,
-							Abbr:   "MWT",
-							Offset: -21600,
-						},
-						{
-							ZoneId: 102,
-							Abbr:   "MPT",
-							Offset: -21600,
-						},
-					},
-				},
-				{
-					Id:          108,
-					CountryCode: "CA",
-					Name:        "America/Fort_Nelson",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 108,
-							Abbr:   "LMT",
-							Offset: -29447,
-						},
-						{
-							ZoneId: 108,
-							Abbr:   "PST",
-							Offset: -28800,
-						},
-						{
-							ZoneId: 108,
-							Abbr:   "PDT",
-							Offset: -25200,
-						},
-						{
-							ZoneId: 108,
-							Abbr:   "PWT",
-							Offset: -25200,
-						},
-						{
-							ZoneId: 108,
-							Abbr:   "PPT",
-							Offset: -25200,
-						},
-						{
-							ZoneId: 108,
-							Abbr:   "MST",
-							Offset: -25200,
-						},
-					},
-				},
-				{
-					Id:          86,
-					CountryCode: "CA",
-					Name:        "America/Glace_Bay",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 86,
-							Abbr:   "LMT",
-							Offset: -14388,
-						},
-						{
-							ZoneId: 86,
-							Abbr:   "AST",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 86,
-							Abbr:   "ADT",
-							Offset: -10800,
-						},
-						{
-							ZoneId: 86,
-							Abbr:   "AWT",
-							Offset: -10800,
-						},
-						{
-							ZoneId: 86,
-							Abbr:   "APT",
-							Offset: -10800,
 						},
 					},
 				},
 				{
 					Id:          88,
 					CountryCode: "CA",
-					Name:        "America/Goose_Bay",
+					Name:        "America/Blanc-Sablon",
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 88,
 							Abbr:   "LMT",
-							Offset: -14500,
-						},
-						{
-							ZoneId: 88,
-							Abbr:   "NST",
-							Offset: -12652,
-						},
-						{
-							ZoneId: 88,
-							Abbr:   "NDT",
-							Offset: -9052,
-						},
-						{
-							ZoneId: 88,
-							Abbr:   "NST",
-							Offset: -12600,
-						},
-						{
-							ZoneId: 88,
-							Abbr:   "NDT",
-							Offset: -9000,
-						},
-						{
-							ZoneId: 88,
-							Abbr:   "NWT",
-							Offset: -9000,
-						},
-						{
-							ZoneId: 88,
-							Abbr:   "NPT",
-							Offset: -9000,
+							Offset: -13708,
 						},
 						{
 							ZoneId: 88,
@@ -2694,412 +2470,188 @@ var (
 						},
 						{
 							ZoneId: 88,
-							Abbr:   "ADDT",
-							Offset: -7200,
-						},
-					},
-				},
-				{
-					Id:          85,
-					CountryCode: "CA",
-					Name:        "America/Halifax",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 85,
-							Abbr:   "LMT",
-							Offset: -15264,
-						},
-						{
-							ZoneId: 85,
-							Abbr:   "AST",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 85,
-							Abbr:   "ADT",
-							Offset: -10800,
-						},
-						{
-							ZoneId: 85,
 							Abbr:   "AWT",
 							Offset: -10800,
 						},
 						{
-							ZoneId: 85,
+							ZoneId: 88,
 							Abbr:   "APT",
 							Offset: -10800,
+						},
+					},
+				},
+				{
+					Id:          102,
+					CountryCode: "CA",
+					Name:        "America/Cambridge_Bay",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 102,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 102,
+							Abbr:   "MST",
+							Offset: -25200,
+						},
+						{
+							ZoneId: 102,
+							Abbr:   "MWT",
+							Offset: -21600,
+						},
+						{
+							ZoneId: 102,
+							Abbr:   "MPT",
+							Offset: -21600,
+						},
+						{
+							ZoneId: 102,
+							Abbr:   "MDDT",
+							Offset: -18000,
+						},
+						{
+							ZoneId: 102,
+							Abbr:   "MDT",
+							Offset: -21600,
+						},
+						{
+							ZoneId: 102,
+							Abbr:   "CST",
+							Offset: -21600,
+						},
+						{
+							ZoneId: 102,
+							Abbr:   "CDT",
+							Offset: -18000,
+						},
+						{
+							ZoneId: 102,
+							Abbr:   "EST",
+							Offset: -18000,
 						},
 					},
 				},
 				{
 					Id:          105,
 					CountryCode: "CA",
-					Name:        "America/Inuvik",
+					Name:        "America/Creston",
 					TimeZones: []*TimeZone{
+						{
+							ZoneId: 105,
+							Abbr:   "LMT",
+							Offset: -27964,
+						},
+						{
+							ZoneId: 105,
+							Abbr:   "MST",
+							Offset: -25200,
+						},
 						{
 							ZoneId: 105,
 							Abbr:   "PST",
 							Offset: -28800,
 						},
+					},
+				},
+				{
+					Id:          109,
+					CountryCode: "CA",
+					Name:        "America/Dawson",
+					TimeZones: []*TimeZone{
 						{
-							ZoneId: 105,
-							Abbr:   "PDDT",
-							Offset: -21600,
+							ZoneId: 109,
+							Abbr:   "LMT",
+							Offset: -33460,
 						},
 						{
-							ZoneId: 105,
-							Abbr:   "MST",
+							ZoneId: 109,
+							Abbr:   "YST",
+							Offset: -32400,
+						},
+						{
+							ZoneId: 109,
+							Abbr:   "YDT",
+							Offset: -28800,
+						},
+						{
+							ZoneId: 109,
+							Abbr:   "YWT",
+							Offset: -28800,
+						},
+						{
+							ZoneId: 109,
+							Abbr:   "YPT",
+							Offset: -28800,
+						},
+						{
+							ZoneId: 109,
+							Abbr:   "YDDT",
 							Offset: -25200,
 						},
 						{
-							ZoneId: 105,
-							Abbr:   "MDT",
-							Offset: -21600,
-						},
-					},
-				},
-				{
-					Id:          93,
-					CountryCode: "CA",
-					Name:        "America/Iqaluit",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 93,
-							Abbr:   "EWT",
-							Offset: -14400,
+							ZoneId: 109,
+							Abbr:   "PST",
+							Offset: -28800,
 						},
 						{
-							ZoneId: 93,
-							Abbr:   "EPT",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 93,
-							Abbr:   "EST",
-							Offset: -18000,
-						},
-						{
-							ZoneId: 93,
-							Abbr:   "EDDT",
-							Offset: -10800,
-						},
-						{
-							ZoneId: 93,
-							Abbr:   "EDT",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 93,
-							Abbr:   "CST",
-							Offset: -21600,
-						},
-						{
-							ZoneId: 93,
-							Abbr:   "CDT",
-							Offset: -18000,
-						},
-					},
-				},
-				{
-					Id:          87,
-					CountryCode: "CA",
-					Name:        "America/Moncton",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 87,
-							Abbr:   "LMT",
-							Offset: -15548,
-						},
-						{
-							ZoneId: 87,
-							Abbr:   "EST",
-							Offset: -18000,
-						},
-						{
-							ZoneId: 87,
-							Abbr:   "AST",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 87,
-							Abbr:   "ADT",
-							Offset: -10800,
-						},
-						{
-							ZoneId: 87,
-							Abbr:   "AWT",
-							Offset: -10800,
-						},
-						{
-							ZoneId: 87,
-							Abbr:   "APT",
-							Offset: -10800,
-						},
-					},
-				},
-				{
-					Id:          91,
-					CountryCode: "CA",
-					Name:        "America/Nipigon",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 91,
-							Abbr:   "LMT",
-							Offset: -21184,
-						},
-						{
-							ZoneId: 91,
-							Abbr:   "EST",
-							Offset: -18000,
-						},
-						{
-							ZoneId: 91,
-							Abbr:   "EDT",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 91,
-							Abbr:   "EWT",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 91,
-							Abbr:   "EPT",
-							Offset: -14400,
-						},
-					},
-				},
-				{
-					Id:          94,
-					CountryCode: "CA",
-					Name:        "America/Pangnirtung",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 94,
-							Abbr:   "AST",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 94,
-							Abbr:   "AWT",
-							Offset: -10800,
-						},
-						{
-							ZoneId: 94,
-							Abbr:   "APT",
-							Offset: -10800,
-						},
-						{
-							ZoneId: 94,
-							Abbr:   "ADDT",
-							Offset: -7200,
-						},
-						{
-							ZoneId: 94,
-							Abbr:   "ADT",
-							Offset: -10800,
-						},
-						{
-							ZoneId: 94,
-							Abbr:   "EDT",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 94,
-							Abbr:   "EST",
-							Offset: -18000,
-						},
-						{
-							ZoneId: 94,
-							Abbr:   "CST",
-							Offset: -21600,
-						},
-						{
-							ZoneId: 94,
-							Abbr:   "CDT",
-							Offset: -18000,
-						},
-					},
-				},
-				{
-					Id:          97,
-					CountryCode: "CA",
-					Name:        "America/Rainy_River",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 97,
-							Abbr:   "LMT",
-							Offset: -22696,
-						},
-						{
-							ZoneId: 97,
-							Abbr:   "CST",
-							Offset: -21600,
-						},
-						{
-							ZoneId: 97,
-							Abbr:   "CDT",
-							Offset: -18000,
-						},
-						{
-							ZoneId: 97,
-							Abbr:   "CWT",
-							Offset: -18000,
-						},
-						{
-							ZoneId: 97,
-							Abbr:   "CPT",
-							Offset: -18000,
-						},
-					},
-				},
-				{
-					Id:          99,
-					CountryCode: "CA",
-					Name:        "America/Rankin_Inlet",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 99,
-							Abbr:   "CST",
-							Offset: -21600,
-						},
-						{
-							ZoneId: 99,
-							Abbr:   "CDDT",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 99,
-							Abbr:   "CDT",
-							Offset: -18000,
-						},
-						{
-							ZoneId: 99,
-							Abbr:   "EST",
-							Offset: -18000,
-						},
-					},
-				},
-				{
-					Id:          100,
-					CountryCode: "CA",
-					Name:        "America/Regina",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 100,
-							Abbr:   "LMT",
-							Offset: -25116,
-						},
-						{
-							ZoneId: 100,
-							Abbr:   "MST",
+							ZoneId: 109,
+							Abbr:   "PDT",
 							Offset: -25200,
 						},
 						{
-							ZoneId: 100,
-							Abbr:   "MDT",
-							Offset: -21600,
-						},
-						{
-							ZoneId: 100,
-							Abbr:   "MWT",
-							Offset: -21600,
-						},
-						{
-							ZoneId: 100,
-							Abbr:   "MPT",
-							Offset: -21600,
-						},
-						{
-							ZoneId: 100,
-							Abbr:   "CST",
-							Offset: -21600,
+							ZoneId: 109,
+							Abbr:   "MST",
+							Offset: -25200,
 						},
 					},
 				},
 				{
-					Id:          98,
+					Id:          106,
 					CountryCode: "CA",
-					Name:        "America/Resolute",
+					Name:        "America/Dawson_Creek",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 98,
-							Abbr:   "CST",
-							Offset: -21600,
-						},
-						{
-							ZoneId: 98,
-							Abbr:   "CDDT",
-							Offset: -14400,
-						},
-						{
-							ZoneId: 98,
-							Abbr:   "CDT",
-							Offset: -18000,
-						},
-						{
-							ZoneId: 98,
-							Abbr:   "EST",
-							Offset: -18000,
-						},
-					},
-				},
-				{
-					Id:          84,
-					CountryCode: "CA",
-					Name:        "America/St_Johns",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 84,
+							ZoneId: 106,
 							Abbr:   "LMT",
-							Offset: -12652,
+							Offset: -28856,
 						},
 						{
-							ZoneId: 84,
-							Abbr:   "NST",
-							Offset: -12652,
+							ZoneId: 106,
+							Abbr:   "PST",
+							Offset: -28800,
 						},
 						{
-							ZoneId: 84,
-							Abbr:   "NDT",
-							Offset: -9052,
+							ZoneId: 106,
+							Abbr:   "PDT",
+							Offset: -25200,
 						},
 						{
-							ZoneId: 84,
-							Abbr:   "NST",
-							Offset: -12600,
+							ZoneId: 106,
+							Abbr:   "PWT",
+							Offset: -25200,
 						},
 						{
-							ZoneId: 84,
-							Abbr:   "NDT",
-							Offset: -9000,
+							ZoneId: 106,
+							Abbr:   "PPT",
+							Offset: -25200,
 						},
 						{
-							ZoneId: 84,
-							Abbr:   "NWT",
-							Offset: -9000,
-						},
-						{
-							ZoneId: 84,
-							Abbr:   "NPT",
-							Offset: -9000,
-						},
-						{
-							ZoneId: 84,
-							Abbr:   "NDDT",
-							Offset: -5400,
+							ZoneId: 106,
+							Abbr:   "MST",
+							Offset: -25200,
 						},
 					},
 				},
 				{
 					Id:          101,
 					CountryCode: "CA",
-					Name:        "America/Swift_Current",
+					Name:        "America/Edmonton",
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 101,
 							Abbr:   "LMT",
-							Offset: -25880,
+							Offset: -27232,
 						},
 						{
 							ZoneId: 101,
@@ -3121,9 +2673,194 @@ var (
 							Abbr:   "MPT",
 							Offset: -21600,
 						},
+					},
+				},
+				{
+					Id:          107,
+					CountryCode: "CA",
+					Name:        "America/Fort_Nelson",
+					TimeZones: []*TimeZone{
 						{
-							ZoneId: 101,
-							Abbr:   "CST",
+							ZoneId: 107,
+							Abbr:   "LMT",
+							Offset: -29447,
+						},
+						{
+							ZoneId: 107,
+							Abbr:   "PST",
+							Offset: -28800,
+						},
+						{
+							ZoneId: 107,
+							Abbr:   "PDT",
+							Offset: -25200,
+						},
+						{
+							ZoneId: 107,
+							Abbr:   "PWT",
+							Offset: -25200,
+						},
+						{
+							ZoneId: 107,
+							Abbr:   "PPT",
+							Offset: -25200,
+						},
+						{
+							ZoneId: 107,
+							Abbr:   "MST",
+							Offset: -25200,
+						},
+					},
+				},
+				{
+					Id:          85,
+					CountryCode: "CA",
+					Name:        "America/Glace_Bay",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 85,
+							Abbr:   "LMT",
+							Offset: -14388,
+						},
+						{
+							ZoneId: 85,
+							Abbr:   "AST",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 85,
+							Abbr:   "ADT",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 85,
+							Abbr:   "AWT",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 85,
+							Abbr:   "APT",
+							Offset: -10800,
+						},
+					},
+				},
+				{
+					Id:          87,
+					CountryCode: "CA",
+					Name:        "America/Goose_Bay",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 87,
+							Abbr:   "LMT",
+							Offset: -14500,
+						},
+						{
+							ZoneId: 87,
+							Abbr:   "NST",
+							Offset: -12652,
+						},
+						{
+							ZoneId: 87,
+							Abbr:   "NDT",
+							Offset: -9052,
+						},
+						{
+							ZoneId: 87,
+							Abbr:   "NST",
+							Offset: -12600,
+						},
+						{
+							ZoneId: 87,
+							Abbr:   "NDT",
+							Offset: -9000,
+						},
+						{
+							ZoneId: 87,
+							Abbr:   "NWT",
+							Offset: -9000,
+						},
+						{
+							ZoneId: 87,
+							Abbr:   "NPT",
+							Offset: -9000,
+						},
+						{
+							ZoneId: 87,
+							Abbr:   "AST",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 87,
+							Abbr:   "ADT",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 87,
+							Abbr:   "ADDT",
+							Offset: -7200,
+						},
+					},
+				},
+				{
+					Id:          84,
+					CountryCode: "CA",
+					Name:        "America/Halifax",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 84,
+							Abbr:   "LMT",
+							Offset: -15264,
+						},
+						{
+							ZoneId: 84,
+							Abbr:   "AST",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 84,
+							Abbr:   "ADT",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 84,
+							Abbr:   "AWT",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 84,
+							Abbr:   "APT",
+							Offset: -10800,
+						},
+					},
+				},
+				{
+					Id:          104,
+					CountryCode: "CA",
+					Name:        "America/Inuvik",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 104,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 104,
+							Abbr:   "PST",
+							Offset: -28800,
+						},
+						{
+							ZoneId: 104,
+							Abbr:   "PDDT",
+							Offset: -21600,
+						},
+						{
+							ZoneId: 104,
+							Abbr:   "MST",
+							Offset: -25200,
+						},
+						{
+							ZoneId: 104,
+							Abbr:   "MDT",
 							Offset: -21600,
 						},
 					},
@@ -3131,12 +2868,37 @@ var (
 				{
 					Id:          92,
 					CountryCode: "CA",
-					Name:        "America/Thunder_Bay",
+					Name:        "America/Iqaluit",
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 92,
-							Abbr:   "LMT",
-							Offset: -21420,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 92,
+							Abbr:   "EWT",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 92,
+							Abbr:   "EPT",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 92,
+							Abbr:   "EST",
+							Offset: -18000,
+						},
+						{
+							ZoneId: 92,
+							Abbr:   "EDDT",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 92,
+							Abbr:   "EDT",
+							Offset: -14400,
 						},
 						{
 							ZoneId: 92,
@@ -3145,35 +2907,57 @@ var (
 						},
 						{
 							ZoneId: 92,
+							Abbr:   "CDT",
+							Offset: -18000,
+						},
+					},
+				},
+				{
+					Id:          86,
+					CountryCode: "CA",
+					Name:        "America/Moncton",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 86,
+							Abbr:   "LMT",
+							Offset: -15548,
+						},
+						{
+							ZoneId: 86,
 							Abbr:   "EST",
 							Offset: -18000,
 						},
 						{
-							ZoneId: 92,
-							Abbr:   "EWT",
+							ZoneId: 86,
+							Abbr:   "AST",
 							Offset: -14400,
 						},
 						{
-							ZoneId: 92,
-							Abbr:   "EPT",
-							Offset: -14400,
+							ZoneId: 86,
+							Abbr:   "ADT",
+							Offset: -10800,
 						},
 						{
-							ZoneId: 92,
-							Abbr:   "EDT",
-							Offset: -14400,
+							ZoneId: 86,
+							Abbr:   "AWT",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 86,
+							Abbr:   "APT",
+							Offset: -10800,
 						},
 					},
 				},
 				{
 					Id:          90,
 					CountryCode: "CA",
-					Name:        "America/Toronto",
+					Name:        "America/Nipigon",
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 90,
 							Abbr:   "LMT",
-							Offset: -19052,
+							Offset: -21184,
 						},
 						{
 							ZoneId: 90,
@@ -3198,93 +2982,71 @@ var (
 					},
 				},
 				{
-					Id:          109,
+					Id:          93,
 					CountryCode: "CA",
-					Name:        "America/Vancouver",
+					Name:        "America/Pangnirtung",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 109,
-							Abbr:   "LMT",
-							Offset: -29548,
+							ZoneId: 93,
+							Abbr:   "GMT",
+							Offset: 0,
 						},
 						{
-							ZoneId: 109,
-							Abbr:   "PST",
-							Offset: -28800,
+							ZoneId: 93,
+							Abbr:   "AST",
+							Offset: -14400,
 						},
 						{
-							ZoneId: 109,
-							Abbr:   "PDT",
-							Offset: -25200,
+							ZoneId: 93,
+							Abbr:   "AWT",
+							Offset: -10800,
 						},
 						{
-							ZoneId: 109,
-							Abbr:   "PWT",
-							Offset: -25200,
+							ZoneId: 93,
+							Abbr:   "APT",
+							Offset: -10800,
 						},
 						{
-							ZoneId: 109,
-							Abbr:   "PPT",
-							Offset: -25200,
-						},
-					},
-				},
-				{
-					Id:          110,
-					CountryCode: "CA",
-					Name:        "America/Whitehorse",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 110,
-							Abbr:   "LMT",
-							Offset: -32412,
+							ZoneId: 93,
+							Abbr:   "ADDT",
+							Offset: -7200,
 						},
 						{
-							ZoneId: 110,
-							Abbr:   "YST",
-							Offset: -32400,
+							ZoneId: 93,
+							Abbr:   "ADT",
+							Offset: -10800,
 						},
 						{
-							ZoneId: 110,
-							Abbr:   "YDT",
-							Offset: -28800,
+							ZoneId: 93,
+							Abbr:   "EDT",
+							Offset: -14400,
 						},
 						{
-							ZoneId: 110,
-							Abbr:   "YWT",
-							Offset: -28800,
+							ZoneId: 93,
+							Abbr:   "EST",
+							Offset: -18000,
 						},
 						{
-							ZoneId: 110,
-							Abbr:   "YPT",
-							Offset: -28800,
+							ZoneId: 93,
+							Abbr:   "CST",
+							Offset: -21600,
 						},
 						{
-							ZoneId: 110,
-							Abbr:   "YDDT",
-							Offset: -25200,
-						},
-						{
-							ZoneId: 110,
-							Abbr:   "PST",
-							Offset: -28800,
-						},
-						{
-							ZoneId: 110,
-							Abbr:   "PDT",
-							Offset: -25200,
+							ZoneId: 93,
+							Abbr:   "CDT",
+							Offset: -18000,
 						},
 					},
 				},
 				{
 					Id:          96,
 					CountryCode: "CA",
-					Name:        "America/Winnipeg",
+					Name:        "America/Rainy_River",
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 96,
 							Abbr:   "LMT",
-							Offset: -23316,
+							Offset: -22696,
 						},
 						{
 							ZoneId: 96,
@@ -3309,32 +3071,407 @@ var (
 					},
 				},
 				{
-					Id:          104,
+					Id:          98,
 					CountryCode: "CA",
-					Name:        "America/Yellowknife",
+					Name:        "America/Rankin_Inlet",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 104,
+							ZoneId: 98,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 98,
+							Abbr:   "CST",
+							Offset: -21600,
+						},
+						{
+							ZoneId: 98,
+							Abbr:   "CDDT",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 98,
+							Abbr:   "CDT",
+							Offset: -18000,
+						},
+						{
+							ZoneId: 98,
+							Abbr:   "EST",
+							Offset: -18000,
+						},
+					},
+				},
+				{
+					Id:          99,
+					CountryCode: "CA",
+					Name:        "America/Regina",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 99,
+							Abbr:   "LMT",
+							Offset: -25116,
+						},
+						{
+							ZoneId: 99,
 							Abbr:   "MST",
 							Offset: -25200,
 						},
 						{
-							ZoneId: 104,
+							ZoneId: 99,
+							Abbr:   "MDT",
+							Offset: -21600,
+						},
+						{
+							ZoneId: 99,
 							Abbr:   "MWT",
 							Offset: -21600,
 						},
 						{
-							ZoneId: 104,
+							ZoneId: 99,
 							Abbr:   "MPT",
 							Offset: -21600,
 						},
 						{
-							ZoneId: 104,
+							ZoneId: 99,
+							Abbr:   "CST",
+							Offset: -21600,
+						},
+					},
+				},
+				{
+					Id:          97,
+					CountryCode: "CA",
+					Name:        "America/Resolute",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 97,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 97,
+							Abbr:   "CST",
+							Offset: -21600,
+						},
+						{
+							ZoneId: 97,
+							Abbr:   "CDDT",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 97,
+							Abbr:   "CDT",
+							Offset: -18000,
+						},
+						{
+							ZoneId: 97,
+							Abbr:   "EST",
+							Offset: -18000,
+						},
+					},
+				},
+				{
+					Id:          83,
+					CountryCode: "CA",
+					Name:        "America/St_Johns",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 83,
+							Abbr:   "LMT",
+							Offset: -12652,
+						},
+						{
+							ZoneId: 83,
+							Abbr:   "NST",
+							Offset: -12652,
+						},
+						{
+							ZoneId: 83,
+							Abbr:   "NDT",
+							Offset: -9052,
+						},
+						{
+							ZoneId: 83,
+							Abbr:   "NST",
+							Offset: -12600,
+						},
+						{
+							ZoneId: 83,
+							Abbr:   "NDT",
+							Offset: -9000,
+						},
+						{
+							ZoneId: 83,
+							Abbr:   "NWT",
+							Offset: -9000,
+						},
+						{
+							ZoneId: 83,
+							Abbr:   "NPT",
+							Offset: -9000,
+						},
+						{
+							ZoneId: 83,
+							Abbr:   "NDDT",
+							Offset: -5400,
+						},
+					},
+				},
+				{
+					Id:          100,
+					CountryCode: "CA",
+					Name:        "America/Swift_Current",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 100,
+							Abbr:   "LMT",
+							Offset: -25880,
+						},
+						{
+							ZoneId: 100,
+							Abbr:   "MST",
+							Offset: -25200,
+						},
+						{
+							ZoneId: 100,
+							Abbr:   "MDT",
+							Offset: -21600,
+						},
+						{
+							ZoneId: 100,
+							Abbr:   "MWT",
+							Offset: -21600,
+						},
+						{
+							ZoneId: 100,
+							Abbr:   "MPT",
+							Offset: -21600,
+						},
+						{
+							ZoneId: 100,
+							Abbr:   "CST",
+							Offset: -21600,
+						},
+					},
+				},
+				{
+					Id:          91,
+					CountryCode: "CA",
+					Name:        "America/Thunder_Bay",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 91,
+							Abbr:   "LMT",
+							Offset: -21420,
+						},
+						{
+							ZoneId: 91,
+							Abbr:   "CST",
+							Offset: -21600,
+						},
+						{
+							ZoneId: 91,
+							Abbr:   "EST",
+							Offset: -18000,
+						},
+						{
+							ZoneId: 91,
+							Abbr:   "EWT",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 91,
+							Abbr:   "EPT",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 91,
+							Abbr:   "EDT",
+							Offset: -14400,
+						},
+					},
+				},
+				{
+					Id:          89,
+					CountryCode: "CA",
+					Name:        "America/Toronto",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 89,
+							Abbr:   "LMT",
+							Offset: -19052,
+						},
+						{
+							ZoneId: 89,
+							Abbr:   "EST",
+							Offset: -18000,
+						},
+						{
+							ZoneId: 89,
+							Abbr:   "EDT",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 89,
+							Abbr:   "EWT",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 89,
+							Abbr:   "EPT",
+							Offset: -14400,
+						},
+					},
+				},
+				{
+					Id:          110,
+					CountryCode: "CA",
+					Name:        "America/Vancouver",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 110,
+							Abbr:   "LMT",
+							Offset: -29548,
+						},
+						{
+							ZoneId: 110,
+							Abbr:   "PST",
+							Offset: -28800,
+						},
+						{
+							ZoneId: 110,
+							Abbr:   "PDT",
+							Offset: -25200,
+						},
+						{
+							ZoneId: 110,
+							Abbr:   "PWT",
+							Offset: -25200,
+						},
+						{
+							ZoneId: 110,
+							Abbr:   "PPT",
+							Offset: -25200,
+						},
+					},
+				},
+				{
+					Id:          108,
+					CountryCode: "CA",
+					Name:        "America/Whitehorse",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 108,
+							Abbr:   "LMT",
+							Offset: -32412,
+						},
+						{
+							ZoneId: 108,
+							Abbr:   "YST",
+							Offset: -32400,
+						},
+						{
+							ZoneId: 108,
+							Abbr:   "YDT",
+							Offset: -28800,
+						},
+						{
+							ZoneId: 108,
+							Abbr:   "YWT",
+							Offset: -28800,
+						},
+						{
+							ZoneId: 108,
+							Abbr:   "YPT",
+							Offset: -28800,
+						},
+						{
+							ZoneId: 108,
+							Abbr:   "YDDT",
+							Offset: -25200,
+						},
+						{
+							ZoneId: 108,
+							Abbr:   "PST",
+							Offset: -28800,
+						},
+						{
+							ZoneId: 108,
+							Abbr:   "PDT",
+							Offset: -25200,
+						},
+						{
+							ZoneId: 108,
+							Abbr:   "MST",
+							Offset: -25200,
+						},
+					},
+				},
+				{
+					Id:          95,
+					CountryCode: "CA",
+					Name:        "America/Winnipeg",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 95,
+							Abbr:   "LMT",
+							Offset: -23316,
+						},
+						{
+							ZoneId: 95,
+							Abbr:   "CST",
+							Offset: -21600,
+						},
+						{
+							ZoneId: 95,
+							Abbr:   "CDT",
+							Offset: -18000,
+						},
+						{
+							ZoneId: 95,
+							Abbr:   "CWT",
+							Offset: -18000,
+						},
+						{
+							ZoneId: 95,
+							Abbr:   "CPT",
+							Offset: -18000,
+						},
+					},
+				},
+				{
+					Id:          103,
+					CountryCode: "CA",
+					Name:        "America/Yellowknife",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 103,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 103,
+							Abbr:   "MST",
+							Offset: -25200,
+						},
+						{
+							ZoneId: 103,
+							Abbr:   "MWT",
+							Offset: -21600,
+						},
+						{
+							ZoneId: 103,
+							Abbr:   "MPT",
+							Offset: -21600,
+						},
+						{
+							ZoneId: 103,
 							Abbr:   "MDDT",
 							Offset: -18000,
 						},
 						{
-							ZoneId: 104,
+							ZoneId: 103,
 							Abbr:   "MDT",
 							Offset: -21600,
 						},
@@ -3347,23 +3484,28 @@ var (
 			Name: "Cape Verde",
 			Zones: []*Zone{
 				{
-					Id:          129,
+					Id:          128,
 					CountryCode: "CV",
 					Name:        "Atlantic/Cape_Verde",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 129,
+							ZoneId: 128,
 							Abbr:   "LMT",
 							Offset: -5644,
 						},
 						{
-							ZoneId: 129,
-							Abbr:   "-02",
+							ZoneId: 128,
+							Abbr:   "CVT",
 							Offset: -7200,
 						},
 						{
-							ZoneId: 129,
-							Abbr:   "-01",
+							ZoneId: 128,
+							Abbr:   "CVST",
+							Offset: -3600,
+						},
+						{
+							ZoneId: 128,
+							Abbr:   "CVT",
 							Offset: -3600,
 						},
 					},
@@ -3375,22 +3517,22 @@ var (
 			Name: "Cayman Islands",
 			Zones: []*Zone{
 				{
-					Id:          215,
+					Id:          214,
 					CountryCode: "KY",
 					Name:        "America/Cayman",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 215,
+							ZoneId: 214,
 							Abbr:   "LMT",
 							Offset: -19088,
 						},
 						{
-							ZoneId: 215,
+							ZoneId: 214,
 							Abbr:   "CMT",
 							Offset: -19176,
 						},
 						{
-							ZoneId: 215,
+							ZoneId: 214,
 							Abbr:   "EST",
 							Offset: -18000,
 						},
@@ -3403,17 +3545,27 @@ var (
 			Name: "Central African Republic",
 			Zones: []*Zone{
 				{
-					Id:          115,
+					Id:          114,
 					CountryCode: "CF",
 					Name:        "Africa/Bangui",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 115,
+							ZoneId: 114,
 							Abbr:   "LMT",
-							Offset: 816,
+							Offset: 815,
 						},
 						{
-							ZoneId: 115,
+							ZoneId: 114,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 114,
+							Abbr:   "WAT",
+							Offset: 1800,
+						},
+						{
+							ZoneId: 114,
 							Abbr:   "WAT",
 							Offset: 3600,
 						},
@@ -3456,12 +3608,12 @@ var (
 				{
 					Id:          120,
 					CountryCode: "CL",
-					Name:        "America/Santiago",
+					Name:        "America/Punta_Arenas",
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 120,
 							Abbr:   "LMT",
-							Offset: -16966,
+							Offset: -17020,
 						},
 						{
 							ZoneId: 120,
@@ -3470,50 +3622,97 @@ var (
 						},
 						{
 							ZoneId: 120,
-							Abbr:   "-05",
+							Abbr:   "CLT",
 							Offset: -18000,
 						},
 						{
 							ZoneId: 120,
-							Abbr:   "-04",
+							Abbr:   "CLT",
 							Offset: -14400,
 						},
 						{
 							ZoneId: 120,
-							Abbr:   "-03",
+							Abbr:   "CLST",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 120,
+							Abbr:   "CLST",
 							Offset: -10800,
 						},
 					},
 				},
 				{
-					Id:          122,
+					Id:          119,
+					CountryCode: "CL",
+					Name:        "America/Santiago",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 119,
+							Abbr:   "LMT",
+							Offset: -16966,
+						},
+						{
+							ZoneId: 119,
+							Abbr:   "SMT",
+							Offset: -16966,
+						},
+						{
+							ZoneId: 119,
+							Abbr:   "CLT",
+							Offset: -18000,
+						},
+						{
+							ZoneId: 119,
+							Abbr:   "CLT",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 119,
+							Abbr:   "CLST",
+							Offset: -14400,
+						},
+						{
+							ZoneId: 119,
+							Abbr:   "CLST",
+							Offset: -10800,
+						},
+					},
+				},
+				{
+					Id:          121,
 					CountryCode: "CL",
 					Name:        "Pacific/Easter",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 122,
+							ZoneId: 121,
 							Abbr:   "LMT",
 							Offset: -26248,
 						},
 						{
-							ZoneId: 122,
+							ZoneId: 121,
 							Abbr:   "EMT",
 							Offset: -26248,
 						},
 						{
-							ZoneId: 122,
-							Abbr:   "-07",
+							ZoneId: 121,
+							Abbr:   "EAST",
 							Offset: -25200,
 						},
 						{
-							ZoneId: 122,
-							Abbr:   "-06",
+							ZoneId: 121,
+							Abbr:   "EASST",
 							Offset: -21600,
 						},
 						{
-							ZoneId: 122,
-							Abbr:   "-05",
+							ZoneId: 121,
+							Abbr:   "EASST",
 							Offset: -18000,
+						},
+						{
+							ZoneId: 121,
+							Abbr:   "EAST",
+							Offset: -21600,
 						},
 					},
 				},
@@ -3524,40 +3723,40 @@ var (
 			Name: "China",
 			Zones: []*Zone{
 				{
-					Id:          124,
+					Id:          123,
 					CountryCode: "CN",
 					Name:        "Asia/Shanghai",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 124,
+							ZoneId: 123,
 							Abbr:   "LMT",
 							Offset: 29143,
 						},
 						{
-							ZoneId: 124,
+							ZoneId: 123,
 							Abbr:   "CST",
 							Offset: 28800,
 						},
 						{
-							ZoneId: 124,
+							ZoneId: 123,
 							Abbr:   "CDT",
 							Offset: 32400,
 						},
 					},
 				},
 				{
-					Id:          125,
+					Id:          124,
 					CountryCode: "CN",
 					Name:        "Asia/Urumqi",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 125,
+							ZoneId: 124,
 							Abbr:   "LMT",
 							Offset: 21020,
 						},
 						{
-							ZoneId: 125,
-							Abbr:   "+06",
+							ZoneId: 124,
+							Abbr:   "URUT",
 							Offset: 21600,
 						},
 					},
@@ -3569,18 +3768,18 @@ var (
 			Name: "Christmas Island",
 			Zones: []*Zone{
 				{
-					Id:          131,
+					Id:          130,
 					CountryCode: "CX",
 					Name:        "Indian/Christmas",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 131,
+							ZoneId: 130,
 							Abbr:   "LMT",
 							Offset: 25372,
 						},
 						{
-							ZoneId: 131,
-							Abbr:   "+07",
+							ZoneId: 130,
+							Abbr:   "CXT",
 							Offset: 25200,
 						},
 					},
@@ -3589,21 +3788,21 @@ var (
 		},
 		{
 			Code: "CC",
-			Name: "Cocos Islands",
+			Name: "Cocos (Keeling) Islands",
 			Zones: []*Zone{
 				{
-					Id:          112,
+					Id:          111,
 					CountryCode: "CC",
 					Name:        "Indian/Cocos",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 112,
+							ZoneId: 111,
 							Abbr:   "LMT",
 							Offset: 23260,
 						},
 						{
-							ZoneId: 112,
-							Abbr:   "+0630",
+							ZoneId: 111,
+							Abbr:   "CCT",
 							Offset: 23400,
 						},
 					},
@@ -3615,28 +3814,28 @@ var (
 			Name: "Colombia",
 			Zones: []*Zone{
 				{
-					Id:          126,
+					Id:          125,
 					CountryCode: "CO",
 					Name:        "America/Bogota",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 126,
+							ZoneId: 125,
 							Abbr:   "LMT",
 							Offset: -17776,
 						},
 						{
-							ZoneId: 126,
+							ZoneId: 125,
 							Abbr:   "BMT",
 							Offset: -17776,
 						},
 						{
-							ZoneId: 126,
-							Abbr:   "-05",
+							ZoneId: 125,
+							Abbr:   "COT",
 							Offset: -18000,
 						},
 						{
-							ZoneId: 126,
-							Abbr:   "-04",
+							ZoneId: 125,
+							Abbr:   "COST",
 							Offset: -14400,
 						},
 					},
@@ -3648,29 +3847,112 @@ var (
 			Name: "Comoros",
 			Zones: []*Zone{
 				{
-					Id:          210,
+					Id:          209,
 					CountryCode: "KM",
 					Name:        "Indian/Comoro",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 210,
+							ZoneId: 209,
 							Abbr:   "LMT",
 							Offset: 8836,
 						},
 						{
-							ZoneId: 210,
+							ZoneId: 209,
+							Abbr:   "EAT",
+							Offset: 9000,
+						},
+						{
+							ZoneId: 209,
 							Abbr:   "EAT",
 							Offset: 10800,
 						},
 						{
-							ZoneId: 210,
-							Abbr:   "+0230",
-							Offset: 9000,
+							ZoneId: 209,
+							Abbr:   "EAT",
+							Offset: 9900,
+						},
+					},
+				},
+			},
+		},
+		{
+			Code: "CG",
+			Name: "Congo",
+			Zones: []*Zone{
+				{
+					Id:          115,
+					CountryCode: "CG",
+					Name:        "Africa/Brazzaville",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 115,
+							Abbr:   "LMT",
+							Offset: 815,
 						},
 						{
-							ZoneId: 210,
-							Abbr:   "+0245",
-							Offset: 9900,
+							ZoneId: 115,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 115,
+							Abbr:   "WAT",
+							Offset: 1800,
+						},
+						{
+							ZoneId: 115,
+							Abbr:   "WAT",
+							Offset: 3600,
+						},
+					},
+				},
+			},
+		},
+		{
+			Code: "CD",
+			Name: "Congo, the Democratic Republic of the",
+			Zones: []*Zone{
+				{
+					Id:          112,
+					CountryCode: "CD",
+					Name:        "Africa/Kinshasa",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 112,
+							Abbr:   "LMT",
+							Offset: 815,
+						},
+						{
+							ZoneId: 112,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 112,
+							Abbr:   "WAT",
+							Offset: 1800,
+						},
+						{
+							ZoneId: 112,
+							Abbr:   "WAT",
+							Offset: 3600,
+						},
+					},
+				},
+				{
+					Id:          113,
+					CountryCode: "CD",
+					Name:        "Africa/Lubumbashi",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 113,
+							Abbr:   "LMT",
+							Offset: 7820,
+						},
+						{
+							ZoneId: 113,
+							Abbr:   "CAT",
+							Offset: 7200,
 						},
 					},
 				},
@@ -3681,28 +3963,28 @@ var (
 			Name: "Cook Islands",
 			Zones: []*Zone{
 				{
-					Id:          119,
+					Id:          118,
 					CountryCode: "CK",
 					Name:        "Pacific/Rarotonga",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 119,
+							ZoneId: 118,
 							Abbr:   "LMT",
 							Offset: -38344,
 						},
 						{
-							ZoneId: 119,
-							Abbr:   "-1030",
+							ZoneId: 118,
+							Abbr:   "CKT",
 							Offset: -37800,
 						},
 						{
-							ZoneId: 119,
-							Abbr:   "-0930",
+							ZoneId: 118,
+							Abbr:   "CKHST",
 							Offset: -34200,
 						},
 						{
-							ZoneId: 119,
-							Abbr:   "-10",
+							ZoneId: 118,
+							Abbr:   "CKT",
 							Offset: -36000,
 						},
 					},
@@ -3714,27 +3996,27 @@ var (
 			Name: "Costa Rica",
 			Zones: []*Zone{
 				{
-					Id:          127,
+					Id:          126,
 					CountryCode: "CR",
 					Name:        "America/Costa_Rica",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 127,
+							ZoneId: 126,
 							Abbr:   "LMT",
 							Offset: -20173,
 						},
 						{
-							ZoneId: 127,
+							ZoneId: 126,
 							Abbr:   "SJMT",
 							Offset: -20173,
 						},
 						{
-							ZoneId: 127,
+							ZoneId: 126,
 							Abbr:   "CST",
 							Offset: -21600,
 						},
 						{
-							ZoneId: 127,
+							ZoneId: 126,
 							Abbr:   "CDT",
 							Offset: -18000,
 						},
@@ -3747,22 +4029,22 @@ var (
 			Name: "Croatia",
 			Zones: []*Zone{
 				{
-					Id:          184,
+					Id:          183,
 					CountryCode: "HR",
 					Name:        "Europe/Zagreb",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 184,
+							ZoneId: 183,
 							Abbr:   "LMT",
 							Offset: 4920,
 						},
 						{
-							ZoneId: 184,
+							ZoneId: 183,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 184,
+							ZoneId: 183,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
@@ -3775,27 +4057,27 @@ var (
 			Name: "Cuba",
 			Zones: []*Zone{
 				{
-					Id:          128,
+					Id:          127,
 					CountryCode: "CU",
 					Name:        "America/Havana",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 128,
+							ZoneId: 127,
 							Abbr:   "LMT",
 							Offset: -19768,
 						},
 						{
-							ZoneId: 128,
+							ZoneId: 127,
 							Abbr:   "HMT",
 							Offset: -19776,
 						},
 						{
-							ZoneId: 128,
+							ZoneId: 127,
 							Abbr:   "CST",
 							Offset: -18000,
 						},
 						{
-							ZoneId: 128,
+							ZoneId: 127,
 							Abbr:   "CDT",
 							Offset: -14400,
 						},
@@ -3808,22 +4090,22 @@ var (
 			Name: "Curaçao",
 			Zones: []*Zone{
 				{
-					Id:          130,
+					Id:          129,
 					CountryCode: "CW",
 					Name:        "America/Curacao",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 130,
+							ZoneId: 129,
 							Abbr:   "LMT",
 							Offset: -16547,
 						},
 						{
-							ZoneId: 130,
-							Abbr:   "-0430",
+							ZoneId: 129,
+							Abbr:   "AST",
 							Offset: -16200,
 						},
 						{
-							ZoneId: 130,
+							ZoneId: 129,
 							Abbr:   "AST",
 							Offset: -14400,
 						},
@@ -3836,49 +4118,49 @@ var (
 			Name: "Cyprus",
 			Zones: []*Zone{
 				{
-					Id:          133,
+					Id:          132,
 					CountryCode: "CY",
 					Name:        "Asia/Famagusta",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 133,
+							ZoneId: 132,
 							Abbr:   "LMT",
 							Offset: 8148,
 						},
 						{
-							ZoneId: 133,
+							ZoneId: 132,
 							Abbr:   "EET",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 133,
+							ZoneId: 132,
 							Abbr:   "EEST",
 							Offset: 10800,
 						},
 						{
-							ZoneId: 133,
-							Abbr:   "+03",
+							ZoneId: 132,
+							Abbr:   "EET",
 							Offset: 10800,
 						},
 					},
 				},
 				{
-					Id:          132,
+					Id:          131,
 					CountryCode: "CY",
 					Name:        "Asia/Nicosia",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 132,
+							ZoneId: 131,
 							Abbr:   "LMT",
 							Offset: 8008,
 						},
 						{
-							ZoneId: 132,
+							ZoneId: 131,
 							Abbr:   "EET",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 132,
+							ZoneId: 131,
 							Abbr:   "EEST",
 							Offset: 10800,
 						},
@@ -3891,69 +4173,57 @@ var (
 			Name: "Czech Republic",
 			Zones: []*Zone{
 				{
-					Id:          134,
+					Id:          133,
 					CountryCode: "CZ",
 					Name:        "Europe/Prague",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 134,
+							ZoneId: 133,
 							Abbr:   "LMT",
 							Offset: 3464,
 						},
 						{
-							ZoneId: 134,
+							ZoneId: 133,
 							Abbr:   "PMT",
 							Offset: 3464,
 						},
 						{
-							ZoneId: 134,
+							ZoneId: 133,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 134,
+							ZoneId: 133,
 							Abbr:   "CEST",
 							Offset: 7200,
+						},
+						{
+							ZoneId: 133,
+							Abbr:   "GMT",
+							Offset: 0,
 						},
 					},
 				},
 			},
 		},
 		{
-			Code: "CD",
-			Name: "Democratic Republic of the Congo",
+			Code: "CI",
+			Name: "Côte d'Ivoire",
 			Zones: []*Zone{
 				{
-					Id:          113,
-					CountryCode: "CD",
-					Name:        "Africa/Kinshasa",
+					Id:          117,
+					CountryCode: "CI",
+					Name:        "Africa/Abidjan",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 113,
+							ZoneId: 117,
 							Abbr:   "LMT",
-							Offset: 816,
+							Offset: -968,
 						},
 						{
-							ZoneId: 113,
-							Abbr:   "WAT",
-							Offset: 3600,
-						},
-					},
-				},
-				{
-					Id:          114,
-					CountryCode: "CD",
-					Name:        "Africa/Lubumbashi",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 114,
-							Abbr:   "LMT",
-							Offset: 7820,
-						},
-						{
-							ZoneId: 114,
-							Abbr:   "CAT",
-							Offset: 7200,
+							ZoneId: 117,
+							Abbr:   "GMT",
+							Offset: 0,
 						},
 					},
 				},
@@ -3964,27 +4234,27 @@ var (
 			Name: "Denmark",
 			Zones: []*Zone{
 				{
-					Id:          138,
+					Id:          137,
 					CountryCode: "DK",
 					Name:        "Europe/Copenhagen",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 138,
+							ZoneId: 137,
 							Abbr:   "LMT",
 							Offset: 3020,
 						},
 						{
-							ZoneId: 138,
+							ZoneId: 137,
 							Abbr:   "CMT",
 							Offset: 3020,
 						},
 						{
-							ZoneId: 138,
+							ZoneId: 137,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 138,
+							ZoneId: 137,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
@@ -3997,28 +4267,28 @@ var (
 			Name: "Djibouti",
 			Zones: []*Zone{
 				{
-					Id:          137,
+					Id:          136,
 					CountryCode: "DJ",
 					Name:        "Africa/Djibouti",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 137,
+							ZoneId: 136,
 							Abbr:   "LMT",
 							Offset: 8836,
 						},
 						{
-							ZoneId: 137,
+							ZoneId: 136,
+							Abbr:   "EAT",
+							Offset: 9000,
+						},
+						{
+							ZoneId: 136,
 							Abbr:   "EAT",
 							Offset: 10800,
 						},
 						{
-							ZoneId: 137,
-							Abbr:   "+0230",
-							Offset: 9000,
-						},
-						{
-							ZoneId: 137,
-							Abbr:   "+0245",
+							ZoneId: 136,
+							Abbr:   "EAT",
 							Offset: 9900,
 						},
 					},
@@ -4030,17 +4300,17 @@ var (
 			Name: "Dominica",
 			Zones: []*Zone{
 				{
-					Id:          139,
+					Id:          138,
 					CountryCode: "DM",
 					Name:        "America/Dominica",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 139,
+							ZoneId: 138,
 							Abbr:   "LMT",
 							Offset: -14764,
 						},
 						{
-							ZoneId: 139,
+							ZoneId: 138,
 							Abbr:   "AST",
 							Offset: -14400,
 						},
@@ -4053,67 +4323,39 @@ var (
 			Name: "Dominican Republic",
 			Zones: []*Zone{
 				{
-					Id:          140,
+					Id:          139,
 					CountryCode: "DO",
 					Name:        "America/Santo_Domingo",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 140,
+							ZoneId: 139,
 							Abbr:   "LMT",
 							Offset: -16776,
 						},
 						{
-							ZoneId: 140,
+							ZoneId: 139,
 							Abbr:   "SDMT",
 							Offset: -16800,
 						},
 						{
-							ZoneId: 140,
+							ZoneId: 139,
 							Abbr:   "EST",
 							Offset: -18000,
 						},
 						{
-							ZoneId: 140,
+							ZoneId: 139,
 							Abbr:   "EDT",
 							Offset: -14400,
 						},
 						{
-							ZoneId: 140,
-							Abbr:   "-0430",
+							ZoneId: 139,
+							Abbr:   "EHDT",
 							Offset: -16200,
 						},
 						{
-							ZoneId: 140,
+							ZoneId: 139,
 							Abbr:   "AST",
 							Offset: -14400,
-						},
-					},
-				},
-			},
-		},
-		{
-			Code: "TL",
-			Name: "East Timor",
-			Zones: []*Zone{
-				{
-					Id:          364,
-					CountryCode: "TL",
-					Name:        "Asia/Dili",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 364,
-							Abbr:   "LMT",
-							Offset: 30140,
-						},
-						{
-							ZoneId: 364,
-							Abbr:   "+08",
-							Offset: 28800,
-						},
-						{
-							ZoneId: 364,
-							Abbr:   "+09",
-							Offset: 32400,
 						},
 					},
 				},
@@ -4124,50 +4366,50 @@ var (
 			Name: "Ecuador",
 			Zones: []*Zone{
 				{
-					Id:          142,
+					Id:          141,
 					CountryCode: "EC",
 					Name:        "America/Guayaquil",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 142,
+							ZoneId: 141,
 							Abbr:   "LMT",
 							Offset: -19160,
 						},
 						{
-							ZoneId: 142,
+							ZoneId: 141,
 							Abbr:   "QMT",
 							Offset: -18840,
 						},
 						{
-							ZoneId: 142,
-							Abbr:   "-05",
+							ZoneId: 141,
+							Abbr:   "ECT",
 							Offset: -18000,
 						},
 						{
-							ZoneId: 142,
-							Abbr:   "-04",
+							ZoneId: 141,
+							Abbr:   "ECT",
 							Offset: -14400,
 						},
 					},
 				},
 				{
-					Id:          143,
+					Id:          142,
 					CountryCode: "EC",
 					Name:        "Pacific/Galapagos",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 143,
+							ZoneId: 142,
 							Abbr:   "LMT",
 							Offset: -21504,
 						},
 						{
-							ZoneId: 143,
-							Abbr:   "-05",
+							ZoneId: 142,
+							Abbr:   "GALT",
 							Offset: -18000,
 						},
 						{
-							ZoneId: 143,
-							Abbr:   "-06",
+							ZoneId: 142,
+							Abbr:   "GALT",
 							Offset: -21600,
 						},
 					},
@@ -4179,22 +4421,22 @@ var (
 			Name: "Egypt",
 			Zones: []*Zone{
 				{
-					Id:          145,
+					Id:          144,
 					CountryCode: "EG",
 					Name:        "Africa/Cairo",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 145,
+							ZoneId: 144,
 							Abbr:   "LMT",
 							Offset: 7509,
 						},
 						{
-							ZoneId: 145,
+							ZoneId: 144,
 							Abbr:   "EET",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 145,
+							ZoneId: 144,
 							Abbr:   "EEST",
 							Offset: 10800,
 						},
@@ -4235,17 +4477,27 @@ var (
 			Name: "Equatorial Guinea",
 			Zones: []*Zone{
 				{
-					Id:          175,
+					Id:          174,
 					CountryCode: "GQ",
 					Name:        "Africa/Malabo",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 175,
+							ZoneId: 174,
 							Abbr:   "LMT",
-							Offset: 816,
+							Offset: 815,
 						},
 						{
-							ZoneId: 175,
+							ZoneId: 174,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 174,
+							Abbr:   "WAT",
+							Offset: 1800,
+						},
+						{
+							ZoneId: 174,
 							Abbr:   "WAT",
 							Offset: 3600,
 						},
@@ -4258,28 +4510,28 @@ var (
 			Name: "Eritrea",
 			Zones: []*Zone{
 				{
-					Id:          147,
+					Id:          146,
 					CountryCode: "ER",
 					Name:        "Africa/Asmara",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 147,
+							ZoneId: 146,
 							Abbr:   "LMT",
 							Offset: 8836,
 						},
 						{
-							ZoneId: 147,
+							ZoneId: 146,
+							Abbr:   "EAT",
+							Offset: 9000,
+						},
+						{
+							ZoneId: 146,
 							Abbr:   "EAT",
 							Offset: 10800,
 						},
 						{
-							ZoneId: 147,
-							Abbr:   "+0230",
-							Offset: 9000,
-						},
-						{
-							ZoneId: 147,
-							Abbr:   "+0245",
+							ZoneId: 146,
+							Abbr:   "EAT",
 							Offset: 9900,
 						},
 					},
@@ -4291,47 +4543,47 @@ var (
 			Name: "Estonia",
 			Zones: []*Zone{
 				{
-					Id:          144,
+					Id:          143,
 					CountryCode: "EE",
 					Name:        "Europe/Tallinn",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 144,
+							ZoneId: 143,
 							Abbr:   "LMT",
 							Offset: 5940,
 						},
 						{
-							ZoneId: 144,
+							ZoneId: 143,
 							Abbr:   "TMT",
 							Offset: 5940,
 						},
 						{
-							ZoneId: 144,
+							ZoneId: 143,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 144,
+							ZoneId: 143,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 144,
+							ZoneId: 143,
 							Abbr:   "EET",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 144,
+							ZoneId: 143,
 							Abbr:   "MSK",
 							Offset: 10800,
 						},
 						{
-							ZoneId: 144,
+							ZoneId: 143,
 							Abbr:   "MSD",
 							Offset: 14400,
 						},
 						{
-							ZoneId: 144,
+							ZoneId: 143,
 							Abbr:   "EEST",
 							Offset: 10800,
 						},
@@ -4344,28 +4596,28 @@ var (
 			Name: "Ethiopia",
 			Zones: []*Zone{
 				{
-					Id:          151,
+					Id:          150,
 					CountryCode: "ET",
 					Name:        "Africa/Addis_Ababa",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 151,
+							ZoneId: 150,
 							Abbr:   "LMT",
 							Offset: 8836,
 						},
 						{
-							ZoneId: 151,
+							ZoneId: 150,
+							Abbr:   "EAT",
+							Offset: 9000,
+						},
+						{
+							ZoneId: 150,
 							Abbr:   "EAT",
 							Offset: 10800,
 						},
 						{
-							ZoneId: 151,
-							Abbr:   "+0230",
-							Offset: 9000,
-						},
-						{
-							ZoneId: 151,
-							Abbr:   "+0245",
+							ZoneId: 150,
+							Abbr:   "EAT",
 							Offset: 9900,
 						},
 					},
@@ -4374,36 +4626,41 @@ var (
 		},
 		{
 			Code: "FK",
-			Name: "Falkland Islands",
+			Name: "Falkland Islands (Malvinas)",
 			Zones: []*Zone{
 				{
-					Id:          154,
+					Id:          153,
 					CountryCode: "FK",
 					Name:        "Atlantic/Stanley",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 154,
+							ZoneId: 153,
 							Abbr:   "LMT",
 							Offset: -13884,
 						},
 						{
-							ZoneId: 154,
+							ZoneId: 153,
 							Abbr:   "SMT",
 							Offset: -13884,
 						},
 						{
-							ZoneId: 154,
-							Abbr:   "-04",
+							ZoneId: 153,
+							Abbr:   "FKT",
 							Offset: -14400,
 						},
 						{
-							ZoneId: 154,
-							Abbr:   "-03",
+							ZoneId: 153,
+							Abbr:   "FKST",
 							Offset: -10800,
 						},
 						{
-							ZoneId: 154,
-							Abbr:   "-02",
+							ZoneId: 153,
+							Abbr:   "FKT",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 153,
+							Abbr:   "FKST",
 							Offset: -7200,
 						},
 					},
@@ -4415,22 +4672,22 @@ var (
 			Name: "Faroe Islands",
 			Zones: []*Zone{
 				{
-					Id:          158,
+					Id:          157,
 					CountryCode: "FO",
 					Name:        "Atlantic/Faroe",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 158,
+							ZoneId: 157,
 							Abbr:   "LMT",
 							Offset: -1624,
 						},
 						{
-							ZoneId: 158,
+							ZoneId: 157,
 							Abbr:   "WET",
 							Offset: 0,
 						},
 						{
-							ZoneId: 158,
+							ZoneId: 157,
 							Abbr:   "WEST",
 							Offset: 3600,
 						},
@@ -4443,23 +4700,23 @@ var (
 			Name: "Fiji",
 			Zones: []*Zone{
 				{
-					Id:          153,
+					Id:          152,
 					CountryCode: "FJ",
 					Name:        "Pacific/Fiji",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 153,
+							ZoneId: 152,
 							Abbr:   "LMT",
 							Offset: 42944,
 						},
 						{
-							ZoneId: 153,
-							Abbr:   "+12",
+							ZoneId: 152,
+							Abbr:   "FJT",
 							Offset: 43200,
 						},
 						{
-							ZoneId: 153,
-							Abbr:   "+13",
+							ZoneId: 152,
+							Abbr:   "FJT",
 							Offset: 46800,
 						},
 					},
@@ -4471,27 +4728,27 @@ var (
 			Name: "Finland",
 			Zones: []*Zone{
 				{
-					Id:          152,
+					Id:          151,
 					CountryCode: "FI",
 					Name:        "Europe/Helsinki",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 152,
+							ZoneId: 151,
 							Abbr:   "LMT",
 							Offset: 5989,
 						},
 						{
-							ZoneId: 152,
+							ZoneId: 151,
 							Abbr:   "HMT",
 							Offset: 5989,
 						},
 						{
-							ZoneId: 152,
+							ZoneId: 151,
 							Abbr:   "EET",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 152,
+							ZoneId: 151,
 							Abbr:   "EEST",
 							Offset: 10800,
 						},
@@ -4504,42 +4761,42 @@ var (
 			Name: "France",
 			Zones: []*Zone{
 				{
-					Id:          159,
+					Id:          158,
 					CountryCode: "FR",
 					Name:        "Europe/Paris",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 159,
+							ZoneId: 158,
 							Abbr:   "LMT",
 							Offset: 561,
 						},
 						{
-							ZoneId: 159,
+							ZoneId: 158,
 							Abbr:   "PMT",
 							Offset: 561,
 						},
 						{
-							ZoneId: 159,
+							ZoneId: 158,
 							Abbr:   "WET",
 							Offset: 0,
 						},
 						{
-							ZoneId: 159,
+							ZoneId: 158,
 							Abbr:   "WEST",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 159,
+							ZoneId: 158,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 159,
+							ZoneId: 158,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 159,
+							ZoneId: 158,
 							Abbr:   "WEMT",
 							Offset: 7200,
 						},
@@ -4552,23 +4809,23 @@ var (
 			Name: "French Guiana",
 			Zones: []*Zone{
 				{
-					Id:          164,
+					Id:          163,
 					CountryCode: "GF",
 					Name:        "America/Cayenne",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 164,
+							ZoneId: 163,
 							Abbr:   "LMT",
 							Offset: -12560,
 						},
 						{
-							ZoneId: 164,
-							Abbr:   "-04",
+							ZoneId: 163,
+							Abbr:   "GFT",
 							Offset: -14400,
 						},
 						{
-							ZoneId: 164,
-							Abbr:   "-03",
+							ZoneId: 163,
+							Abbr:   "GFT",
 							Offset: -10800,
 						},
 					},
@@ -4591,7 +4848,7 @@ var (
 						},
 						{
 							ZoneId: 288,
-							Abbr:   "-09",
+							Abbr:   "GAMT",
 							Offset: -32400,
 						},
 					},
@@ -4608,7 +4865,7 @@ var (
 						},
 						{
 							ZoneId: 287,
-							Abbr:   "-0930",
+							Abbr:   "MART",
 							Offset: -34200,
 						},
 					},
@@ -4625,7 +4882,7 @@ var (
 						},
 						{
 							ZoneId: 286,
-							Abbr:   "-10",
+							Abbr:   "TAHT",
 							Offset: -36000,
 						},
 					},
@@ -4643,7 +4900,12 @@ var (
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 359,
-							Abbr:   "+05",
+							Abbr:   "TFT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 359,
+							Abbr:   "TFT",
 							Offset: 18000,
 						},
 					},
@@ -4655,17 +4917,27 @@ var (
 			Name: "Gabon",
 			Zones: []*Zone{
 				{
-					Id:          160,
+					Id:          159,
 					CountryCode: "GA",
 					Name:        "Africa/Libreville",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 160,
+							ZoneId: 159,
 							Abbr:   "LMT",
-							Offset: 816,
+							Offset: 815,
 						},
 						{
-							ZoneId: 160,
+							ZoneId: 159,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 159,
+							Abbr:   "WAT",
+							Offset: 1800,
+						},
+						{
+							ZoneId: 159,
 							Abbr:   "WAT",
 							Offset: 3600,
 						},
@@ -4678,17 +4950,17 @@ var (
 			Name: "Gambia",
 			Zones: []*Zone{
 				{
-					Id:          172,
+					Id:          171,
 					CountryCode: "GM",
 					Name:        "Africa/Banjul",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 172,
+							ZoneId: 171,
 							Abbr:   "LMT",
 							Offset: -968,
 						},
 						{
-							ZoneId: 172,
+							ZoneId: 171,
 							Abbr:   "GMT",
 							Offset: 0,
 						},
@@ -4701,34 +4973,39 @@ var (
 			Name: "Georgia",
 			Zones: []*Zone{
 				{
-					Id:          163,
+					Id:          162,
 					CountryCode: "GE",
 					Name:        "Asia/Tbilisi",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 163,
+							ZoneId: 162,
 							Abbr:   "LMT",
 							Offset: 10751,
 						},
 						{
-							ZoneId: 163,
+							ZoneId: 162,
 							Abbr:   "TBMT",
 							Offset: 10751,
 						},
 						{
-							ZoneId: 163,
-							Abbr:   "+03",
+							ZoneId: 162,
+							Abbr:   "GET",
 							Offset: 10800,
 						},
 						{
-							ZoneId: 163,
-							Abbr:   "+04",
+							ZoneId: 162,
+							Abbr:   "GET",
 							Offset: 14400,
 						},
 						{
-							ZoneId: 163,
-							Abbr:   "+05",
+							ZoneId: 162,
+							Abbr:   "GEST",
 							Offset: 18000,
+						},
+						{
+							ZoneId: 162,
+							Abbr:   "GEST",
+							Offset: 14400,
 						},
 					},
 				},
@@ -4739,54 +5016,54 @@ var (
 			Name: "Germany",
 			Zones: []*Zone{
 				{
-					Id:          135,
+					Id:          134,
 					CountryCode: "DE",
 					Name:        "Europe/Berlin",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 135,
+							ZoneId: 134,
 							Abbr:   "LMT",
 							Offset: 3208,
 						},
 						{
-							ZoneId: 135,
+							ZoneId: 134,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 135,
+							ZoneId: 134,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 135,
+							ZoneId: 134,
 							Abbr:   "CEMT",
 							Offset: 10800,
 						},
 					},
 				},
 				{
-					Id:          136,
+					Id:          135,
 					CountryCode: "DE",
 					Name:        "Europe/Busingen",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 136,
+							ZoneId: 135,
 							Abbr:   "LMT",
 							Offset: 2048,
 						},
 						{
-							ZoneId: 136,
+							ZoneId: 135,
 							Abbr:   "BMT",
 							Offset: 1786,
 						},
 						{
-							ZoneId: 136,
+							ZoneId: 135,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 136,
+							ZoneId: 135,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
@@ -4799,24 +5076,34 @@ var (
 			Name: "Ghana",
 			Zones: []*Zone{
 				{
-					Id:          166,
+					Id:          165,
 					CountryCode: "GH",
 					Name:        "Africa/Accra",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 166,
+							ZoneId: 165,
 							Abbr:   "LMT",
 							Offset: -52,
 						},
 						{
-							ZoneId: 166,
+							ZoneId: 165,
 							Abbr:   "GMT",
 							Offset: 0,
 						},
 						{
-							ZoneId: 166,
-							Abbr:   "+0020",
+							ZoneId: 165,
+							Abbr:   "GHST",
 							Offset: 1200,
+						},
+						{
+							ZoneId: 165,
+							Abbr:   "GMT",
+							Offset: 1800,
+						},
+						{
+							ZoneId: 165,
+							Abbr:   "GHST",
+							Offset: 1800,
 						},
 					},
 				},
@@ -4827,37 +5114,37 @@ var (
 			Name: "Gibraltar",
 			Zones: []*Zone{
 				{
-					Id:          167,
+					Id:          166,
 					CountryCode: "GI",
 					Name:        "Europe/Gibraltar",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 167,
+							ZoneId: 166,
 							Abbr:   "LMT",
 							Offset: -1284,
 						},
 						{
-							ZoneId: 167,
+							ZoneId: 166,
 							Abbr:   "GMT",
 							Offset: 0,
 						},
 						{
-							ZoneId: 167,
+							ZoneId: 166,
 							Abbr:   "BST",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 167,
+							ZoneId: 166,
 							Abbr:   "BDST",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 167,
+							ZoneId: 166,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 167,
+							ZoneId: 166,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
@@ -4870,37 +5157,37 @@ var (
 			Name: "Greece",
 			Zones: []*Zone{
 				{
-					Id:          176,
+					Id:          175,
 					CountryCode: "GR",
 					Name:        "Europe/Athens",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 176,
+							ZoneId: 175,
 							Abbr:   "LMT",
 							Offset: 5692,
 						},
 						{
-							ZoneId: 176,
+							ZoneId: 175,
 							Abbr:   "AMT",
 							Offset: 5692,
 						},
 						{
-							ZoneId: 176,
+							ZoneId: 175,
 							Abbr:   "EET",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 176,
+							ZoneId: 175,
 							Abbr:   "EEST",
 							Offset: 10800,
 						},
 						{
-							ZoneId: 176,
+							ZoneId: 175,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 176,
+							ZoneId: 175,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
@@ -4913,98 +5200,98 @@ var (
 			Name: "Greenland",
 			Zones: []*Zone{
 				{
-					Id:          169,
+					Id:          168,
 					CountryCode: "GL",
 					Name:        "America/Danmarkshavn",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 169,
+							ZoneId: 168,
 							Abbr:   "LMT",
 							Offset: -4480,
 						},
 						{
-							ZoneId: 169,
-							Abbr:   "-03",
+							ZoneId: 168,
+							Abbr:   "WGT",
 							Offset: -10800,
 						},
 						{
-							ZoneId: 169,
-							Abbr:   "-02",
+							ZoneId: 168,
+							Abbr:   "WGST",
 							Offset: -7200,
 						},
 						{
-							ZoneId: 169,
+							ZoneId: 168,
 							Abbr:   "GMT",
 							Offset: 0,
 						},
 					},
 				},
 				{
-					Id:          168,
+					Id:          167,
 					CountryCode: "GL",
-					Name:        "America/Godthab",
+					Name:        "America/Nuuk",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 168,
+							ZoneId: 167,
 							Abbr:   "LMT",
 							Offset: -12416,
 						},
 						{
-							ZoneId: 168,
-							Abbr:   "-03",
+							ZoneId: 167,
+							Abbr:   "WGT",
 							Offset: -10800,
 						},
 						{
-							ZoneId: 168,
-							Abbr:   "-02",
+							ZoneId: 167,
+							Abbr:   "WGST",
 							Offset: -7200,
+						},
+					},
+				},
+				{
+					Id:          169,
+					CountryCode: "GL",
+					Name:        "America/Scoresbysund",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 169,
+							Abbr:   "LMT",
+							Offset: -5272,
+						},
+						{
+							ZoneId: 169,
+							Abbr:   "CGT",
+							Offset: -7200,
+						},
+						{
+							ZoneId: 169,
+							Abbr:   "EGT",
+							Offset: -3600,
+						},
+						{
+							ZoneId: 169,
+							Abbr:   "EGST",
+							Offset: 0,
 						},
 					},
 				},
 				{
 					Id:          170,
 					CountryCode: "GL",
-					Name:        "America/Scoresbysund",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 170,
-							Abbr:   "LMT",
-							Offset: -5272,
-						},
-						{
-							ZoneId: 170,
-							Abbr:   "-02",
-							Offset: -7200,
-						},
-						{
-							ZoneId: 170,
-							Abbr:   "-01",
-							Offset: -3600,
-						},
-						{
-							ZoneId: 170,
-							Abbr:   "+00",
-							Offset: 0,
-						},
-					},
-				},
-				{
-					Id:          171,
-					CountryCode: "GL",
 					Name:        "America/Thule",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 171,
+							ZoneId: 170,
 							Abbr:   "LMT",
 							Offset: -16508,
 						},
 						{
-							ZoneId: 171,
+							ZoneId: 170,
 							Abbr:   "AST",
 							Offset: -14400,
 						},
 						{
-							ZoneId: 171,
+							ZoneId: 170,
 							Abbr:   "ADT",
 							Offset: -10800,
 						},
@@ -5017,17 +5304,17 @@ var (
 			Name: "Grenada",
 			Zones: []*Zone{
 				{
-					Id:          162,
+					Id:          161,
 					CountryCode: "GD",
 					Name:        "America/Grenada",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 162,
+							ZoneId: 161,
 							Abbr:   "LMT",
 							Offset: -14764,
 						},
 						{
-							ZoneId: 162,
+							ZoneId: 161,
 							Abbr:   "AST",
 							Offset: -14400,
 						},
@@ -5040,17 +5327,17 @@ var (
 			Name: "Guadeloupe",
 			Zones: []*Zone{
 				{
-					Id:          174,
+					Id:          173,
 					CountryCode: "GP",
 					Name:        "America/Guadeloupe",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 174,
+							ZoneId: 173,
 							Abbr:   "LMT",
 							Offset: -14764,
 						},
 						{
-							ZoneId: 174,
+							ZoneId: 173,
 							Abbr:   "AST",
 							Offset: -14400,
 						},
@@ -5063,27 +5350,37 @@ var (
 			Name: "Guam",
 			Zones: []*Zone{
 				{
-					Id:          179,
+					Id:          178,
 					CountryCode: "GU",
 					Name:        "Pacific/Guam",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 179,
+							ZoneId: 178,
 							Abbr:   "LMT",
 							Offset: -51660,
 						},
 						{
-							ZoneId: 179,
+							ZoneId: 178,
 							Abbr:   "LMT",
 							Offset: 34740,
 						},
 						{
-							ZoneId: 179,
+							ZoneId: 178,
 							Abbr:   "GST",
 							Offset: 36000,
 						},
 						{
-							ZoneId: 179,
+							ZoneId: 178,
+							Abbr:   "GST",
+							Offset: 32400,
+						},
+						{
+							ZoneId: 178,
+							Abbr:   "GDT",
+							Offset: 39600,
+						},
+						{
+							ZoneId: 178,
 							Abbr:   "ChST",
 							Offset: 36000,
 						},
@@ -5096,22 +5393,22 @@ var (
 			Name: "Guatemala",
 			Zones: []*Zone{
 				{
-					Id:          178,
+					Id:          177,
 					CountryCode: "GT",
 					Name:        "America/Guatemala",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 178,
+							ZoneId: 177,
 							Abbr:   "LMT",
 							Offset: -21724,
 						},
 						{
-							ZoneId: 178,
+							ZoneId: 177,
 							Abbr:   "CST",
 							Offset: -21600,
 						},
 						{
-							ZoneId: 178,
+							ZoneId: 177,
 							Abbr:   "CDT",
 							Offset: -18000,
 						},
@@ -5124,27 +5421,27 @@ var (
 			Name: "Guernsey",
 			Zones: []*Zone{
 				{
-					Id:          165,
+					Id:          164,
 					CountryCode: "GG",
 					Name:        "Europe/Guernsey",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 165,
+							ZoneId: 164,
 							Abbr:   "LMT",
 							Offset: -75,
 						},
 						{
-							ZoneId: 165,
+							ZoneId: 164,
 							Abbr:   "GMT",
 							Offset: 0,
 						},
 						{
-							ZoneId: 165,
+							ZoneId: 164,
 							Abbr:   "BST",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 165,
+							ZoneId: 164,
 							Abbr:   "BDST",
 							Offset: 7200,
 						},
@@ -5157,17 +5454,17 @@ var (
 			Name: "Guinea",
 			Zones: []*Zone{
 				{
-					Id:          173,
+					Id:          172,
 					CountryCode: "GN",
 					Name:        "Africa/Conakry",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 173,
+							ZoneId: 172,
 							Abbr:   "LMT",
 							Offset: -968,
 						},
 						{
-							ZoneId: 173,
+							ZoneId: 172,
 							Abbr:   "GMT",
 							Offset: 0,
 						},
@@ -5180,22 +5477,22 @@ var (
 			Name: "Guinea-Bissau",
 			Zones: []*Zone{
 				{
-					Id:          180,
+					Id:          179,
 					CountryCode: "GW",
 					Name:        "Africa/Bissau",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 180,
+							ZoneId: 179,
 							Abbr:   "LMT",
 							Offset: -3740,
 						},
 						{
-							ZoneId: 180,
-							Abbr:   "-01",
+							ZoneId: 179,
+							Abbr:   "WAT",
 							Offset: -3600,
 						},
 						{
-							ZoneId: 180,
+							ZoneId: 179,
 							Abbr:   "GMT",
 							Offset: 0,
 						},
@@ -5208,28 +5505,28 @@ var (
 			Name: "Guyana",
 			Zones: []*Zone{
 				{
-					Id:          181,
+					Id:          180,
 					CountryCode: "GY",
 					Name:        "America/Guyana",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 181,
+							ZoneId: 180,
 							Abbr:   "LMT",
 							Offset: -13960,
 						},
 						{
-							ZoneId: 181,
-							Abbr:   "-0345",
+							ZoneId: 180,
+							Abbr:   "GYT",
 							Offset: -13500,
 						},
 						{
-							ZoneId: 181,
-							Abbr:   "-03",
+							ZoneId: 180,
+							Abbr:   "GYT",
 							Offset: -10800,
 						},
 						{
-							ZoneId: 181,
-							Abbr:   "-04",
+							ZoneId: 180,
+							Abbr:   "GYT",
 							Offset: -14400,
 						},
 					},
@@ -5241,27 +5538,27 @@ var (
 			Name: "Haiti",
 			Zones: []*Zone{
 				{
-					Id:          185,
+					Id:          184,
 					CountryCode: "HT",
 					Name:        "America/Port-au-Prince",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 185,
+							ZoneId: 184,
 							Abbr:   "LMT",
 							Offset: -17360,
 						},
 						{
-							ZoneId: 185,
+							ZoneId: 184,
 							Abbr:   "PPMT",
 							Offset: -17340,
 						},
 						{
-							ZoneId: 185,
+							ZoneId: 184,
 							Abbr:   "EST",
 							Offset: -18000,
 						},
 						{
-							ZoneId: 185,
+							ZoneId: 184,
 							Abbr:   "EDT",
 							Offset: -14400,
 						},
@@ -5275,26 +5572,59 @@ var (
 			Zones: []*Zone{},
 		},
 		{
+			Code: "VA",
+			Name: "Holy See (Vatican City State)",
+			Zones: []*Zone{
+				{
+					Id:          411,
+					CountryCode: "VA",
+					Name:        "Europe/Vatican",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 411,
+							Abbr:   "LMT",
+							Offset: 2996,
+						},
+						{
+							ZoneId: 411,
+							Abbr:   "RMT",
+							Offset: 2996,
+						},
+						{
+							ZoneId: 411,
+							Abbr:   "CET",
+							Offset: 3600,
+						},
+						{
+							ZoneId: 411,
+							Abbr:   "CEST",
+							Offset: 7200,
+						},
+					},
+				},
+			},
+		},
+		{
 			Code: "HN",
 			Name: "Honduras",
 			Zones: []*Zone{
 				{
-					Id:          183,
+					Id:          182,
 					CountryCode: "HN",
 					Name:        "America/Tegucigalpa",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 183,
+							ZoneId: 182,
 							Abbr:   "LMT",
 							Offset: -20932,
 						},
 						{
-							ZoneId: 183,
+							ZoneId: 182,
 							Abbr:   "CST",
 							Offset: -21600,
 						},
 						{
-							ZoneId: 183,
+							ZoneId: 182,
 							Abbr:   "CDT",
 							Offset: -18000,
 						},
@@ -5307,27 +5637,32 @@ var (
 			Name: "Hong Kong",
 			Zones: []*Zone{
 				{
-					Id:          182,
+					Id:          181,
 					CountryCode: "HK",
 					Name:        "Asia/Hong_Kong",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 182,
+							ZoneId: 181,
 							Abbr:   "LMT",
 							Offset: 27402,
 						},
 						{
-							ZoneId: 182,
+							ZoneId: 181,
 							Abbr:   "HKT",
 							Offset: 28800,
 						},
 						{
-							ZoneId: 182,
+							ZoneId: 181,
 							Abbr:   "HKST",
 							Offset: 32400,
 						},
 						{
-							ZoneId: 182,
+							ZoneId: 181,
+							Abbr:   "HKWT",
+							Offset: 30600,
+						},
+						{
+							ZoneId: 181,
 							Abbr:   "JST",
 							Offset: 32400,
 						},
@@ -5340,22 +5675,22 @@ var (
 			Name: "Hungary",
 			Zones: []*Zone{
 				{
-					Id:          186,
+					Id:          185,
 					CountryCode: "HU",
 					Name:        "Europe/Budapest",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 186,
+							ZoneId: 185,
 							Abbr:   "LMT",
 							Offset: 4580,
 						},
 						{
-							ZoneId: 186,
+							ZoneId: 185,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 186,
+							ZoneId: 185,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
@@ -5368,27 +5703,27 @@ var (
 			Name: "Iceland",
 			Zones: []*Zone{
 				{
-					Id:          198,
+					Id:          197,
 					CountryCode: "IS",
 					Name:        "Atlantic/Reykjavik",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 198,
+							ZoneId: 197,
 							Abbr:   "LMT",
 							Offset: -5280,
 						},
 						{
-							ZoneId: 198,
-							Abbr:   "-01",
+							ZoneId: 197,
+							Abbr:   "IST",
 							Offset: -3600,
 						},
 						{
-							ZoneId: 198,
-							Abbr:   "+00",
+							ZoneId: 197,
+							Abbr:   "ISST",
 							Offset: 0,
 						},
 						{
-							ZoneId: 198,
+							ZoneId: 197,
 							Abbr:   "GMT",
 							Offset: 0,
 						},
@@ -5401,29 +5736,34 @@ var (
 			Name: "India",
 			Zones: []*Zone{
 				{
-					Id:          194,
+					Id:          193,
 					CountryCode: "IN",
 					Name:        "Asia/Kolkata",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 194,
+							ZoneId: 193,
 							Abbr:   "LMT",
 							Offset: 21208,
 						},
 						{
-							ZoneId: 194,
+							ZoneId: 193,
 							Abbr:   "HMT",
 							Offset: 21200,
 						},
 						{
-							ZoneId: 194,
-							Abbr:   "+0630",
-							Offset: 23400,
+							ZoneId: 193,
+							Abbr:   "MMT",
+							Offset: 19270,
 						},
 						{
-							ZoneId: 194,
+							ZoneId: 193,
 							Abbr:   "IST",
 							Offset: 19800,
+						},
+						{
+							ZoneId: 193,
+							Abbr:   "IST",
+							Offset: 23400,
 						},
 					},
 				},
@@ -5434,135 +5774,83 @@ var (
 			Name: "Indonesia",
 			Zones: []*Zone{
 				{
-					Id:          187,
+					Id:          186,
 					CountryCode: "ID",
 					Name:        "Asia/Jakarta",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 187,
+							ZoneId: 186,
 							Abbr:   "LMT",
 							Offset: 25632,
 						},
 						{
-							ZoneId: 187,
+							ZoneId: 186,
 							Abbr:   "BMT",
 							Offset: 25632,
 						},
 						{
-							ZoneId: 187,
-							Abbr:   "+0720",
+							ZoneId: 186,
+							Abbr:   "JAVT",
 							Offset: 26400,
 						},
 						{
-							ZoneId: 187,
-							Abbr:   "+0730",
+							ZoneId: 186,
+							Abbr:   "WIB",
 							Offset: 27000,
 						},
 						{
-							ZoneId: 187,
-							Abbr:   "+09",
+							ZoneId: 186,
+							Abbr:   "JST",
 							Offset: 32400,
 						},
 						{
-							ZoneId: 187,
-							Abbr:   "+08",
+							ZoneId: 186,
+							Abbr:   "WIB",
 							Offset: 28800,
 						},
 						{
-							ZoneId: 187,
+							ZoneId: 186,
 							Abbr:   "WIB",
 							Offset: 25200,
 						},
 					},
 				},
 				{
-					Id:          190,
+					Id:          189,
 					CountryCode: "ID",
 					Name:        "Asia/Jayapura",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 190,
+							ZoneId: 189,
 							Abbr:   "LMT",
 							Offset: 33768,
 						},
 						{
-							ZoneId: 190,
-							Abbr:   "+09",
-							Offset: 32400,
-						},
-						{
-							ZoneId: 190,
-							Abbr:   "+0930",
-							Offset: 34200,
-						},
-						{
-							ZoneId: 190,
+							ZoneId: 189,
 							Abbr:   "WIT",
 							Offset: 32400,
 						},
-					},
-				},
-				{
-					Id:          189,
-					CountryCode: "ID",
-					Name:        "Asia/Makassar",
-					TimeZones: []*TimeZone{
 						{
 							ZoneId: 189,
-							Abbr:   "LMT",
-							Offset: 28656,
-						},
-						{
-							ZoneId: 189,
-							Abbr:   "MMT",
-							Offset: 28656,
-						},
-						{
-							ZoneId: 189,
-							Abbr:   "+08",
-							Offset: 28800,
-						},
-						{
-							ZoneId: 189,
-							Abbr:   "+09",
-							Offset: 32400,
-						},
-						{
-							ZoneId: 189,
-							Abbr:   "WITA",
-							Offset: 28800,
+							Abbr:   "ACST",
+							Offset: 34200,
 						},
 					},
 				},
 				{
 					Id:          188,
 					CountryCode: "ID",
-					Name:        "Asia/Pontianak",
+					Name:        "Asia/Makassar",
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 188,
 							Abbr:   "LMT",
-							Offset: 26240,
+							Offset: 28656,
 						},
 						{
 							ZoneId: 188,
-							Abbr:   "PMT",
-							Offset: 26240,
-						},
-						{
-							ZoneId: 188,
-							Abbr:   "+0730",
-							Offset: 27000,
-						},
-						{
-							ZoneId: 188,
-							Abbr:   "+09",
-							Offset: 32400,
-						},
-						{
-							ZoneId: 188,
-							Abbr:   "+08",
-							Offset: 28800,
+							Abbr:   "MMT",
+							Offset: 28656,
 						},
 						{
 							ZoneId: 188,
@@ -5571,6 +5859,43 @@ var (
 						},
 						{
 							ZoneId: 188,
+							Abbr:   "JST",
+							Offset: 32400,
+						},
+					},
+				},
+				{
+					Id:          187,
+					CountryCode: "ID",
+					Name:        "Asia/Pontianak",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 187,
+							Abbr:   "LMT",
+							Offset: 26240,
+						},
+						{
+							ZoneId: 187,
+							Abbr:   "PMT",
+							Offset: 26240,
+						},
+						{
+							ZoneId: 187,
+							Abbr:   "WIB",
+							Offset: 27000,
+						},
+						{
+							ZoneId: 187,
+							Abbr:   "JST",
+							Offset: 32400,
+						},
+						{
+							ZoneId: 187,
+							Abbr:   "WITA",
+							Offset: 28800,
+						},
+						{
+							ZoneId: 187,
 							Abbr:   "WIB",
 							Offset: 25200,
 						},
@@ -5580,41 +5905,41 @@ var (
 		},
 		{
 			Code: "IR",
-			Name: "Iran",
+			Name: "Iran, Islamic Republic of",
 			Zones: []*Zone{
 				{
-					Id:          197,
+					Id:          196,
 					CountryCode: "IR",
 					Name:        "Asia/Tehran",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 197,
+							ZoneId: 196,
 							Abbr:   "LMT",
 							Offset: 12344,
 						},
 						{
-							ZoneId: 197,
+							ZoneId: 196,
 							Abbr:   "TMT",
 							Offset: 12344,
 						},
 						{
-							ZoneId: 197,
-							Abbr:   "+0330",
+							ZoneId: 196,
+							Abbr:   "IRDT",
 							Offset: 12600,
 						},
 						{
-							ZoneId: 197,
-							Abbr:   "+04",
+							ZoneId: 196,
+							Abbr:   "IRDT",
 							Offset: 14400,
 						},
 						{
-							ZoneId: 197,
-							Abbr:   "+05",
+							ZoneId: 196,
+							Abbr:   "IRST",
 							Offset: 18000,
 						},
 						{
-							ZoneId: 197,
-							Abbr:   "+0430",
+							ZoneId: 196,
+							Abbr:   "IRST",
 							Offset: 16200,
 						},
 					},
@@ -5626,28 +5951,28 @@ var (
 			Name: "Iraq",
 			Zones: []*Zone{
 				{
-					Id:          196,
+					Id:          195,
 					CountryCode: "IQ",
 					Name:        "Asia/Baghdad",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 196,
+							ZoneId: 195,
 							Abbr:   "LMT",
 							Offset: 10660,
 						},
 						{
-							ZoneId: 196,
+							ZoneId: 195,
 							Abbr:   "BMT",
 							Offset: 10656,
 						},
 						{
-							ZoneId: 196,
-							Abbr:   "+03",
+							ZoneId: 195,
+							Abbr:   "AST",
 							Offset: 10800,
 						},
 						{
-							ZoneId: 196,
-							Abbr:   "+04",
+							ZoneId: 195,
+							Abbr:   "ADT",
 							Offset: 14400,
 						},
 					},
@@ -5659,37 +5984,37 @@ var (
 			Name: "Ireland",
 			Zones: []*Zone{
 				{
-					Id:          191,
+					Id:          190,
 					CountryCode: "IE",
 					Name:        "Europe/Dublin",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 191,
+							ZoneId: 190,
 							Abbr:   "LMT",
 							Offset: -1500,
 						},
 						{
-							ZoneId: 191,
+							ZoneId: 190,
 							Abbr:   "DMT",
 							Offset: -1521,
 						},
 						{
-							ZoneId: 191,
+							ZoneId: 190,
 							Abbr:   "IST",
 							Offset: 2079,
 						},
 						{
-							ZoneId: 191,
+							ZoneId: 190,
 							Abbr:   "GMT",
 							Offset: 0,
 						},
 						{
-							ZoneId: 191,
+							ZoneId: 190,
 							Abbr:   "BST",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 191,
+							ZoneId: 190,
 							Abbr:   "IST",
 							Offset: 3600,
 						},
@@ -5702,27 +6027,27 @@ var (
 			Name: "Isle of Man",
 			Zones: []*Zone{
 				{
-					Id:          193,
+					Id:          192,
 					CountryCode: "IM",
 					Name:        "Europe/Isle_of_Man",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 193,
+							ZoneId: 192,
 							Abbr:   "LMT",
 							Offset: -75,
 						},
 						{
-							ZoneId: 193,
+							ZoneId: 192,
 							Abbr:   "GMT",
 							Offset: 0,
 						},
 						{
-							ZoneId: 193,
+							ZoneId: 192,
 							Abbr:   "BST",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 193,
+							ZoneId: 192,
 							Abbr:   "BDST",
 							Offset: 7200,
 						},
@@ -5735,32 +6060,32 @@ var (
 			Name: "Israel",
 			Zones: []*Zone{
 				{
-					Id:          192,
+					Id:          191,
 					CountryCode: "IL",
 					Name:        "Asia/Jerusalem",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 192,
+							ZoneId: 191,
 							Abbr:   "LMT",
 							Offset: 8454,
 						},
 						{
-							ZoneId: 192,
+							ZoneId: 191,
 							Abbr:   "JMT",
 							Offset: 8440,
 						},
 						{
-							ZoneId: 192,
+							ZoneId: 191,
 							Abbr:   "IST",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 192,
+							ZoneId: 191,
 							Abbr:   "IDT",
 							Offset: 10800,
 						},
 						{
-							ZoneId: 192,
+							ZoneId: 191,
 							Abbr:   "IDDT",
 							Offset: 14400,
 						},
@@ -5773,52 +6098,29 @@ var (
 			Name: "Italy",
 			Zones: []*Zone{
 				{
-					Id:          199,
+					Id:          198,
 					CountryCode: "IT",
 					Name:        "Europe/Rome",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 199,
+							ZoneId: 198,
 							Abbr:   "LMT",
 							Offset: 2996,
 						},
 						{
-							ZoneId: 199,
+							ZoneId: 198,
 							Abbr:   "RMT",
 							Offset: 2996,
 						},
 						{
-							ZoneId: 199,
+							ZoneId: 198,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 199,
+							ZoneId: 198,
 							Abbr:   "CEST",
 							Offset: 7200,
-						},
-					},
-				},
-			},
-		},
-		{
-			Code: "CI",
-			Name: "Ivory Coast",
-			Zones: []*Zone{
-				{
-					Id:          118,
-					CountryCode: "CI",
-					Name:        "Africa/Abidjan",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 118,
-							Abbr:   "LMT",
-							Offset: -968,
-						},
-						{
-							ZoneId: 118,
-							Abbr:   "GMT",
-							Offset: 0,
 						},
 					},
 				},
@@ -5829,27 +6131,27 @@ var (
 			Name: "Jamaica",
 			Zones: []*Zone{
 				{
-					Id:          201,
+					Id:          200,
 					CountryCode: "JM",
 					Name:        "America/Jamaica",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 201,
+							ZoneId: 200,
 							Abbr:   "LMT",
-							Offset: -18431,
+							Offset: -18430,
 						},
 						{
-							ZoneId: 201,
+							ZoneId: 200,
 							Abbr:   "KMT",
-							Offset: -18431,
+							Offset: -18430,
 						},
 						{
-							ZoneId: 201,
+							ZoneId: 200,
 							Abbr:   "EST",
 							Offset: -18000,
 						},
 						{
-							ZoneId: 201,
+							ZoneId: 200,
 							Abbr:   "EDT",
 							Offset: -14400,
 						},
@@ -5862,22 +6164,22 @@ var (
 			Name: "Japan",
 			Zones: []*Zone{
 				{
-					Id:          203,
+					Id:          202,
 					CountryCode: "JP",
 					Name:        "Asia/Tokyo",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 203,
+							ZoneId: 202,
 							Abbr:   "LMT",
 							Offset: 33539,
 						},
 						{
-							ZoneId: 203,
+							ZoneId: 202,
 							Abbr:   "JST",
 							Offset: 32400,
 						},
 						{
-							ZoneId: 203,
+							ZoneId: 202,
 							Abbr:   "JDT",
 							Offset: 36000,
 						},
@@ -5890,27 +6192,27 @@ var (
 			Name: "Jersey",
 			Zones: []*Zone{
 				{
-					Id:          200,
+					Id:          199,
 					CountryCode: "JE",
 					Name:        "Europe/Jersey",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 200,
+							ZoneId: 199,
 							Abbr:   "LMT",
 							Offset: -75,
 						},
 						{
-							ZoneId: 200,
+							ZoneId: 199,
 							Abbr:   "GMT",
 							Offset: 0,
 						},
 						{
-							ZoneId: 200,
+							ZoneId: 199,
 							Abbr:   "BST",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 200,
+							ZoneId: 199,
 							Abbr:   "BDST",
 							Offset: 7200,
 						},
@@ -5923,22 +6225,22 @@ var (
 			Name: "Jordan",
 			Zones: []*Zone{
 				{
-					Id:          202,
+					Id:          201,
 					CountryCode: "JO",
 					Name:        "Asia/Amman",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 202,
+							ZoneId: 201,
 							Abbr:   "LMT",
 							Offset: 8624,
 						},
 						{
-							ZoneId: 202,
+							ZoneId: 201,
 							Abbr:   "EET",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 202,
+							ZoneId: 201,
 							Abbr:   "EEST",
 							Offset: 10800,
 						},
@@ -5951,28 +6253,28 @@ var (
 			Name: "Kazakhstan",
 			Zones: []*Zone{
 				{
-					Id:          216,
+					Id:          215,
 					CountryCode: "KZ",
 					Name:        "Asia/Almaty",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 216,
+							ZoneId: 215,
 							Abbr:   "LMT",
 							Offset: 18468,
 						},
 						{
-							ZoneId: 216,
-							Abbr:   "+05",
+							ZoneId: 215,
+							Abbr:   "ALMT",
 							Offset: 18000,
 						},
 						{
-							ZoneId: 216,
-							Abbr:   "+06",
+							ZoneId: 215,
+							Abbr:   "ALMT",
 							Offset: 21600,
 						},
 						{
-							ZoneId: 216,
-							Abbr:   "+07",
+							ZoneId: 215,
+							Abbr:   "ALMST",
 							Offset: 25200,
 						},
 					},
@@ -5989,18 +6291,43 @@ var (
 						},
 						{
 							ZoneId: 219,
-							Abbr:   "+04",
+							Abbr:   "FORT",
 							Offset: 14400,
 						},
 						{
 							ZoneId: 219,
-							Abbr:   "+05",
+							Abbr:   "SHET",
 							Offset: 18000,
 						},
 						{
 							ZoneId: 219,
-							Abbr:   "+06",
+							Abbr:   "SHET",
 							Offset: 21600,
+						},
+						{
+							ZoneId: 219,
+							Abbr:   "SHEST",
+							Offset: 21600,
+						},
+						{
+							ZoneId: 219,
+							Abbr:   "MSK+1",
+							Offset: 14400,
+						},
+						{
+							ZoneId: 219,
+							Abbr:   "MSK+1",
+							Offset: 18000,
+						},
+						{
+							ZoneId: 219,
+							Abbr:   "MSD+1",
+							Offset: 21600,
+						},
+						{
+							ZoneId: 219,
+							Abbr:   "MSD+1",
+							Offset: 18000,
 						},
 					},
 				},
@@ -6016,18 +6343,23 @@ var (
 						},
 						{
 							ZoneId: 218,
-							Abbr:   "+04",
+							Abbr:   "AKTT",
 							Offset: 14400,
 						},
 						{
 							ZoneId: 218,
-							Abbr:   "+05",
+							Abbr:   "AKTT",
 							Offset: 18000,
 						},
 						{
 							ZoneId: 218,
-							Abbr:   "+06",
+							Abbr:   "AKTST",
 							Offset: 21600,
+						},
+						{
+							ZoneId: 218,
+							Abbr:   "AQTT",
+							Offset: 18000,
 						},
 					},
 				},
@@ -6043,23 +6375,43 @@ var (
 						},
 						{
 							ZoneId: 220,
-							Abbr:   "+03",
+							Abbr:   "FORT",
 							Offset: 10800,
 						},
 						{
 							ZoneId: 220,
-							Abbr:   "+05",
+							Abbr:   "SHET",
 							Offset: 18000,
 						},
 						{
 							ZoneId: 220,
-							Abbr:   "+06",
+							Abbr:   "SHET",
 							Offset: 21600,
 						},
 						{
 							ZoneId: 220,
-							Abbr:   "+04",
+							Abbr:   "SHEST",
+							Offset: 21600,
+						},
+						{
+							ZoneId: 220,
+							Abbr:   "MSK+1",
 							Offset: 14400,
+						},
+						{
+							ZoneId: 220,
+							Abbr:   "MSK+1",
+							Offset: 18000,
+						},
+						{
+							ZoneId: 220,
+							Abbr:   "MSD+1",
+							Offset: 21600,
+						},
+						{
+							ZoneId: 220,
+							Abbr:   "MSD+1",
+							Offset: 18000,
 						},
 					},
 				},
@@ -6075,49 +6427,91 @@ var (
 						},
 						{
 							ZoneId: 221,
-							Abbr:   "+03",
+							Abbr:   "URAT",
 							Offset: 10800,
 						},
 						{
 							ZoneId: 221,
-							Abbr:   "+05",
+							Abbr:   "URAT",
 							Offset: 18000,
 						},
 						{
 							ZoneId: 221,
-							Abbr:   "+06",
+							Abbr:   "URAST",
 							Offset: 21600,
 						},
 						{
 							ZoneId: 221,
-							Abbr:   "+04",
+							Abbr:   "URAT",
 							Offset: 14400,
+						},
+						{
+							ZoneId: 221,
+							Abbr:   "URAST",
+							Offset: 18000,
+						},
+						{
+							ZoneId: 221,
+							Abbr:   "ORAT",
+							Offset: 14400,
+						},
+						{
+							ZoneId: 221,
+							Abbr:   "ORAST",
+							Offset: 18000,
 						},
 					},
 				},
 				{
 					Id:          217,
 					CountryCode: "KZ",
-					Name:        "Asia/Qyzylorda",
+					Name:        "Asia/Qostanay",
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 217,
 							Abbr:   "LMT",
-							Offset: 15712,
+							Offset: 15268,
 						},
 						{
 							ZoneId: 217,
-							Abbr:   "+04",
+							Abbr:   "QYZT",
 							Offset: 14400,
 						},
 						{
 							ZoneId: 217,
-							Abbr:   "+05",
+							Abbr:   "QYZT",
 							Offset: 18000,
 						},
 						{
 							ZoneId: 217,
-							Abbr:   "+06",
+							Abbr:   "QYZST",
+							Offset: 21600,
+						},
+					},
+				},
+				{
+					Id:          216,
+					CountryCode: "KZ",
+					Name:        "Asia/Qyzylorda",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 216,
+							Abbr:   "LMT",
+							Offset: 15712,
+						},
+						{
+							ZoneId: 216,
+							Abbr:   "KIZT",
+							Offset: 14400,
+						},
+						{
+							ZoneId: 216,
+							Abbr:   "MSK+2",
+							Offset: 18000,
+						},
+						{
+							ZoneId: 216,
+							Abbr:   "QYZST",
 							Offset: 21600,
 						},
 					},
@@ -6129,28 +6523,28 @@ var (
 			Name: "Kenya",
 			Zones: []*Zone{
 				{
-					Id:          204,
+					Id:          203,
 					CountryCode: "KE",
 					Name:        "Africa/Nairobi",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 204,
+							ZoneId: 203,
 							Abbr:   "LMT",
 							Offset: 8836,
 						},
 						{
-							ZoneId: 204,
+							ZoneId: 203,
+							Abbr:   "EAT",
+							Offset: 9000,
+						},
+						{
+							ZoneId: 203,
 							Abbr:   "EAT",
 							Offset: 10800,
 						},
 						{
-							ZoneId: 204,
-							Abbr:   "+0230",
-							Offset: 9000,
-						},
-						{
-							ZoneId: 204,
-							Abbr:   "+0245",
+							ZoneId: 203,
+							Abbr:   "EAT",
 							Offset: 9900,
 						},
 					},
@@ -6162,72 +6556,72 @@ var (
 			Name: "Kiribati",
 			Zones: []*Zone{
 				{
-					Id:          208,
+					Id:          207,
 					CountryCode: "KI",
 					Name:        "Pacific/Enderbury",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 208,
+							ZoneId: 207,
 							Abbr:   "LMT",
 							Offset: -41060,
 						},
 						{
-							ZoneId: 208,
-							Abbr:   "-12",
+							ZoneId: 207,
+							Abbr:   "PHOT",
 							Offset: -43200,
 						},
 						{
-							ZoneId: 208,
-							Abbr:   "-11",
+							ZoneId: 207,
+							Abbr:   "PHOT",
 							Offset: -39600,
 						},
 						{
-							ZoneId: 208,
-							Abbr:   "+13",
+							ZoneId: 207,
+							Abbr:   "PHOT",
 							Offset: 46800,
 						},
 					},
 				},
 				{
-					Id:          209,
+					Id:          208,
 					CountryCode: "KI",
 					Name:        "Pacific/Kiritimati",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 209,
+							ZoneId: 208,
 							Abbr:   "LMT",
 							Offset: -37760,
 						},
 						{
-							ZoneId: 209,
-							Abbr:   "-1040",
+							ZoneId: 208,
+							Abbr:   "LINT",
 							Offset: -38400,
 						},
 						{
-							ZoneId: 209,
-							Abbr:   "-10",
+							ZoneId: 208,
+							Abbr:   "LINT",
 							Offset: -36000,
 						},
 						{
-							ZoneId: 209,
-							Abbr:   "+14",
+							ZoneId: 208,
+							Abbr:   "LINT",
 							Offset: 50400,
 						},
 					},
 				},
 				{
-					Id:          207,
+					Id:          206,
 					CountryCode: "KI",
 					Name:        "Pacific/Tarawa",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 207,
+							ZoneId: 206,
 							Abbr:   "LMT",
 							Offset: 41524,
 						},
 						{
-							ZoneId: 207,
-							Abbr:   "+12",
+							ZoneId: 206,
+							Abbr:   "GILT",
 							Offset: 43200,
 						},
 					},
@@ -6235,27 +6629,98 @@ var (
 			},
 		},
 		{
-			Code:  "XK",
-			Name:  "Kosovo",
-			Zones: []*Zone{},
+			Code: "KP",
+			Name: "Korea, Democratic People's Republic of",
+			Zones: []*Zone{
+				{
+					Id:          211,
+					CountryCode: "KP",
+					Name:        "Asia/Pyongyang",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 211,
+							Abbr:   "LMT",
+							Offset: 30180,
+						},
+						{
+							ZoneId: 211,
+							Abbr:   "KST",
+							Offset: 30600,
+						},
+						{
+							ZoneId: 211,
+							Abbr:   "JST",
+							Offset: 32400,
+						},
+						{
+							ZoneId: 211,
+							Abbr:   "KST",
+							Offset: 32400,
+						},
+					},
+				},
+			},
+		},
+		{
+			Code: "KR",
+			Name: "Korea, Republic of",
+			Zones: []*Zone{
+				{
+					Id:          212,
+					CountryCode: "KR",
+					Name:        "Asia/Seoul",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 212,
+							Abbr:   "LMT",
+							Offset: 30472,
+						},
+						{
+							ZoneId: 212,
+							Abbr:   "KST",
+							Offset: 30600,
+						},
+						{
+							ZoneId: 212,
+							Abbr:   "JST",
+							Offset: 32400,
+						},
+						{
+							ZoneId: 212,
+							Abbr:   "KST",
+							Offset: 32400,
+						},
+						{
+							ZoneId: 212,
+							Abbr:   "KDT",
+							Offset: 36000,
+						},
+						{
+							ZoneId: 212,
+							Abbr:   "KDT",
+							Offset: 34200,
+						},
+					},
+				},
+			},
 		},
 		{
 			Code: "KW",
 			Name: "Kuwait",
 			Zones: []*Zone{
 				{
-					Id:          214,
+					Id:          213,
 					CountryCode: "KW",
 					Name:        "Asia/Kuwait",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 214,
+							ZoneId: 213,
 							Abbr:   "LMT",
 							Offset: 11212,
 						},
 						{
-							ZoneId: 214,
-							Abbr:   "+03",
+							ZoneId: 213,
+							Abbr:   "AST",
 							Offset: 10800,
 						},
 					},
@@ -6267,29 +6732,44 @@ var (
 			Name: "Kyrgyzstan",
 			Zones: []*Zone{
 				{
-					Id:          205,
+					Id:          204,
 					CountryCode: "KG",
 					Name:        "Asia/Bishkek",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 205,
+							ZoneId: 204,
 							Abbr:   "LMT",
 							Offset: 17904,
 						},
 						{
-							ZoneId: 205,
-							Abbr:   "+05",
+							ZoneId: 204,
+							Abbr:   "FRUT",
 							Offset: 18000,
 						},
 						{
-							ZoneId: 205,
-							Abbr:   "+06",
+							ZoneId: 204,
+							Abbr:   "FRUT",
 							Offset: 21600,
 						},
 						{
-							ZoneId: 205,
-							Abbr:   "+07",
+							ZoneId: 204,
+							Abbr:   "FRUT",
 							Offset: 25200,
+						},
+						{
+							ZoneId: 204,
+							Abbr:   "FRUST",
+							Offset: 25200,
+						},
+						{
+							ZoneId: 204,
+							Abbr:   "KGST",
+							Offset: 21600,
+						},
+						{
+							ZoneId: 204,
+							Abbr:   "KGT",
+							Offset: 18000,
 						},
 					},
 				},
@@ -6297,7 +6777,7 @@ var (
 		},
 		{
 			Code: "LA",
-			Name: "Laos",
+			Name: "Lao People's Democratic Republic",
 			Zones: []*Zone{
 				{
 					Id:          222,
@@ -6316,7 +6796,7 @@ var (
 						},
 						{
 							ZoneId: 222,
-							Abbr:   "+07",
+							Abbr:   "ICT",
 							Offset: 25200,
 						},
 					},
@@ -6659,12 +7139,22 @@ var (
 						{
 							ZoneId: 247,
 							Abbr:   "LMT",
-							Offset: 27260,
+							Offset: 27250,
 						},
 						{
 							ZoneId: 247,
 							Abbr:   "CST",
 							Offset: 28800,
+						},
+						{
+							ZoneId: 247,
+							Abbr:   "CST",
+							Offset: 32400,
+						},
+						{
+							ZoneId: 247,
+							Abbr:   "CDT",
+							Offset: 36000,
 						},
 						{
 							ZoneId: 247,
@@ -6677,7 +7167,7 @@ var (
 		},
 		{
 			Code: "MK",
-			Name: "Macedonia",
+			Name: "Macedonia, the Former Yugoslav Republic of",
 			Zones: []*Zone{
 				{
 					Id:          241,
@@ -6720,16 +7210,16 @@ var (
 						{
 							ZoneId: 238,
 							Abbr:   "EAT",
-							Offset: 10800,
-						},
-						{
-							ZoneId: 238,
-							Abbr:   "+0230",
 							Offset: 9000,
 						},
 						{
 							ZoneId: 238,
-							Abbr:   "+0245",
+							Abbr:   "EAT",
+							Offset: 10800,
+						},
+						{
+							ZoneId: 238,
+							Abbr:   "EAT",
 							Offset: 9900,
 						},
 					},
@@ -6780,27 +7270,27 @@ var (
 						},
 						{
 							ZoneId: 267,
-							Abbr:   "+07",
+							Abbr:   "MALT",
 							Offset: 25200,
 						},
 						{
 							ZoneId: 267,
-							Abbr:   "+0720",
+							Abbr:   "MALST",
 							Offset: 26400,
 						},
 						{
 							ZoneId: 267,
-							Abbr:   "+0730",
+							Abbr:   "MALT",
 							Offset: 27000,
 						},
 						{
 							ZoneId: 267,
-							Abbr:   "+09",
+							Abbr:   "JST",
 							Offset: 32400,
 						},
 						{
 							ZoneId: 267,
-							Abbr:   "+08",
+							Abbr:   "MYT",
 							Offset: 28800,
 						},
 					},
@@ -6817,23 +7307,28 @@ var (
 						},
 						{
 							ZoneId: 268,
-							Abbr:   "+0730",
+							Abbr:   "BORT",
 							Offset: 27000,
 						},
 						{
 							ZoneId: 268,
-							Abbr:   "+08",
+							Abbr:   "BORT",
 							Offset: 28800,
 						},
 						{
 							ZoneId: 268,
-							Abbr:   "+0820",
+							Abbr:   "BORTST",
 							Offset: 30000,
 						},
 						{
 							ZoneId: 268,
-							Abbr:   "+09",
+							Abbr:   "JST",
 							Offset: 32400,
+						},
+						{
+							ZoneId: 268,
+							Abbr:   "MYT",
+							Offset: 28800,
 						},
 					},
 				},
@@ -6860,7 +7355,7 @@ var (
 						},
 						{
 							ZoneId: 254,
-							Abbr:   "+05",
+							Abbr:   "MVT",
 							Offset: 18000,
 						},
 					},
@@ -6939,7 +7434,17 @@ var (
 						},
 						{
 							ZoneId: 240,
-							Abbr:   "-12",
+							Abbr:   "+10",
+							Offset: 36000,
+						},
+						{
+							ZoneId: 240,
+							Abbr:   "+09",
+							Offset: 32400,
+						},
+						{
+							ZoneId: 240,
+							Abbr:   "--12",
 							Offset: -43200,
 						},
 						{
@@ -6963,6 +7468,16 @@ var (
 							ZoneId: 239,
 							Abbr:   "+11",
 							Offset: 39600,
+						},
+						{
+							ZoneId: 239,
+							Abbr:   "+09",
+							Offset: 32400,
+						},
+						{
+							ZoneId: 239,
+							Abbr:   "+10",
+							Offset: 36000,
 						},
 						{
 							ZoneId: 239,
@@ -7045,12 +7560,12 @@ var (
 						},
 						{
 							ZoneId: 253,
-							Abbr:   "+04",
+							Abbr:   "MUT",
 							Offset: 14400,
 						},
 						{
 							ZoneId: 253,
-							Abbr:   "+05",
+							Abbr:   "MUST",
 							Offset: 18000,
 						},
 					},
@@ -7074,16 +7589,16 @@ var (
 						{
 							ZoneId: 421,
 							Abbr:   "EAT",
-							Offset: 10800,
-						},
-						{
-							ZoneId: 421,
-							Abbr:   "+0230",
 							Offset: 9000,
 						},
 						{
 							ZoneId: 421,
-							Abbr:   "+0245",
+							Abbr:   "EAT",
+							Offset: 10800,
+						},
+						{
+							ZoneId: 421,
+							Abbr:   "EAT",
 							Offset: 9900,
 						},
 					},
@@ -7435,61 +7950,101 @@ var (
 		},
 		{
 			Code: "FM",
-			Name: "Micronesia",
+			Name: "Micronesia, Federated States of",
 			Zones: []*Zone{
 				{
-					Id:          155,
+					Id:          154,
 					CountryCode: "FM",
 					Name:        "Pacific/Chuuk",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 155,
+							ZoneId: 154,
+							Abbr:   "LMT",
+							Offset: -49972,
+						},
+						{
+							ZoneId: 154,
 							Abbr:   "LMT",
 							Offset: 36428,
 						},
 						{
-							ZoneId: 155,
-							Abbr:   "+10",
+							ZoneId: 154,
+							Abbr:   "CHUT",
 							Offset: 36000,
 						},
-					},
-				},
-				{
-					Id:          157,
-					CountryCode: "FM",
-					Name:        "Pacific/Kosrae",
-					TimeZones: []*TimeZone{
 						{
-							ZoneId: 157,
-							Abbr:   "LMT",
-							Offset: 39116,
-						},
-						{
-							ZoneId: 157,
-							Abbr:   "+11",
-							Offset: 39600,
-						},
-						{
-							ZoneId: 157,
-							Abbr:   "+12",
-							Offset: 43200,
+							ZoneId: 154,
+							Abbr:   "CHUT",
+							Offset: 32400,
 						},
 					},
 				},
 				{
 					Id:          156,
 					CountryCode: "FM",
-					Name:        "Pacific/Pohnpei",
+					Name:        "Pacific/Kosrae",
 					TimeZones: []*TimeZone{
 						{
 							ZoneId: 156,
 							Abbr:   "LMT",
-							Offset: 37972,
+							Offset: -47284,
 						},
 						{
 							ZoneId: 156,
-							Abbr:   "+11",
+							Abbr:   "LMT",
+							Offset: 39116,
+						},
+						{
+							ZoneId: 156,
+							Abbr:   "KOST",
 							Offset: 39600,
+						},
+						{
+							ZoneId: 156,
+							Abbr:   "KOST",
+							Offset: 32400,
+						},
+						{
+							ZoneId: 156,
+							Abbr:   "KOST",
+							Offset: 36000,
+						},
+						{
+							ZoneId: 156,
+							Abbr:   "KOST",
+							Offset: 43200,
+						},
+					},
+				},
+				{
+					Id:          155,
+					CountryCode: "FM",
+					Name:        "Pacific/Pohnpei",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 155,
+							Abbr:   "LMT",
+							Offset: -48428,
+						},
+						{
+							ZoneId: 155,
+							Abbr:   "LMT",
+							Offset: 37972,
+						},
+						{
+							ZoneId: 155,
+							Abbr:   "PONT",
+							Offset: 39600,
+						},
+						{
+							ZoneId: 155,
+							Abbr:   "PONT",
+							Offset: 32400,
+						},
+						{
+							ZoneId: 155,
+							Abbr:   "PONT",
+							Offset: 36000,
 						},
 					},
 				},
@@ -7497,7 +8052,7 @@ var (
 		},
 		{
 			Code: "MD",
-			Name: "Moldova",
+			Name: "Moldova, Republic of",
 			Zones: []*Zone{
 				{
 					Id:          235,
@@ -7617,22 +8172,32 @@ var (
 						},
 						{
 							ZoneId: 246,
-							Abbr:   "+07",
+							Abbr:   "ULAT",
 							Offset: 25200,
 						},
 						{
 							ZoneId: 246,
-							Abbr:   "+08",
+							Abbr:   "ULAT",
 							Offset: 28800,
 						},
 						{
 							ZoneId: 246,
-							Abbr:   "+10",
+							Abbr:   "CHOST",
 							Offset: 36000,
 						},
 						{
 							ZoneId: 246,
-							Abbr:   "+09",
+							Abbr:   "CHOT",
+							Offset: 32400,
+						},
+						{
+							ZoneId: 246,
+							Abbr:   "CHOT",
+							Offset: 28800,
+						},
+						{
+							ZoneId: 246,
+							Abbr:   "CHOST",
 							Offset: 32400,
 						},
 					},
@@ -7649,17 +8214,17 @@ var (
 						},
 						{
 							ZoneId: 245,
-							Abbr:   "+06",
+							Abbr:   "HOVT",
 							Offset: 21600,
 						},
 						{
 							ZoneId: 245,
-							Abbr:   "+07",
+							Abbr:   "HOVT",
 							Offset: 25200,
 						},
 						{
 							ZoneId: 245,
-							Abbr:   "+08",
+							Abbr:   "HOVST",
 							Offset: 28800,
 						},
 					},
@@ -7676,17 +8241,17 @@ var (
 						},
 						{
 							ZoneId: 244,
-							Abbr:   "+07",
+							Abbr:   "ULAT",
 							Offset: 25200,
 						},
 						{
 							ZoneId: 244,
-							Abbr:   "+08",
+							Abbr:   "ULAT",
 							Offset: 28800,
 						},
 						{
 							ZoneId: 244,
-							Abbr:   "+09",
+							Abbr:   "ULAST",
 							Offset: 32400,
 						},
 					},
@@ -7768,11 +8333,6 @@ var (
 							Abbr:   "WEST",
 							Offset: 3600,
 						},
-						{
-							ZoneId: 233,
-							Abbr:   "CET",
-							Offset: 3600,
-						},
 					},
 				},
 			},
@@ -7812,22 +8372,27 @@ var (
 						{
 							ZoneId: 243,
 							Abbr:   "LMT",
-							Offset: 23080,
+							Offset: 23087,
 						},
 						{
 							ZoneId: 243,
 							Abbr:   "RMT",
-							Offset: 23080,
+							Offset: 23087,
 						},
 						{
 							ZoneId: 243,
-							Abbr:   "+0630",
+							Abbr:   "BURT",
 							Offset: 23400,
 						},
 						{
 							ZoneId: 243,
-							Abbr:   "+09",
+							Abbr:   "JST",
 							Offset: 32400,
+						},
+						{
+							ZoneId: 243,
+							Abbr:   "MMT",
+							Offset: 23400,
 						},
 					},
 				},
@@ -7849,7 +8414,7 @@ var (
 						},
 						{
 							ZoneId: 270,
-							Abbr:   "+0130",
+							Abbr:   "SAST",
 							Offset: 5400,
 						},
 						{
@@ -7872,11 +8437,6 @@ var (
 							Abbr:   "WAT",
 							Offset: 3600,
 						},
-						{
-							ZoneId: 270,
-							Abbr:   "WAST",
-							Offset: 7200,
-						},
 					},
 				},
 			},
@@ -7897,17 +8457,17 @@ var (
 						},
 						{
 							ZoneId: 279,
-							Abbr:   "+1130",
+							Abbr:   "NRT",
 							Offset: 41400,
 						},
 						{
 							ZoneId: 279,
-							Abbr:   "+09",
+							Abbr:   "JST",
 							Offset: 32400,
 						},
 						{
 							ZoneId: 279,
-							Abbr:   "+12",
+							Abbr:   "NRT",
 							Offset: 43200,
 						},
 					},
@@ -7930,12 +8490,12 @@ var (
 						},
 						{
 							ZoneId: 278,
-							Abbr:   "+0530",
+							Abbr:   "IST",
 							Offset: 19800,
 						},
 						{
 							ZoneId: 278,
-							Abbr:   "+0545",
+							Abbr:   "NPT",
 							Offset: 20700,
 						},
 					},
@@ -7968,12 +8528,12 @@ var (
 						},
 						{
 							ZoneId: 276,
-							Abbr:   "+0120",
+							Abbr:   "NST",
 							Offset: 4800,
 						},
 						{
 							ZoneId: 276,
-							Abbr:   "+0020",
+							Abbr:   "AMT",
 							Offset: 1200,
 						},
 						{
@@ -7991,11 +8551,6 @@ var (
 			},
 		},
 		{
-			Code:  "AN",
-			Name:  "Netherlands Antilles",
-			Zones: []*Zone{},
-		},
-		{
 			Code: "NC",
 			Name: "New Caledonia",
 			Zones: []*Zone{
@@ -8011,12 +8566,12 @@ var (
 						},
 						{
 							ZoneId: 271,
-							Abbr:   "+11",
+							Abbr:   "NCT",
 							Offset: 39600,
 						},
 						{
 							ZoneId: 271,
-							Abbr:   "+12",
+							Abbr:   "NCST",
 							Offset: 43200,
 						},
 					},
@@ -8071,17 +8626,17 @@ var (
 						},
 						{
 							ZoneId: 282,
-							Abbr:   "+1215",
+							Abbr:   "CHADT",
 							Offset: 44100,
 						},
 						{
 							ZoneId: 282,
-							Abbr:   "+1245",
+							Abbr:   "CHADT",
 							Offset: 45900,
 						},
 						{
 							ZoneId: 282,
-							Abbr:   "+1345",
+							Abbr:   "CHAST",
 							Offset: 49500,
 						},
 					},
@@ -8138,7 +8693,17 @@ var (
 						{
 							ZoneId: 272,
 							Abbr:   "LMT",
-							Offset: 816,
+							Offset: 815,
+						},
+						{
+							ZoneId: 272,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 272,
+							Abbr:   "WAT",
+							Offset: 1800,
 						},
 						{
 							ZoneId: 272,
@@ -8161,7 +8726,17 @@ var (
 						{
 							ZoneId: 274,
 							Abbr:   "LMT",
-							Offset: 816,
+							Offset: 815,
+						},
+						{
+							ZoneId: 274,
+							Abbr:   "GMT",
+							Offset: 0,
+						},
+						{
+							ZoneId: 274,
+							Abbr:   "WAT",
+							Offset: 1800,
 						},
 						{
 							ZoneId: 274,
@@ -8188,17 +8763,17 @@ var (
 						},
 						{
 							ZoneId: 280,
-							Abbr:   "-1120",
+							Abbr:   "NUT",
 							Offset: -40800,
 						},
 						{
 							ZoneId: 280,
-							Abbr:   "-1130",
+							Abbr:   "NUT",
 							Offset: -41400,
 						},
 						{
 							ZoneId: 280,
-							Abbr:   "-11",
+							Abbr:   "NUT",
 							Offset: -39600,
 						},
 					},
@@ -8221,56 +8796,28 @@ var (
 						},
 						{
 							ZoneId: 273,
-							Abbr:   "+1112",
+							Abbr:   "NMT",
 							Offset: 40320,
 						},
 						{
 							ZoneId: 273,
-							Abbr:   "+1130",
+							Abbr:   "NFT",
 							Offset: 41400,
 						},
 						{
 							ZoneId: 273,
-							Abbr:   "+1230",
+							Abbr:   "NFST",
 							Offset: 45000,
 						},
 						{
 							ZoneId: 273,
-							Abbr:   "+11",
+							Abbr:   "NFT",
 							Offset: 39600,
 						},
-					},
-				},
-			},
-		},
-		{
-			Code: "KP",
-			Name: "North Korea",
-			Zones: []*Zone{
-				{
-					Id:          212,
-					CountryCode: "KP",
-					Name:        "Asia/Pyongyang",
-					TimeZones: []*TimeZone{
 						{
-							ZoneId: 212,
-							Abbr:   "LMT",
-							Offset: 30180,
-						},
-						{
-							ZoneId: 212,
-							Abbr:   "KST",
-							Offset: 30600,
-						},
-						{
-							ZoneId: 212,
-							Abbr:   "JST",
-							Offset: 32400,
-						},
-						{
-							ZoneId: 212,
-							Abbr:   "KST",
-							Offset: 32400,
+							ZoneId: 273,
+							Abbr:   "NFDT",
+							Offset: 43200,
 						},
 					},
 				},
@@ -8299,6 +8846,16 @@ var (
 							ZoneId: 248,
 							Abbr:   "GST",
 							Offset: 36000,
+						},
+						{
+							ZoneId: 248,
+							Abbr:   "GST",
+							Offset: 32400,
+						},
+						{
+							ZoneId: 248,
+							Abbr:   "GDT",
+							Offset: 39600,
 						},
 						{
 							ZoneId: 248,
@@ -8353,7 +8910,7 @@ var (
 						},
 						{
 							ZoneId: 283,
-							Abbr:   "+04",
+							Abbr:   "GST",
 							Offset: 14400,
 						},
 					},
@@ -8376,17 +8933,17 @@ var (
 						},
 						{
 							ZoneId: 292,
-							Abbr:   "+0530",
+							Abbr:   "IST",
 							Offset: 19800,
 						},
 						{
 							ZoneId: 292,
-							Abbr:   "+0630",
+							Abbr:   "IST",
 							Offset: 23400,
 						},
 						{
 							ZoneId: 292,
-							Abbr:   "+05",
+							Abbr:   "KART",
 							Offset: 18000,
 						},
 						{
@@ -8415,6 +8972,11 @@ var (
 						{
 							ZoneId: 302,
 							Abbr:   "LMT",
+							Offset: -54124,
+						},
+						{
+							ZoneId: 302,
+							Abbr:   "LMT",
 							Offset: 32276,
 						},
 						{
@@ -8428,7 +8990,7 @@ var (
 		},
 		{
 			Code: "PS",
-			Name: "Palestinian Territory",
+			Name: "Palestine, State of",
 			Zones: []*Zone{
 				{
 					Id:          297,
@@ -8545,17 +9107,17 @@ var (
 						},
 						{
 							ZoneId: 290,
-							Abbr:   "+10",
+							Abbr:   "PGT",
 							Offset: 36000,
 						},
 						{
 							ZoneId: 290,
-							Abbr:   "+09",
+							Abbr:   "PGT",
 							Offset: 32400,
 						},
 						{
 							ZoneId: 290,
-							Abbr:   "+11",
+							Abbr:   "BST",
 							Offset: 39600,
 						},
 					},
@@ -8577,7 +9139,7 @@ var (
 						},
 						{
 							ZoneId: 289,
-							Abbr:   "+10",
+							Abbr:   "PGT",
 							Offset: 36000,
 						},
 					},
@@ -8605,12 +9167,17 @@ var (
 						},
 						{
 							ZoneId: 303,
-							Abbr:   "-04",
+							Abbr:   "PYT",
 							Offset: -14400,
 						},
 						{
 							ZoneId: 303,
-							Abbr:   "-03",
+							Abbr:   "PYT",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 303,
+							Abbr:   "PYST",
 							Offset: -10800,
 						},
 					},
@@ -8638,12 +9205,12 @@ var (
 						},
 						{
 							ZoneId: 285,
-							Abbr:   "-05",
+							Abbr:   "PET",
 							Offset: -18000,
 						},
 						{
 							ZoneId: 285,
-							Abbr:   "-04",
+							Abbr:   "PEST",
 							Offset: -14400,
 						},
 					},
@@ -8671,12 +9238,17 @@ var (
 						},
 						{
 							ZoneId: 291,
-							Abbr:   "+08",
+							Abbr:   "PST",
 							Offset: 28800,
 						},
 						{
 							ZoneId: 291,
-							Abbr:   "+09",
+							Abbr:   "PDT",
+							Offset: 32400,
+						},
+						{
+							ZoneId: 291,
+							Abbr:   "JST",
 							Offset: 32400,
 						},
 					},
@@ -8699,12 +9271,12 @@ var (
 						},
 						{
 							ZoneId: 295,
-							Abbr:   "-0830",
+							Abbr:   "PNT",
 							Offset: -30600,
 						},
 						{
 							ZoneId: 295,
-							Abbr:   "-08",
+							Abbr:   "PST",
 							Offset: -28800,
 						},
 					},
@@ -8775,18 +9347,23 @@ var (
 						},
 						{
 							ZoneId: 301,
-							Abbr:   "-02",
+							Abbr:   "AZOT",
 							Offset: -7200,
 						},
 						{
 							ZoneId: 301,
-							Abbr:   "-01",
+							Abbr:   "AZOST",
 							Offset: -3600,
 						},
 						{
 							ZoneId: 301,
-							Abbr:   "+00",
+							Abbr:   "AZOST",
 							Offset: 0,
+						},
+						{
+							ZoneId: 301,
+							Abbr:   "AZOT",
+							Offset: -3600,
 						},
 						{
 							ZoneId: 301,
@@ -8812,18 +9389,8 @@ var (
 						},
 						{
 							ZoneId: 300,
-							Abbr:   "-01",
+							Abbr:   "WAT",
 							Offset: -3600,
-						},
-						{
-							ZoneId: 300,
-							Abbr:   "+00",
-							Offset: 0,
-						},
-						{
-							ZoneId: 300,
-							Abbr:   "+01",
-							Offset: 3600,
 						},
 						{
 							ZoneId: 300,
@@ -8925,59 +9492,13 @@ var (
 						},
 						{
 							ZoneId: 304,
-							Abbr:   "+04",
+							Abbr:   "GST",
 							Offset: 14400,
 						},
 						{
 							ZoneId: 304,
-							Abbr:   "+03",
+							Abbr:   "AST",
 							Offset: 10800,
-						},
-					},
-				},
-			},
-		},
-		{
-			Code: "CG",
-			Name: "Republic of the Congo",
-			Zones: []*Zone{
-				{
-					Id:          116,
-					CountryCode: "CG",
-					Name:        "Africa/Brazzaville",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 116,
-							Abbr:   "LMT",
-							Offset: 816,
-						},
-						{
-							ZoneId: 116,
-							Abbr:   "WAT",
-							Offset: 3600,
-						},
-					},
-				},
-			},
-		},
-		{
-			Code: "RE",
-			Name: "Reunion",
-			Zones: []*Zone{
-				{
-					Id:          305,
-					CountryCode: "RE",
-					Name:        "Indian/Reunion",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 305,
-							Abbr:   "LMT",
-							Offset: 13312,
-						},
-						{
-							ZoneId: 305,
-							Abbr:   "+04",
-							Offset: 14400,
 						},
 					},
 				},
@@ -9018,7 +9539,7 @@ var (
 		},
 		{
 			Code: "RU",
-			Name: "Russia",
+			Name: "Russian Federation",
 			Zones: []*Zone{
 				{
 					Id:          334,
@@ -9032,22 +9553,27 @@ var (
 						},
 						{
 							ZoneId: 334,
-							Abbr:   "+12",
+							Abbr:   "ANAT",
 							Offset: 43200,
 						},
 						{
 							ZoneId: 334,
-							Abbr:   "+13",
+							Abbr:   "ANAT",
 							Offset: 46800,
 						},
 						{
 							ZoneId: 334,
-							Abbr:   "+14",
+							Abbr:   "ANAST",
 							Offset: 50400,
 						},
 						{
 							ZoneId: 334,
-							Abbr:   "+11",
+							Abbr:   "ANAST",
+							Offset: 46800,
+						},
+						{
+							ZoneId: 334,
+							Abbr:   "ANAT",
 							Offset: 39600,
 						},
 					},
@@ -9064,18 +9590,33 @@ var (
 						},
 						{
 							ZoneId: 320,
-							Abbr:   "+06",
+							Abbr:   "MSK+3",
 							Offset: 21600,
 						},
 						{
 							ZoneId: 320,
-							Abbr:   "+07",
+							Abbr:   "MSK+4",
 							Offset: 25200,
 						},
 						{
 							ZoneId: 320,
-							Abbr:   "+08",
+							Abbr:   "MSD+4",
 							Offset: 28800,
+						},
+						{
+							ZoneId: 320,
+							Abbr:   "MSK+4",
+							Offset: 21600,
+						},
+						{
+							ZoneId: 320,
+							Abbr:   "MSD+3",
+							Offset: 25200,
+						},
+						{
+							ZoneId: 320,
+							Abbr:   "MSK+3",
+							Offset: 25200,
 						},
 					},
 				},
@@ -9091,18 +9632,28 @@ var (
 						},
 						{
 							ZoneId: 325,
-							Abbr:   "+08",
+							Abbr:   "YAKT",
 							Offset: 28800,
 						},
 						{
 							ZoneId: 325,
-							Abbr:   "+09",
+							Abbr:   "YAKT",
 							Offset: 32400,
 						},
 						{
 							ZoneId: 325,
-							Abbr:   "+10",
+							Abbr:   "YAKST",
 							Offset: 36000,
+						},
+						{
+							ZoneId: 325,
+							Abbr:   "YAKT",
+							Offset: 36000,
+						},
+						{
+							ZoneId: 325,
+							Abbr:   "IRKT",
+							Offset: 28800,
 						},
 					},
 				},
@@ -9123,17 +9674,22 @@ var (
 						},
 						{
 							ZoneId: 324,
-							Abbr:   "+07",
+							Abbr:   "IRKT",
 							Offset: 25200,
 						},
 						{
 							ZoneId: 324,
-							Abbr:   "+08",
+							Abbr:   "IRKT",
 							Offset: 28800,
 						},
 						{
 							ZoneId: 324,
-							Abbr:   "+09",
+							Abbr:   "IRKST",
+							Offset: 32400,
+						},
+						{
+							ZoneId: 324,
+							Abbr:   "IRKT",
 							Offset: 32400,
 						},
 					},
@@ -9150,17 +9706,17 @@ var (
 						},
 						{
 							ZoneId: 333,
-							Abbr:   "+11",
+							Abbr:   "PETT",
 							Offset: 39600,
 						},
 						{
 							ZoneId: 333,
-							Abbr:   "+12",
+							Abbr:   "PETT",
 							Offset: 43200,
 						},
 						{
 							ZoneId: 333,
-							Abbr:   "+13",
+							Abbr:   "PETST",
 							Offset: 46800,
 						},
 					},
@@ -9177,23 +9733,38 @@ var (
 						},
 						{
 							ZoneId: 327,
-							Abbr:   "+08",
+							Abbr:   "YAKT",
 							Offset: 28800,
 						},
 						{
 							ZoneId: 327,
-							Abbr:   "+09",
+							Abbr:   "YAKT",
 							Offset: 32400,
 						},
 						{
 							ZoneId: 327,
-							Abbr:   "+10",
+							Abbr:   "YAKST",
 							Offset: 36000,
 						},
 						{
 							ZoneId: 327,
-							Abbr:   "+11",
+							Abbr:   "VLAT",
+							Offset: 36000,
+						},
+						{
+							ZoneId: 327,
+							Abbr:   "VLAST",
 							Offset: 39600,
+						},
+						{
+							ZoneId: 327,
+							Abbr:   "VLAT",
+							Offset: 39600,
+						},
+						{
+							ZoneId: 327,
+							Abbr:   "YAKT",
+							Offset: 36000,
 						},
 					},
 				},
@@ -9209,17 +9780,22 @@ var (
 						},
 						{
 							ZoneId: 323,
-							Abbr:   "+06",
+							Abbr:   "KRAT",
 							Offset: 21600,
 						},
 						{
 							ZoneId: 323,
-							Abbr:   "+07",
+							Abbr:   "KRAT",
 							Offset: 25200,
 						},
 						{
 							ZoneId: 323,
-							Abbr:   "+08",
+							Abbr:   "KRAST",
+							Offset: 28800,
+						},
+						{
+							ZoneId: 323,
+							Abbr:   "KRAT",
 							Offset: 28800,
 						},
 					},
@@ -9236,17 +9812,22 @@ var (
 						},
 						{
 							ZoneId: 330,
-							Abbr:   "+10",
+							Abbr:   "MAGT",
 							Offset: 36000,
 						},
 						{
 							ZoneId: 330,
-							Abbr:   "+11",
+							Abbr:   "MAGT",
 							Offset: 39600,
 						},
 						{
 							ZoneId: 330,
-							Abbr:   "+12",
+							Abbr:   "MAGST",
+							Offset: 43200,
+						},
+						{
+							ZoneId: 330,
+							Abbr:   "MAGT",
 							Offset: 43200,
 						},
 					},
@@ -9263,17 +9844,17 @@ var (
 						},
 						{
 							ZoneId: 322,
-							Abbr:   "+06",
+							Abbr:   "KRAT",
 							Offset: 21600,
 						},
 						{
 							ZoneId: 322,
-							Abbr:   "+07",
+							Abbr:   "KRAT",
 							Offset: 25200,
 						},
 						{
 							ZoneId: 322,
-							Abbr:   "+08",
+							Abbr:   "KRAST",
 							Offset: 28800,
 						},
 					},
@@ -9290,18 +9871,23 @@ var (
 						},
 						{
 							ZoneId: 319,
-							Abbr:   "+06",
+							Abbr:   "NOVT",
 							Offset: 21600,
 						},
 						{
 							ZoneId: 319,
-							Abbr:   "+07",
+							Abbr:   "NOVT",
 							Offset: 25200,
 						},
 						{
 							ZoneId: 319,
-							Abbr:   "+08",
+							Abbr:   "NOVST",
 							Offset: 28800,
+						},
+						{
+							ZoneId: 319,
+							Abbr:   "NOVST",
+							Offset: 25200,
 						},
 					},
 				},
@@ -9317,17 +9903,22 @@ var (
 						},
 						{
 							ZoneId: 318,
-							Abbr:   "+05",
+							Abbr:   "OMST",
 							Offset: 18000,
 						},
 						{
 							ZoneId: 318,
-							Abbr:   "+06",
+							Abbr:   "OMST",
 							Offset: 21600,
 						},
 						{
 							ZoneId: 318,
-							Abbr:   "+07",
+							Abbr:   "OMSST",
+							Offset: 25200,
+						},
+						{
+							ZoneId: 318,
+							Abbr:   "OMST",
 							Offset: 25200,
 						},
 					},
@@ -9344,23 +9935,28 @@ var (
 						},
 						{
 							ZoneId: 331,
-							Abbr:   "+09",
+							Abbr:   "JST",
 							Offset: 32400,
 						},
 						{
 							ZoneId: 331,
-							Abbr:   "+11",
+							Abbr:   "SAKT",
 							Offset: 39600,
 						},
 						{
 							ZoneId: 331,
-							Abbr:   "+12",
+							Abbr:   "SAKST",
 							Offset: 43200,
 						},
 						{
 							ZoneId: 331,
-							Abbr:   "+10",
+							Abbr:   "SAKT",
 							Offset: 36000,
+						},
+						{
+							ZoneId: 331,
+							Abbr:   "SAKST",
+							Offset: 39600,
 						},
 					},
 				},
@@ -9376,18 +9972,28 @@ var (
 						},
 						{
 							ZoneId: 332,
-							Abbr:   "+10",
+							Abbr:   "MAGT",
 							Offset: 36000,
 						},
 						{
 							ZoneId: 332,
-							Abbr:   "+11",
+							Abbr:   "MAGT",
 							Offset: 39600,
 						},
 						{
 							ZoneId: 332,
-							Abbr:   "+12",
+							Abbr:   "MAGST",
 							Offset: 43200,
+						},
+						{
+							ZoneId: 332,
+							Abbr:   "MAGT",
+							Offset: 43200,
+						},
+						{
+							ZoneId: 332,
+							Abbr:   "SRET",
+							Offset: 39600,
 						},
 					},
 				},
@@ -9403,17 +10009,17 @@ var (
 						},
 						{
 							ZoneId: 321,
-							Abbr:   "+06",
+							Abbr:   "MSK+3",
 							Offset: 21600,
 						},
 						{
 							ZoneId: 321,
-							Abbr:   "+07",
+							Abbr:   "MSD+3",
 							Offset: 25200,
 						},
 						{
 							ZoneId: 321,
-							Abbr:   "+08",
+							Abbr:   "MSD+4",
 							Offset: 28800,
 						},
 					},
@@ -9430,27 +10036,42 @@ var (
 						},
 						{
 							ZoneId: 329,
-							Abbr:   "+08",
+							Abbr:   "YAKT",
 							Offset: 28800,
 						},
 						{
 							ZoneId: 329,
-							Abbr:   "+09",
+							Abbr:   "YAKT",
 							Offset: 32400,
 						},
 						{
 							ZoneId: 329,
-							Abbr:   "+12",
+							Abbr:   "MAGST",
 							Offset: 43200,
 						},
 						{
 							ZoneId: 329,
-							Abbr:   "+11",
+							Abbr:   "MAGT",
 							Offset: 39600,
 						},
 						{
 							ZoneId: 329,
-							Abbr:   "+10",
+							Abbr:   "MAGT",
+							Offset: 36000,
+						},
+						{
+							ZoneId: 329,
+							Abbr:   "MAGT",
+							Offset: 43200,
+						},
+						{
+							ZoneId: 329,
+							Abbr:   "VLAT",
+							Offset: 39600,
+						},
+						{
+							ZoneId: 329,
+							Abbr:   "VLAT",
 							Offset: 36000,
 						},
 					},
@@ -9467,17 +10088,22 @@ var (
 						},
 						{
 							ZoneId: 328,
-							Abbr:   "+09",
+							Abbr:   "VLAT",
 							Offset: 32400,
 						},
 						{
 							ZoneId: 328,
-							Abbr:   "+10",
+							Abbr:   "VLAT",
 							Offset: 36000,
 						},
 						{
 							ZoneId: 328,
-							Abbr:   "+11",
+							Abbr:   "VLAST",
+							Offset: 39600,
+						},
+						{
+							ZoneId: 328,
+							Abbr:   "VLAT",
 							Offset: 39600,
 						},
 					},
@@ -9494,17 +10120,22 @@ var (
 						},
 						{
 							ZoneId: 326,
-							Abbr:   "+08",
+							Abbr:   "YAKT",
 							Offset: 28800,
 						},
 						{
 							ZoneId: 326,
-							Abbr:   "+09",
+							Abbr:   "YAKT",
 							Offset: 32400,
 						},
 						{
 							ZoneId: 326,
-							Abbr:   "+10",
+							Abbr:   "YAKST",
+							Offset: 36000,
+						},
+						{
+							ZoneId: 326,
+							Abbr:   "YAKT",
 							Offset: 36000,
 						},
 					},
@@ -9526,17 +10157,32 @@ var (
 						},
 						{
 							ZoneId: 317,
-							Abbr:   "+04",
+							Abbr:   "SVET",
 							Offset: 14400,
 						},
 						{
 							ZoneId: 317,
-							Abbr:   "+05",
+							Abbr:   "SVET",
 							Offset: 18000,
 						},
 						{
 							ZoneId: 317,
-							Abbr:   "+06",
+							Abbr:   "SVEST",
+							Offset: 21600,
+						},
+						{
+							ZoneId: 317,
+							Abbr:   "YEKT",
+							Offset: 18000,
+						},
+						{
+							ZoneId: 317,
+							Abbr:   "YEKST",
+							Offset: 21600,
+						},
+						{
+							ZoneId: 317,
+							Abbr:   "YEKT",
 							Offset: 21600,
 						},
 					},
@@ -9553,18 +10199,28 @@ var (
 						},
 						{
 							ZoneId: 313,
-							Abbr:   "+03",
+							Abbr:   "MSK",
 							Offset: 10800,
 						},
 						{
 							ZoneId: 313,
-							Abbr:   "+04",
+							Abbr:   "MSK+1",
 							Offset: 14400,
 						},
 						{
 							ZoneId: 313,
-							Abbr:   "+05",
+							Abbr:   "MSD+1",
 							Offset: 18000,
+						},
+						{
+							ZoneId: 313,
+							Abbr:   "MSD",
+							Offset: 14400,
+						},
+						{
+							ZoneId: 313,
+							Abbr:   "MSK",
+							Offset: 14400,
 						},
 					},
 				},
@@ -9590,12 +10246,12 @@ var (
 						},
 						{
 							ZoneId: 308,
-							Abbr:   "CET",
+							Abbr:   "EET",
 							Offset: 7200,
 						},
 						{
 							ZoneId: 308,
-							Abbr:   "CEST",
+							Abbr:   "EEST",
 							Offset: 10800,
 						},
 						{
@@ -9610,44 +10266,34 @@ var (
 						},
 						{
 							ZoneId: 308,
-							Abbr:   "EEST",
-							Offset: 10800,
-						},
-						{
-							ZoneId: 308,
 							Abbr:   "EET",
-							Offset: 7200,
-						},
-						{
-							ZoneId: 308,
-							Abbr:   "+03",
 							Offset: 10800,
 						},
 					},
 				},
 				{
-					Id:          312,
+					Id:          311,
 					CountryCode: "RU",
 					Name:        "Europe/Kirov",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 312,
+							ZoneId: 311,
 							Abbr:   "LMT",
 							Offset: 11928,
 						},
 						{
-							ZoneId: 312,
-							Abbr:   "+03",
+							ZoneId: 311,
+							Abbr:   "MSK",
 							Offset: 10800,
 						},
 						{
-							ZoneId: 312,
-							Abbr:   "+04",
+							ZoneId: 311,
+							Abbr:   "MSD",
 							Offset: 14400,
 						},
 						{
-							ZoneId: 312,
-							Abbr:   "+05",
+							ZoneId: 311,
+							Abbr:   "MSD+1",
 							Offset: 18000,
 						},
 					},
@@ -9694,7 +10340,7 @@ var (
 						},
 						{
 							ZoneId: 309,
-							Abbr:   "+05",
+							Abbr:   "MSM",
 							Offset: 18000,
 						},
 						{
@@ -9726,18 +10372,43 @@ var (
 						},
 						{
 							ZoneId: 316,
-							Abbr:   "+03",
+							Abbr:   "KUYT",
 							Offset: 10800,
 						},
 						{
 							ZoneId: 316,
-							Abbr:   "+04",
+							Abbr:   "KUYT",
 							Offset: 14400,
 						},
 						{
 							ZoneId: 316,
-							Abbr:   "+05",
+							Abbr:   "KUYST",
 							Offset: 18000,
+						},
+						{
+							ZoneId: 316,
+							Abbr:   "MSK",
+							Offset: 10800,
+						},
+						{
+							ZoneId: 316,
+							Abbr:   "MSD",
+							Offset: 14400,
+						},
+						{
+							ZoneId: 316,
+							Abbr:   "SAMT",
+							Offset: 14400,
+						},
+						{
+							ZoneId: 316,
+							Abbr:   "SAMST",
+							Offset: 18000,
+						},
+						{
+							ZoneId: 316,
+							Abbr:   "SAMT",
+							Offset: 10800,
 						},
 					},
 				},
@@ -9753,70 +10424,18 @@ var (
 						},
 						{
 							ZoneId: 314,
-							Abbr:   "+03",
-							Offset: 10800,
-						},
-						{
-							ZoneId: 314,
-							Abbr:   "+04",
-							Offset: 14400,
-						},
-						{
-							ZoneId: 314,
-							Abbr:   "+05",
-							Offset: 18000,
-						},
-					},
-				},
-				{
-					Id:          310,
-					CountryCode: "RU",
-					Name:        "Europe/Simferopol",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 310,
-							Abbr:   "LMT",
-							Offset: 8184,
-						},
-						{
-							ZoneId: 310,
-							Abbr:   "SMT",
-							Offset: 8160,
-						},
-						{
-							ZoneId: 310,
-							Abbr:   "EET",
-							Offset: 7200,
-						},
-						{
-							ZoneId: 310,
 							Abbr:   "MSK",
 							Offset: 10800,
 						},
 						{
-							ZoneId: 310,
-							Abbr:   "CEST",
-							Offset: 7200,
-						},
-						{
-							ZoneId: 310,
-							Abbr:   "CET",
-							Offset: 3600,
-						},
-						{
-							ZoneId: 310,
+							ZoneId: 314,
 							Abbr:   "MSD",
 							Offset: 14400,
 						},
 						{
-							ZoneId: 310,
-							Abbr:   "EEST",
-							Offset: 10800,
-						},
-						{
-							ZoneId: 310,
-							Abbr:   "MSK",
-							Offset: 14400,
+							ZoneId: 314,
+							Abbr:   "MSD+1",
+							Offset: 18000,
 						},
 					},
 				},
@@ -9832,50 +10451,90 @@ var (
 						},
 						{
 							ZoneId: 315,
-							Abbr:   "+03",
+							Abbr:   "MSK",
 							Offset: 10800,
 						},
 						{
 							ZoneId: 315,
-							Abbr:   "+04",
+							Abbr:   "MSK+1",
 							Offset: 14400,
 						},
 						{
 							ZoneId: 315,
-							Abbr:   "+05",
+							Abbr:   "MSD+1",
 							Offset: 18000,
 						},
 						{
 							ZoneId: 315,
-							Abbr:   "+02",
+							Abbr:   "MSD",
+							Offset: 14400,
+						},
+						{
+							ZoneId: 315,
+							Abbr:   "MSK",
 							Offset: 7200,
+						},
+						{
+							ZoneId: 315,
+							Abbr:   "MSK",
+							Offset: 14400,
 						},
 					},
 				},
 				{
-					Id:          311,
+					Id:          312,
 					CountryCode: "RU",
 					Name:        "Europe/Volgograd",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 311,
+							ZoneId: 312,
 							Abbr:   "LMT",
 							Offset: 10660,
 						},
 						{
-							ZoneId: 311,
-							Abbr:   "+03",
+							ZoneId: 312,
+							Abbr:   "TSAT",
 							Offset: 10800,
 						},
 						{
-							ZoneId: 311,
-							Abbr:   "+04",
+							ZoneId: 312,
+							Abbr:   "STAT",
 							Offset: 14400,
 						},
 						{
-							ZoneId: 311,
-							Abbr:   "+05",
+							ZoneId: 312,
+							Abbr:   "VOLST",
 							Offset: 18000,
+						},
+						{
+							ZoneId: 312,
+							Abbr:   "VOLT",
+							Offset: 14400,
+						},
+						{
+							ZoneId: 312,
+							Abbr:   "VOLT",
+							Offset: 10800,
+						},
+						{
+							ZoneId: 312,
+							Abbr:   "VOLST",
+							Offset: 14400,
+						},
+						{
+							ZoneId: 312,
+							Abbr:   "MSK",
+							Offset: 10800,
+						},
+						{
+							ZoneId: 312,
+							Abbr:   "MSD",
+							Offset: 14400,
+						},
+						{
+							ZoneId: 312,
+							Abbr:   "MSK",
+							Offset: 14400,
 						},
 					},
 				},
@@ -9905,21 +10564,44 @@ var (
 			},
 		},
 		{
+			Code: "RE",
+			Name: "Réunion",
+			Zones: []*Zone{
+				{
+					Id:          305,
+					CountryCode: "RE",
+					Name:        "Indian/Reunion",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 305,
+							Abbr:   "LMT",
+							Offset: 13312,
+						},
+						{
+							ZoneId: 305,
+							Abbr:   "RET",
+							Offset: 14400,
+						},
+					},
+				},
+			},
+		},
+		{
 			Code: "BL",
 			Name: "Saint Barthélemy",
 			Zones: []*Zone{
 				{
-					Id:          58,
+					Id:          57,
 					CountryCode: "BL",
 					Name:        "America/St_Barthelemy",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 58,
+							ZoneId: 57,
 							Abbr:   "LMT",
 							Offset: -14764,
 						},
 						{
-							ZoneId: 58,
+							ZoneId: 57,
 							Abbr:   "AST",
 							Offset: -14400,
 						},
@@ -9929,7 +10611,7 @@ var (
 		},
 		{
 			Code: "SH",
-			Name: "Saint Helena",
+			Name: "Saint Helena, Ascension and Tristan da Cunha",
 			Zones: []*Zone{
 				{
 					Id:          342,
@@ -9955,17 +10637,17 @@ var (
 			Name: "Saint Kitts and Nevis",
 			Zones: []*Zone{
 				{
-					Id:          211,
+					Id:          210,
 					CountryCode: "KN",
 					Name:        "America/St_Kitts",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 211,
+							ZoneId: 210,
 							Abbr:   "LMT",
 							Offset: -14764,
 						},
 						{
-							ZoneId: 211,
+							ZoneId: 210,
 							Abbr:   "AST",
 							Offset: -14400,
 						},
@@ -9998,7 +10680,7 @@ var (
 		},
 		{
 			Code: "MF",
-			Name: "Saint Martin",
+			Name: "Saint Martin (French part)",
 			Zones: []*Zone{
 				{
 					Id:          237,
@@ -10040,12 +10722,12 @@ var (
 						},
 						{
 							ZoneId: 294,
-							Abbr:   "-03",
+							Abbr:   "PMDT",
 							Offset: -10800,
 						},
 						{
 							ZoneId: 294,
-							Abbr:   "-02",
+							Abbr:   "PMST",
 							Offset: -7200,
 						},
 					},
@@ -10096,27 +10778,27 @@ var (
 						},
 						{
 							ZoneId: 419,
-							Abbr:   "-1130",
+							Abbr:   "SAMT",
 							Offset: -41400,
 						},
 						{
 							ZoneId: 419,
-							Abbr:   "-11",
+							Abbr:   "WST",
 							Offset: -39600,
 						},
 						{
 							ZoneId: 419,
-							Abbr:   "-10",
+							Abbr:   "WST",
 							Offset: -36000,
 						},
 						{
 							ZoneId: 419,
-							Abbr:   "+14",
+							Abbr:   "WST",
 							Offset: 50400,
 						},
 						{
 							ZoneId: 419,
-							Abbr:   "+13",
+							Abbr:   "WST",
 							Offset: 46800,
 						},
 					},
@@ -10168,12 +10850,22 @@ var (
 						{
 							ZoneId: 352,
 							Abbr:   "LMT",
-							Offset: -968,
+							Offset: 1616,
+						},
+						{
+							ZoneId: 352,
+							Abbr:   "LMT",
+							Offset: -2205,
 						},
 						{
 							ZoneId: 352,
 							Abbr:   "GMT",
 							Offset: 0,
+						},
+						{
+							ZoneId: 352,
+							Abbr:   "WAT",
+							Offset: 3600,
 						},
 					},
 				},
@@ -10195,7 +10887,7 @@ var (
 						},
 						{
 							ZoneId: 336,
-							Abbr:   "+03",
+							Abbr:   "AST",
 							Offset: 10800,
 						},
 					},
@@ -10254,11 +10946,6 @@ var (
 			},
 		},
 		{
-			Code:  "CS",
-			Name:  "Serbia and Montenegro",
-			Zones: []*Zone{},
-		},
-		{
 			Code: "SC",
 			Name: "Seychelles",
 			Zones: []*Zone{
@@ -10274,7 +10961,7 @@ var (
 						},
 						{
 							ZoneId: 338,
-							Abbr:   "+04",
+							Abbr:   "SCT",
 							Offset: 14400,
 						},
 					},
@@ -10325,27 +11012,32 @@ var (
 						},
 						{
 							ZoneId: 341,
-							Abbr:   "+07",
+							Abbr:   "SMT",
 							Offset: 25200,
 						},
 						{
 							ZoneId: 341,
-							Abbr:   "+0720",
+							Abbr:   "SMT",
 							Offset: 26400,
 						},
 						{
 							ZoneId: 341,
-							Abbr:   "+0730",
+							Abbr:   "SMT",
 							Offset: 27000,
 						},
 						{
 							ZoneId: 341,
-							Abbr:   "+09",
+							Abbr:   "JST",
 							Offset: 32400,
 						},
 						{
 							ZoneId: 341,
-							Abbr:   "+08",
+							Abbr:   "SST",
+							Offset: 27000,
+						},
+						{
+							ZoneId: 341,
+							Abbr:   "SST",
 							Offset: 28800,
 						},
 					},
@@ -10354,7 +11046,7 @@ var (
 		},
 		{
 			Code: "SX",
-			Name: "Sint Maarten",
+			Name: "Sint Maarten (Dutch part)",
 			Zones: []*Zone{
 				{
 					Id:          354,
@@ -10368,7 +11060,7 @@ var (
 						},
 						{
 							ZoneId: 354,
-							Abbr:   "-0430",
+							Abbr:   "AST",
 							Offset: -16200,
 						},
 						{
@@ -10408,6 +11100,11 @@ var (
 							ZoneId: 345,
 							Abbr:   "CEST",
 							Offset: 7200,
+						},
+						{
+							ZoneId: 345,
+							Abbr:   "GMT",
+							Offset: 0,
 						},
 					},
 				},
@@ -10457,7 +11154,7 @@ var (
 						},
 						{
 							ZoneId: 337,
-							Abbr:   "+11",
+							Abbr:   "SBT",
 							Offset: 39600,
 						},
 					},
@@ -10481,16 +11178,16 @@ var (
 						{
 							ZoneId: 349,
 							Abbr:   "EAT",
-							Offset: 10800,
-						},
-						{
-							ZoneId: 349,
-							Abbr:   "+0230",
 							Offset: 9000,
 						},
 						{
 							ZoneId: 349,
-							Abbr:   "+0245",
+							Abbr:   "EAT",
+							Offset: 10800,
+						},
+						{
+							ZoneId: 349,
+							Abbr:   "EAT",
 							Offset: 9900,
 						},
 					},
@@ -10535,62 +11232,19 @@ var (
 			Name: "South Georgia and the South Sandwich Islands",
 			Zones: []*Zone{
 				{
-					Id:          177,
+					Id:          176,
 					CountryCode: "GS",
 					Name:        "Atlantic/South_Georgia",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 177,
+							ZoneId: 176,
 							Abbr:   "LMT",
 							Offset: -8768,
 						},
 						{
-							ZoneId: 177,
-							Abbr:   "-02",
+							ZoneId: 176,
+							Abbr:   "GST",
 							Offset: -7200,
-						},
-					},
-				},
-			},
-		},
-		{
-			Code: "KR",
-			Name: "South Korea",
-			Zones: []*Zone{
-				{
-					Id:          213,
-					CountryCode: "KR",
-					Name:        "Asia/Seoul",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 213,
-							Abbr:   "LMT",
-							Offset: 30472,
-						},
-						{
-							ZoneId: 213,
-							Abbr:   "KST",
-							Offset: 30600,
-						},
-						{
-							ZoneId: 213,
-							Abbr:   "JST",
-							Offset: 32400,
-						},
-						{
-							ZoneId: 213,
-							Abbr:   "KST",
-							Offset: 32400,
-						},
-						{
-							ZoneId: 213,
-							Abbr:   "KDT",
-							Offset: 34200,
-						},
-						{
-							ZoneId: 213,
-							Abbr:   "KDT",
-							Offset: 36000,
 						},
 					},
 				},
@@ -10608,7 +11262,7 @@ var (
 						{
 							ZoneId: 351,
 							Abbr:   "LMT",
-							Offset: 7808,
+							Offset: 7588,
 						},
 						{
 							ZoneId: 351,
@@ -10634,96 +11288,96 @@ var (
 			Name: "Spain",
 			Zones: []*Zone{
 				{
-					Id:          149,
+					Id:          148,
 					CountryCode: "ES",
 					Name:        "Africa/Ceuta",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 149,
+							ZoneId: 148,
 							Abbr:   "LMT",
 							Offset: -1276,
 						},
 						{
-							ZoneId: 149,
+							ZoneId: 148,
 							Abbr:   "WET",
 							Offset: 0,
 						},
 						{
-							ZoneId: 149,
+							ZoneId: 148,
 							Abbr:   "WEST",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 149,
+							ZoneId: 148,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 149,
+							ZoneId: 148,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
 					},
 				},
 				{
-					Id:          150,
+					Id:          149,
 					CountryCode: "ES",
 					Name:        "Atlantic/Canary",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 150,
+							ZoneId: 149,
 							Abbr:   "LMT",
 							Offset: -3696,
 						},
 						{
-							ZoneId: 150,
-							Abbr:   "-01",
+							ZoneId: 149,
+							Abbr:   "WAT",
 							Offset: -3600,
 						},
 						{
-							ZoneId: 150,
+							ZoneId: 149,
 							Abbr:   "WET",
 							Offset: 0,
 						},
 						{
-							ZoneId: 150,
+							ZoneId: 149,
 							Abbr:   "WEST",
 							Offset: 3600,
 						},
 					},
 				},
 				{
-					Id:          148,
+					Id:          147,
 					CountryCode: "ES",
 					Name:        "Europe/Madrid",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 148,
+							ZoneId: 147,
 							Abbr:   "LMT",
 							Offset: -884,
 						},
 						{
-							ZoneId: 148,
+							ZoneId: 147,
 							Abbr:   "WET",
 							Offset: 0,
 						},
 						{
-							ZoneId: 148,
+							ZoneId: 147,
 							Abbr:   "WEST",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 148,
+							ZoneId: 147,
 							Abbr:   "WEMT",
 							Offset: 7200,
 						},
 						{
-							ZoneId: 148,
+							ZoneId: 147,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 148,
+							ZoneId: 147,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
@@ -10752,17 +11406,17 @@ var (
 						},
 						{
 							ZoneId: 226,
-							Abbr:   "+0530",
+							Abbr:   "IST",
 							Offset: 19800,
 						},
 						{
 							ZoneId: 226,
-							Abbr:   "+06",
+							Abbr:   "IST",
 							Offset: 21600,
 						},
 						{
 							ZoneId: 226,
-							Abbr:   "+0630",
+							Abbr:   "IST",
 							Offset: 23400,
 						},
 					},
@@ -10828,12 +11482,12 @@ var (
 						},
 						{
 							ZoneId: 350,
-							Abbr:   "-0330",
+							Abbr:   "SRT",
 							Offset: -12600,
 						},
 						{
 							ZoneId: 350,
-							Abbr:   "-03",
+							Abbr:   "SRT",
 							Offset: -10800,
 						},
 					},
@@ -10939,27 +11593,27 @@ var (
 			Name: "Switzerland",
 			Zones: []*Zone{
 				{
-					Id:          117,
+					Id:          116,
 					CountryCode: "CH",
 					Name:        "Europe/Zurich",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 117,
+							ZoneId: 116,
 							Abbr:   "LMT",
 							Offset: 2048,
 						},
 						{
-							ZoneId: 117,
+							ZoneId: 116,
 							Abbr:   "BMT",
 							Offset: 1786,
 						},
 						{
-							ZoneId: 117,
+							ZoneId: 116,
 							Abbr:   "CET",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 117,
+							ZoneId: 116,
 							Abbr:   "CEST",
 							Offset: 7200,
 						},
@@ -10969,7 +11623,7 @@ var (
 		},
 		{
 			Code: "SY",
-			Name: "Syria",
+			Name: "Syrian Arab Republic",
 			Zones: []*Zone{
 				{
 					Id:          355,
@@ -10997,7 +11651,7 @@ var (
 		},
 		{
 			Code: "TW",
-			Name: "Taiwan",
+			Name: "Taiwan, Province of China",
 			Zones: []*Zone{
 				{
 					Id:          371,
@@ -11044,18 +11698,23 @@ var (
 						},
 						{
 							ZoneId: 362,
-							Abbr:   "+05",
+							Abbr:   "DUST",
 							Offset: 18000,
 						},
 						{
 							ZoneId: 362,
-							Abbr:   "+06",
+							Abbr:   "DUST",
 							Offset: 21600,
 						},
 						{
 							ZoneId: 362,
-							Abbr:   "+07",
+							Abbr:   "DUSST",
 							Offset: 25200,
+						},
+						{
+							ZoneId: 362,
+							Abbr:   "TJT",
+							Offset: 18000,
 						},
 					},
 				},
@@ -11063,7 +11722,7 @@ var (
 		},
 		{
 			Code: "TZ",
-			Name: "Tanzania",
+			Name: "Tanzania, United Republic of",
 			Zones: []*Zone{
 				{
 					Id:          372,
@@ -11078,16 +11737,16 @@ var (
 						{
 							ZoneId: 372,
 							Abbr:   "EAT",
-							Offset: 10800,
-						},
-						{
-							ZoneId: 372,
-							Abbr:   "+0230",
 							Offset: 9000,
 						},
 						{
 							ZoneId: 372,
-							Abbr:   "+0245",
+							Abbr:   "EAT",
+							Offset: 10800,
+						},
+						{
+							ZoneId: 372,
+							Abbr:   "EAT",
 							Offset: 9900,
 						},
 					},
@@ -11115,8 +11774,41 @@ var (
 						},
 						{
 							ZoneId: 361,
-							Abbr:   "+07",
+							Abbr:   "ICT",
 							Offset: 25200,
+						},
+					},
+				},
+			},
+		},
+		{
+			Code: "TL",
+			Name: "Timor-Leste",
+			Zones: []*Zone{
+				{
+					Id:          364,
+					CountryCode: "TL",
+					Name:        "Asia/Dili",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 364,
+							Abbr:   "LMT",
+							Offset: 30140,
+						},
+						{
+							ZoneId: 364,
+							Abbr:   "TLT",
+							Offset: 28800,
+						},
+						{
+							ZoneId: 364,
+							Abbr:   "TLT",
+							Offset: 32400,
+						},
+						{
+							ZoneId: 364,
+							Abbr:   "WITA",
+							Offset: 28800,
 						},
 					},
 				},
@@ -11161,12 +11853,12 @@ var (
 						},
 						{
 							ZoneId: 363,
-							Abbr:   "-11",
+							Abbr:   "TKT",
 							Offset: -39600,
 						},
 						{
 							ZoneId: 363,
-							Abbr:   "+13",
+							Abbr:   "TKT",
 							Offset: 46800,
 						},
 					},
@@ -11189,17 +11881,17 @@ var (
 						},
 						{
 							ZoneId: 367,
-							Abbr:   "+1220",
+							Abbr:   "TOT",
 							Offset: 44400,
 						},
 						{
 							ZoneId: 367,
-							Abbr:   "+13",
+							Abbr:   "TOT",
 							Offset: 46800,
 						},
 						{
 							ZoneId: 367,
-							Abbr:   "+14",
+							Abbr:   "TOST",
 							Offset: 50400,
 						},
 					},
@@ -11293,13 +11985,13 @@ var (
 						},
 						{
 							ZoneId: 368,
-							Abbr:   "+04",
-							Offset: 14400,
+							Abbr:   "TRT",
+							Offset: 10800,
 						},
 						{
 							ZoneId: 368,
-							Abbr:   "+03",
-							Offset: 10800,
+							Abbr:   "TRST",
+							Offset: 14400,
 						},
 					},
 				},
@@ -11321,18 +12013,28 @@ var (
 						},
 						{
 							ZoneId: 365,
-							Abbr:   "+04",
+							Abbr:   "ASHT",
 							Offset: 14400,
 						},
 						{
 							ZoneId: 365,
-							Abbr:   "+05",
+							Abbr:   "ASHT",
 							Offset: 18000,
 						},
 						{
 							ZoneId: 365,
-							Abbr:   "+06",
+							Abbr:   "ASHST",
 							Offset: 21600,
+						},
+						{
+							ZoneId: 365,
+							Abbr:   "TMT",
+							Offset: 14400,
+						},
+						{
+							ZoneId: 365,
+							Abbr:   "TMT",
+							Offset: 18000,
 						},
 					},
 				},
@@ -11355,7 +12057,7 @@ var (
 						{
 							ZoneId: 357,
 							Abbr:   "KMT",
-							Offset: -18431,
+							Offset: -18430,
 						},
 						{
 							ZoneId: 357,
@@ -11392,31 +12094,8 @@ var (
 						},
 						{
 							ZoneId: 370,
-							Abbr:   "+12",
+							Abbr:   "TVT",
 							Offset: 43200,
-						},
-					},
-				},
-			},
-		},
-		{
-			Code: "VI",
-			Name: "U.S. Virgin Islands",
-			Zones: []*Zone{
-				{
-					Id:          415,
-					CountryCode: "VI",
-					Name:        "America/St_Thomas",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 415,
-							Abbr:   "LMT",
-							Offset: -14764,
-						},
-						{
-							ZoneId: 415,
-							Abbr:   "AST",
-							Offset: -14400,
 						},
 					},
 				},
@@ -11439,16 +12118,16 @@ var (
 						{
 							ZoneId: 376,
 							Abbr:   "EAT",
-							Offset: 10800,
-						},
-						{
-							ZoneId: 376,
-							Abbr:   "+0230",
 							Offset: 9000,
 						},
 						{
 							ZoneId: 376,
-							Abbr:   "+0245",
+							Abbr:   "EAT",
+							Offset: 10800,
+						},
+						{
+							ZoneId: 376,
+							Abbr:   "EAT",
 							Offset: 9900,
 						},
 					},
@@ -11507,6 +12186,58 @@ var (
 					},
 				},
 				{
+					Id:          310,
+					CountryCode: "UA",
+					Name:        "Europe/Simferopol",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 310,
+							Abbr:   "LMT",
+							Offset: 8184,
+						},
+						{
+							ZoneId: 310,
+							Abbr:   "SMT",
+							Offset: 8160,
+						},
+						{
+							ZoneId: 310,
+							Abbr:   "EET",
+							Offset: 7200,
+						},
+						{
+							ZoneId: 310,
+							Abbr:   "MSK",
+							Offset: 10800,
+						},
+						{
+							ZoneId: 310,
+							Abbr:   "CEST",
+							Offset: 7200,
+						},
+						{
+							ZoneId: 310,
+							Abbr:   "CET",
+							Offset: 3600,
+						},
+						{
+							ZoneId: 310,
+							Abbr:   "MSD",
+							Offset: 14400,
+						},
+						{
+							ZoneId: 310,
+							Abbr:   "EEST",
+							Offset: 10800,
+						},
+						{
+							ZoneId: 310,
+							Abbr:   "MSK",
+							Offset: 14400,
+						},
+					},
+				},
+				{
 					Id:          374,
 					CountryCode: "UA",
 					Name:        "Europe/Uzhgorod",
@@ -11560,7 +12291,7 @@ var (
 						},
 						{
 							ZoneId: 375,
-							Abbr:   "+0220",
+							Abbr:   "EET",
 							Offset: 8400,
 						},
 						{
@@ -11613,7 +12344,7 @@ var (
 						},
 						{
 							ZoneId: 2,
-							Abbr:   "+04",
+							Abbr:   "GST",
 							Offset: 14400,
 						},
 					},
@@ -11625,27 +12356,27 @@ var (
 			Name: "United Kingdom",
 			Zones: []*Zone{
 				{
-					Id:          161,
+					Id:          160,
 					CountryCode: "GB",
 					Name:        "Europe/London",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 161,
+							ZoneId: 160,
 							Abbr:   "LMT",
 							Offset: -75,
 						},
 						{
-							ZoneId: 161,
+							ZoneId: 160,
 							Abbr:   "GMT",
 							Offset: 0,
 						},
 						{
-							ZoneId: 161,
+							ZoneId: 160,
 							Abbr:   "BST",
 							Offset: 3600,
 						},
 						{
-							ZoneId: 161,
+							ZoneId: 160,
 							Abbr:   "BDST",
 							Offset: 7200,
 						},
@@ -11665,7 +12396,7 @@ var (
 						{
 							ZoneId: 406,
 							Abbr:   "LMT",
-							Offset: 44001,
+							Offset: 44002,
 						},
 						{
 							ZoneId: 406,
@@ -12547,7 +13278,7 @@ var (
 						{
 							ZoneId: 405,
 							Abbr:   "LMT",
-							Offset: 46701,
+							Offset: 46702,
 						},
 						{
 							ZoneId: 405,
@@ -12870,6 +13601,16 @@ var (
 						},
 						{
 							ZoneId: 407,
+							Abbr:   "HWT",
+							Offset: -34200,
+						},
+						{
+							ZoneId: 407,
+							Abbr:   "HPT",
+							Offset: -34200,
+						},
+						{
+							ZoneId: 407,
 							Abbr:   "HST",
 							Offset: -36000,
 						},
@@ -12915,7 +13656,7 @@ var (
 						},
 						{
 							ZoneId: 378,
-							Abbr:   "+12",
+							Abbr:   "WAKT",
 							Offset: 43200,
 						},
 					},
@@ -12934,32 +13675,47 @@ var (
 						{
 							ZoneId: 408,
 							Abbr:   "LMT",
-							Offset: -13484,
+							Offset: -13491,
 						},
 						{
 							ZoneId: 408,
 							Abbr:   "MMT",
-							Offset: -13484,
+							Offset: -13491,
 						},
 						{
 							ZoneId: 408,
-							Abbr:   "-0330",
-							Offset: -12600,
+							Abbr:   "UYT",
+							Offset: -14400,
 						},
 						{
 							ZoneId: 408,
-							Abbr:   "-03",
+							Abbr:   "UYST",
 							Offset: -10800,
 						},
 						{
 							ZoneId: 408,
-							Abbr:   "-02",
+							Abbr:   "UYT",
+							Offset: -12600,
+						},
+						{
+							ZoneId: 408,
+							Abbr:   "UYST",
+							Offset: -9000,
+						},
+						{
+							ZoneId: 408,
+							Abbr:   "UYT",
+							Offset: -10800,
+						},
+						{
+							ZoneId: 408,
+							Abbr:   "UYST",
 							Offset: -7200,
 						},
 						{
 							ZoneId: 408,
-							Abbr:   "-0230",
-							Offset: -9000,
+							Abbr:   "UYST",
+							Offset: -5400,
 						},
 					},
 				},
@@ -12981,18 +13737,23 @@ var (
 						},
 						{
 							ZoneId: 409,
-							Abbr:   "+04",
+							Abbr:   "SAMT",
 							Offset: 14400,
 						},
 						{
 							ZoneId: 409,
-							Abbr:   "+05",
+							Abbr:   "SAMT",
 							Offset: 18000,
 						},
 						{
 							ZoneId: 409,
-							Abbr:   "+06",
+							Abbr:   "SAMST",
 							Offset: 21600,
+						},
+						{
+							ZoneId: 409,
+							Abbr:   "UZT",
+							Offset: 18000,
 						},
 					},
 				},
@@ -13008,18 +13769,23 @@ var (
 						},
 						{
 							ZoneId: 410,
-							Abbr:   "+05",
+							Abbr:   "TAST",
 							Offset: 18000,
 						},
 						{
 							ZoneId: 410,
-							Abbr:   "+06",
+							Abbr:   "TAST",
 							Offset: 21600,
 						},
 						{
 							ZoneId: 410,
-							Abbr:   "+07",
+							Abbr:   "TASST",
 							Offset: 25200,
+						},
+						{
+							ZoneId: 410,
+							Abbr:   "UZT",
+							Offset: 18000,
 						},
 					},
 				},
@@ -13041,12 +13807,12 @@ var (
 						},
 						{
 							ZoneId: 417,
-							Abbr:   "+11",
+							Abbr:   "VUT",
 							Offset: 39600,
 						},
 						{
 							ZoneId: 417,
-							Abbr:   "+12",
+							Abbr:   "VUST",
 							Offset: 43200,
 						},
 					},
@@ -13054,41 +13820,8 @@ var (
 			},
 		},
 		{
-			Code: "VA",
-			Name: "Vatican",
-			Zones: []*Zone{
-				{
-					Id:          411,
-					CountryCode: "VA",
-					Name:        "Europe/Vatican",
-					TimeZones: []*TimeZone{
-						{
-							ZoneId: 411,
-							Abbr:   "LMT",
-							Offset: 2996,
-						},
-						{
-							ZoneId: 411,
-							Abbr:   "RMT",
-							Offset: 2996,
-						},
-						{
-							ZoneId: 411,
-							Abbr:   "CET",
-							Offset: 3600,
-						},
-						{
-							ZoneId: 411,
-							Abbr:   "CEST",
-							Offset: 7200,
-						},
-					},
-				},
-			},
-		},
-		{
 			Code: "VE",
-			Name: "Venezuela",
+			Name: "Venezuela, Bolivarian Republic of",
 			Zones: []*Zone{
 				{
 					Id:          413,
@@ -13107,12 +13840,12 @@ var (
 						},
 						{
 							ZoneId: 413,
-							Abbr:   "-0430",
+							Abbr:   "VET",
 							Offset: -16200,
 						},
 						{
 							ZoneId: 413,
-							Abbr:   "-04",
+							Abbr:   "VET",
 							Offset: -14400,
 						},
 					},
@@ -13121,7 +13854,7 @@ var (
 		},
 		{
 			Code: "VN",
-			Name: "Vietnam",
+			Name: "Viet Nam",
 			Zones: []*Zone{
 				{
 					Id:          416,
@@ -13140,18 +13873,74 @@ var (
 						},
 						{
 							ZoneId: 416,
-							Abbr:   "+07",
+							Abbr:   "ICT",
 							Offset: 25200,
 						},
 						{
 							ZoneId: 416,
-							Abbr:   "+08",
+							Abbr:   "IDT",
 							Offset: 28800,
 						},
 						{
 							ZoneId: 416,
-							Abbr:   "+09",
+							Abbr:   "JST",
 							Offset: 32400,
+						},
+						{
+							ZoneId: 416,
+							Abbr:   "IDT",
+							Offset: 25200,
+						},
+						{
+							ZoneId: 416,
+							Abbr:   "ICT",
+							Offset: 28800,
+						},
+					},
+				},
+			},
+		},
+		{
+			Code: "VG",
+			Name: "Virgin Islands, British",
+			Zones: []*Zone{
+				{
+					Id:          414,
+					CountryCode: "VG",
+					Name:        "America/Tortola",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 414,
+							Abbr:   "LMT",
+							Offset: -14764,
+						},
+						{
+							ZoneId: 414,
+							Abbr:   "AST",
+							Offset: -14400,
+						},
+					},
+				},
+			},
+		},
+		{
+			Code: "VI",
+			Name: "Virgin Islands, U.S.",
+			Zones: []*Zone{
+				{
+					Id:          415,
+					CountryCode: "VI",
+					Name:        "America/St_Thomas",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 415,
+							Abbr:   "LMT",
+							Offset: -14764,
+						},
+						{
+							ZoneId: 415,
+							Abbr:   "AST",
+							Offset: -14400,
 						},
 					},
 				},
@@ -13173,7 +13962,7 @@ var (
 						},
 						{
 							ZoneId: 418,
-							Abbr:   "+12",
+							Abbr:   "WFT",
 							Offset: 43200,
 						},
 					},
@@ -13185,27 +13974,27 @@ var (
 			Name: "Western Sahara",
 			Zones: []*Zone{
 				{
-					Id:          146,
+					Id:          145,
 					CountryCode: "EH",
 					Name:        "Africa/El_Aaiun",
 					TimeZones: []*TimeZone{
 						{
-							ZoneId: 146,
+							ZoneId: 145,
 							Abbr:   "LMT",
 							Offset: -3168,
 						},
 						{
-							ZoneId: 146,
-							Abbr:   "-01",
+							ZoneId: 145,
+							Abbr:   "WAT",
 							Offset: -3600,
 						},
 						{
-							ZoneId: 146,
+							ZoneId: 145,
 							Abbr:   "WET",
 							Offset: 0,
 						},
 						{
-							ZoneId: 146,
+							ZoneId: 145,
 							Abbr:   "WEST",
 							Offset: 3600,
 						},
@@ -13229,7 +14018,7 @@ var (
 						},
 						{
 							ZoneId: 420,
-							Abbr:   "+03",
+							Abbr:   "AST",
 							Offset: 10800,
 						},
 					},
@@ -13277,6 +14066,39 @@ var (
 							ZoneId: 424,
 							Abbr:   "CAT",
 							Offset: 7200,
+						},
+					},
+				},
+			},
+		},
+		{
+			Code: "AX",
+			Name: "Åland Islands",
+			Zones: []*Zone{
+				{
+					Id:          46,
+					CountryCode: "AX",
+					Name:        "Europe/Mariehamn",
+					TimeZones: []*TimeZone{
+						{
+							ZoneId: 46,
+							Abbr:   "LMT",
+							Offset: 5989,
+						},
+						{
+							ZoneId: 46,
+							Abbr:   "HMT",
+							Offset: 5989,
+						},
+						{
+							ZoneId: 46,
+							Abbr:   "EET",
+							Offset: 7200,
+						},
+						{
+							ZoneId: 46,
+							Abbr:   "EEST",
+							Offset: 10800,
 						},
 					},
 				},
