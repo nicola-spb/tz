@@ -1,3 +1,3 @@
-module github.com/nicola-spb/tz
+module tz
 
 go 1.16
