@@ -11,18 +11,18 @@ import (
 	"text/template"
 	"time"
 
-	"tz"
 	"strconv"
+	"tz"
 )
 
 const (
-	workDir     	 	= "tzdb"
-	timezonedbFileName 	= "timezonedb.csv.zip"
-	timezonedbURL 		= "https://timezonedb.com/files/" + timezonedbFileName
-	timeZoneFileName 	= "timezone.csv"
-	countryFileName  	= "country.csv"
-	zoneFileName 	 	= "zone.csv"
-	outputFile  	 	= "../tz_data.go"
+	workDir            = "tzdb"
+	timezonedbFileName = "timezonedb.csv.zip"
+	timezonedbURL      = "https://timezonedb.com/files/" + timezonedbFileName
+	timeZoneFileName   = "timezone.csv"
+	countryFileName    = "country.csv"
+	zoneFileName       = "zone.csv"
+	outputFile         = "../tz_data.go"
 )
 
 type countryColumn int
@@ -80,7 +80,6 @@ func (a byZoneName) Less(i, j int) bool {
 	return a[i].Name < a[j].Name
 }
 
-
 type byTimeZoneAbbr []*tz.TimeZone
 
 func (a byTimeZoneAbbr) Len() int {
@@ -115,7 +114,7 @@ func main() {
 	err = cmd.Run()
 	if err != nil {
 		log.Fatal("ERROR creating working DIR:", err)
-	}	
+	}
 
 	err = os.Chdir(workDir)
 	if err != nil {
@@ -268,8 +267,8 @@ func parseZones(countryMap map[string]*tz.Country) (map[int]*tz.Zone, error) {
 		}
 
 		zone := &tz.Zone{
-			CountryCode: 	row[zoneCode],
-			Name:        	row[zoneName],
+			CountryCode: row[zoneCode],
+			Name:        row[zoneName],
 		}
 		zone.Id, _ = strconv.Atoi(row[zoneId])
 
